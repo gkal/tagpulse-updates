@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 10/10/2025 10:45 - v0.3.67 (stable) update on cloud try 2
+
 Fri 10/10/2025 10:27 - v0.3.66 (stable) update on cloud try 1
 
 Fri 10/10/2025 10:07 - v0.3.65 (stable) update on cloud try 1
@@ -272,6 +274,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
