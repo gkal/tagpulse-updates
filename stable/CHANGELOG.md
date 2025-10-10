@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 10/10/2025 20:08 - v0.3.69 (stable) first try for multi update to many pcs
+
 Fri 10/10/2025 19:57 - v0.3.69 (stable) first try for multi update to many pcs
 
 Fri 10/10/2025 19:57 - v0.3.69 (stable) first try for multi update to many pcs
@@ -284,6 +286,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
