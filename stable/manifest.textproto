@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1760117285
+timestamp_unix: 1760156274
 components {
   name: DESKTOP
-  version: "0.3.69+1760117285"
-  package_url: "packages/desktop-0.3.69.1760117285.exe"
+  version: "0.3.70"
+  package_url: "packages/desktop-0.3.70.exe"
   sha256: "\x70\x83\x40\x13\x62\x9f\x6a\x2a\xf7\xd2\x54\x27\x53\xd0\x44\x62\xe9\x58\x0b\xae\x74\xa3\xb4\x23\x08\x2c\x99\x9a\x99\x49\x2e\x9b"
   size: 111616
   install {
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.69+1760117285"
-  package_url: "packages/service-0.3.69.1760117285.exe"
-  sha256: "\x77\xd2\x55\x9a\xf1\x2a\x22\x04\x77\xab\x5f\x34\xb7\x61\x10\xb8\x49\x80\xe1\x4d\x26\x84\x8c\x4d\x8b\xa4\xd6\x6f\x91\x6d\x8b\x0e"
-  size: 10962432
+  version: "0.3.70"
+  package_url: "packages/service-0.3.70.exe"
+  sha256: "\x58\x62\x0d\x0c\xbe\x78\xdd\xf6\xed\x0b\x41\xa2\x12\x1e\xd9\x15\xe7\x57\xf6\xae\x3a\xc1\xcf\xe4\x2f\x56\xbc\xa9\xd9\xad\xbb\xa4"
+  size: 10964480
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
@@ -26,9 +26,9 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.69+1760117285"
-  package_url: "packages/lhm-0.3.69.1760117285.exe"
-  sha256: "\x53\xfc\xd0\xf0\x72\xea\xa0\xaf\xde\xbb\xec\xe0\xfe\xe2\x31\x11\x76\x82\x8d\xab\x82\x99\xf4\x2a\x4d\x7e\x25\xf4\xaa\x89\xee\x29"
+  version: "0.3.70"
+  package_url: "packages/lhm-0.3.70.exe"
+  sha256: "\x64\xca\x91\x8f\xc8\xd6\x21\xd3\x3f\x2f\x1e\x78\xa0\xb0\x84\x63\x87\x29\x80\x79\x6e\x80\x9a\xeb\x21\x13\x8e\xaf\xbb\xc1\x62\xb8"
   size: 72432453
   install {
     target: "bin/TagPulseLHMService.exe"
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.69+1760117285"
-  package_url: "packages/updater-0.3.69.1760117285.exe"
+  version: "0.3.70"
+  package_url: "packages/updater-0.3.70.exe"
   sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
   size: 389632
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.69+1760117285"
-  package_url: "packages/ui-0.3.69.1760117285.zip"
+  version: "0.3.70"
+  package_url: "packages/ui-0.3.70.zip"
   sha256: "\xca\x73\x06\x5b\x9e\x76\x32\xbc\x6a\x12\x9a\x6e\x3e\x28\x79\xc4\x2c\xe8\x08\xbc\x4f\xe2\xf8\x1c\x3c\x67\x81\xe1\xbf\x76\x2d\x43"
   size: 1318563
   install {
