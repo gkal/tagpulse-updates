@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 11/10/2025 09:24 - v0.3.76 (stable) fix ui not display pid and network top proccess usage
+
 Sat 11/10/2025 08:51 - v0.3.75 (stable) fix ui not display pid and network top proccess usage
 
 Sat 11/10/2025 08:50 - v0.3.74 (stable) fix ui not display pid and network top proccess usage
@@ -302,6 +304,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
