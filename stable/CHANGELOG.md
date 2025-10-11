@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 11/10/2025 07:55 - v0.3.71 (stable) fix ui not display pid and network top proccess usage
+
 Sat 11/10/2025 07:17 - v0.3.70 (stable) fix json about che strings
 
 Fri 10/10/2025 20:28 - v0.3.69 (stable) multi-pc test
@@ -292,6 +294,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
