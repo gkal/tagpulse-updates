@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 13:03 - v0.3.84 (stable) improve reduce cpu usage and display usage
+
 Fri 17/10/2025 12:51 - v0.3.83 (stable) improve reduce cpu usage and display usage
 
 Fri 17/10/2025 12:31 - v0.3.82 (stable) improve reduce cpu usage and display usage
@@ -320,6 +322,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
