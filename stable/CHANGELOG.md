@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 18:02 - v0.3.98 (stable) RefreshProcessList 30s svchost fix
+
 Fri 17/10/2025 17:56 - v0.3.97 (stable) Process polling 5s the real fix
 
 Fri 17/10/2025 17:21 - v0.3.96 (stable) Reduced process monitoring frequency 5s
@@ -348,6 +350,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
