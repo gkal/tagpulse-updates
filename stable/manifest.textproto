@@ -1,10 +1,10 @@
 ﻿channel: "stable"
-timestamp_unix: 1760709424
+timestamp_unix: 1760709842
 components {
   name: DESKTOP
-  version: "0.3.94"
-  package_url: "packages/desktop-0.3.94.exe"
-  sha256: "\xc2\x30\xad\x85\xa8\xc6\xe3\x7d\xab\x17\xfd\x1c\x0b\x47\x71\xf3\x53\x69\xa1\x25\x82\x11\xf1\xd9\x22\x8f\xa5\x7a\xa3\x05\x31\xb7"
+  version: "0.3.95"
+  package_url: "packages/desktop-0.3.95.exe"
+  sha256: "\xaa\x46\x1d\xaa\x7a\x8d\x5f\x14\xb5\x48\x66\xe0\xc7\xb5\xa9\x8c\x24\x5d\x00\xe2\x15\xc3\xfd\x86\xf8\x58\x44\x86\xaf\x62\xec\x98"
   size: 111616
   install {
     target: "bin/TagPulse.exe"
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.94"
-  package_url: "packages/service-0.3.94.exe"
-  sha256: "\x29\x70\xbc\x37\xa1\xb1\xcc\xc6\xe5\x5c\x75\x07\xdf\xdc\x4e\x8c\x53\x82\x07\xfc\xd9\xb6\xc7\x2b\x7e\x86\x44\x70\x5c\xd6\x62\xc5"
+  version: "0.3.95"
+  package_url: "packages/service-0.3.95.exe"
+  sha256: "\xed\x20\x47\xa0\xa9\x96\xfa\xc7\x82\xb7\x35\x77\x64\xab\x30\x84\x7c\x67\x9e\x97\x58\x25\x06\xc1\x9a\xba\x30\x49\x96\xd4\xdb\x15"
   size: 10940928
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.94"
-  package_url: "packages/lhm-0.3.94.exe"
+  version: "0.3.95"
+  package_url: "packages/lhm-0.3.95.exe"
   sha256: "\x3d\x29\xd6\x01\x2e\xb6\xb5\xce\xfd\x8a\xf1\x6c\x3c\xfd\xf9\x35\x55\xf3\xaf\x76\x16\x3b\xd4\x50\x13\x4d\x9f\xee\xc1\xec\x58\xff"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.94"
-  package_url: "packages/updater-0.3.94.exe"
+  version: "0.3.95"
+  package_url: "packages/updater-0.3.95.exe"
   sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
   size: 389632
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.94"
-  package_url: "packages/ui-0.3.94.zip"
+  version: "0.3.95"
+  package_url: "packages/ui-0.3.95.zip"
   sha256: "\x68\xb5\x6b\x72\x9a\xb1\xf8\x8b\x17\x3d\x0e\xfa\x1e\xbc\xad\xa4\xae\xf7\x77\xda\x18\x7c\x2d\xa6\x16\x7f\xf4\x32\xaf\xb4\x64\xa3"
   size: 1321913
   install {

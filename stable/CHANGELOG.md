@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 17:04 - v0.3.95 (stable) Network monitoring interval 10s fix
+
 Fri 17/10/2025 16:57 - v0.3.94 (stable) Critical fix: sequential execution eliminates thread overhead
 
 Fri 17/10/2025 16:48 - v0.3.93 (stable) Service CPU optimization: RefreshProcessList 5s + svchost cache
@@ -342,6 +344,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
