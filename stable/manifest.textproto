@@ -1,10 +1,10 @@
 ﻿channel: "stable"
-timestamp_unix: 1760720360
+timestamp_unix: 1760721203
 components {
   name: DESKTOP
-  version: "0.3.105+1760720360"
-  package_url: "packages/desktop-0.3.105.1760720360.exe"
-  sha256: "\x61\x71\xe5\xb4\x54\xb7\xef\x60\xf3\x34\xfb\x16\x47\x0e\x83\x45\x77\xad\x74\x0a\x4f\xc8\xf9\xbc\xee\x6c\x45\x00\x36\x5e\x17\xbd"
+  version: "0.3.106+1760721203"
+  package_url: "packages/desktop-0.3.106.1760721203.exe"
+  sha256: "\x2d\x20\xbe\x92\xb1\x8d\x62\xbd\xd7\x66\x94\x34\x36\xdf\x89\xde\xd5\x83\x8f\x5e\xaa\xf3\x7c\x9a\xfd\x1a\x65\x5b\x51\xc6\xb2\xc8"
   size: 111616
   install {
     target: "bin/TagPulse.exe"
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.105+1760720360"
-  package_url: "packages/service-0.3.105.1760720360.exe"
-  sha256: "\x1c\x65\x9c\xdf\x5c\xc4\xea\x59\xf8\x47\x8d\xa4\x7d\x08\xea\x76\xdb\x66\x42\x97\xef\x6b\x83\x32\x06\x43\xdf\xf6\x6e\x6f\xb5\x1a"
+  version: "0.3.106+1760721203"
+  package_url: "packages/service-0.3.106.1760721203.exe"
+  sha256: "\x3e\x17\x38\x62\x94\x94\x29\xc4\x4f\x7c\x39\x47\xb8\x2a\x56\x90\x66\x57\x64\xff\x23\x11\xdd\x69\x24\xcd\x36\x7d\x01\x8c\x0c\xc5"
   size: 10940416
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.105+1760720360"
-  package_url: "packages/lhm-0.3.105.1760720360.exe"
+  version: "0.3.106+1760721203"
+  package_url: "packages/lhm-0.3.106.1760721203.exe"
   sha256: "\x3d\x29\xd6\x01\x2e\xb6\xb5\xce\xfd\x8a\xf1\x6c\x3c\xfd\xf9\x35\x55\xf3\xaf\x76\x16\x3b\xd4\x50\x13\x4d\x9f\xee\xc1\xec\x58\xff"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.105+1760720360"
-  package_url: "packages/updater-0.3.105.1760720360.exe"
+  version: "0.3.106+1760721203"
+  package_url: "packages/updater-0.3.106.1760721203.exe"
   sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
   size: 389632
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.105+1760720360"
-  package_url: "packages/ui-0.3.105.1760720360.zip"
+  version: "0.3.106+1760721203"
+  package_url: "packages/ui-0.3.106.1760721203.zip"
   sha256: "\x68\xb5\x6b\x72\x9a\xb1\xf8\x8b\x17\x3d\x0e\xfa\x1e\xbc\xad\xa4\xae\xf7\x77\xda\x18\x7c\x2d\xa6\x16\x7f\xf4\x32\xaf\xb4\x64\xa3"
   size: 1321913
   install {

@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 20:13 - v0.3.106 (stable) UI responsiveness fix
+
 Fri 17/10/2025 19:59 - v0.3.105 (stable) Auto-update diagnostic logging
 
 Fri 17/10/2025 19:43 - v0.3.104 (stable) Dashboard CPU fix
@@ -378,6 +380,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
