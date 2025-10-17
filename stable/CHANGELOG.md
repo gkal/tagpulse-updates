@@ -1,4 +1,10 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 19:06 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
+
+Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
+
+Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
+
 Fri 17/10/2025 19:02 - v0.3.101+1760716430 (stable) dashboard CPU fix
 
 Fri 17/10/2025 18:53 - v0.3.101 (stable) -ChangelogMessage Fix dashboard view hardcoded 2s interval - respects hardware_poll_ms config
@@ -360,6 +366,9 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
 
 
 
