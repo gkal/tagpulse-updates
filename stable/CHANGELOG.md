@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 11:34 - v0.3.79 (stable) clean version repackage
+
 Fri 17/10/2025 11:33 - v0.3.78 (stable) sensors fix and version cleanup
 
 Fri 17/10/2025 11:29 - v0.3.77 (stable) sensors fix
@@ -310,6 +312,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
