@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 18:19 - v0.3.100 (stable) Disable ETW network monitoring CPU killer
+
 Fri 17/10/2025 18:10 - v0.3.99 (stable) Hardware polling 5s SMART is slow
 
 Fri 17/10/2025 18:02 - v0.3.98 (stable) RefreshProcessList 30s svchost fix
@@ -352,6 +354,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
