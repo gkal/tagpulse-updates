@@ -1,4 +1,10 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 14:07 - v0.3.90 (stable) improve reduce cpu usage and display usage
+
+Fri 17/10/2025 14:00 - v0.3.89 (stable) Service CPU fix - reduced polling
+
+Fri 17/10/2025 13:58 - v0.3.88 (stable) Service CPU fix - reduced polling from 100ms to 1s
+
 Fri 17/10/2025 13:28 - v0.3.87 (stable) Changed performance icon to gauge speedometer for clarity
 
 Fri 17/10/2025 13:19 - v0.3.86 (stable) improve reduce cpu usage and display usage
@@ -328,6 +334,9 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
 
 
 

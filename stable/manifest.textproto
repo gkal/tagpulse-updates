@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1760696878
+timestamp_unix: 1760699256
 components {
   name: DESKTOP
-  version: "0.3.79"
-  package_url: "packages/desktop-0.3.79.exe"
+  version: "0.3.89+1760698811"
+  package_url: "packages/desktop-0.3.89.1760698811.exe"
   sha256: "\x7c\x8f\x28\x27\x88\xef\x11\x16\xde\x1a\xef\xf7\x01\x7f\x61\xec\x28\xd9\xeb\x3b\x94\xec\xe7\x8f\xdd\x20\x9e\x29\x62\x23\x9e\x80"
   size: 111616
   install {
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.81"
-  package_url: "packages/service-0.3.81.exe"
-  sha256: "\x91\x93\xd0\x95\x4f\x4a\x3a\xf4\x47\xb2\xcb\xb2\x7b\xc1\x6f\xe4\x39\xc6\x79\xd1\x6d\x1e\x46\x04\xb3\xa2\xf3\x6f\x56\x3b\x4f\x72"
+  version: "0.3.89+1760698811"
+  package_url: "packages/service-0.3.89.1760698811.exe"
+  sha256: "\x66\x49\xd3\x33\xdd\x5f\x27\xdf\x52\x42\xe8\xab\x3d\x94\x45\x69\x6b\xfc\xac\x29\x60\xc9\xe5\x4e\x07\xbb\x70\xb1\x9e\x37\x19\xb9"
   size: 10965504
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.80"
-  package_url: "packages/lhm-0.3.80.exe"
+  version: "0.3.89+1760698811"
+  package_url: "packages/lhm-0.3.89.1760698811.exe"
   sha256: "\x3d\x29\xd6\x01\x2e\xb6\xb5\xce\xfd\x8a\xf1\x6c\x3c\xfd\xf9\x35\x55\xf3\xaf\x76\x16\x3b\xd4\x50\x13\x4d\x9f\xee\xc1\xec\x58\xff"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.79"
-  package_url: "packages/updater-0.3.79.exe"
+  version: "0.3.89+1760698811"
+  package_url: "packages/updater-0.3.89.1760698811.exe"
   sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
   size: 389632
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.87"
-  package_url: "packages/ui-0.3.87.zip"
+  version: "0.3.89+1760698811"
+  package_url: "packages/ui-0.3.89.1760698811.zip"
   sha256: "\x89\xc2\x55\x82\x20\x8c\x2a\xdc\xac\x5e\xfe\xc6\x60\xea\x69\xc2\xd4\x12\x7b\x5d\x61\x30\x9b\xd5\x62\xd2\xec\x64\x51\x6d\xbf\x1f"
   size: 1321913
   install {
