@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 19:37 - v0.3.103 (stable) Auto-update fix
+
 Fri 17/10/2025 19:27 - v0.3.102 (stable) Dashboard CPU fix
 
 Fri 17/10/2025 19:18 - v0.3.102 (stable) Dashboard CPU fix - respects hardware_poll_ms
@@ -372,6 +374,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
