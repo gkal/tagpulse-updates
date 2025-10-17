@@ -1,4 +1,8 @@
 ﻿# TagPulse Changelog
+Fri 17/10/2025 16:37 - v0.3.92 (stable) reduce polling from 100ms to 1s
+
+Fri 17/10/2025 14:09 - v0.3.91 (stable) Fixed SHA256 mismatch and performance optimizations
+
 Fri 17/10/2025 14:07 - v0.3.90 (stable) improve reduce cpu usage and display usage
 
 Fri 17/10/2025 14:00 - v0.3.89 (stable) Service CPU fix - reduced polling
@@ -334,6 +338,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
