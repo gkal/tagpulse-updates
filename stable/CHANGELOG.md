@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 07:36 - v0.3.109 (stable) Auto-update diagnostics
+
 Sat 18/10/2025 05:49 - v0.3.108 (stable) CPU fix for concurrent disk collections
 
 Sat 18/10/2025 05:22 - v0.3.107 (stable) HTTP server CPU fix - reduced accept() polling from 10ms to 100ms (fixes constant 24% CPU on weak PCs)
@@ -384,6 +386,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
