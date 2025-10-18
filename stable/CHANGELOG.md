@@ -1,4 +1,8 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 17:06 - v0.3.119 (stable) Che confirmation of learning
+
+Sat 18/10/2025 14:55 - v0.3.118 (stable) Auto-update crash recovery - check for updates before service init
+
 Sat 18/10/2025 14:43 - v0.3.117 (stable) CHE alert fixes
 
 Sat 18/10/2025 13:59 - v0.3.116 (stable) CHE alert threshold fixes
@@ -406,6 +410,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
