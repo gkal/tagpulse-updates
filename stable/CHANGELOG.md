@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 21:02 - v0.3.126 (stable) adaptation bug fixed now correct baselines and manual update fix
+
 Sat 18/10/2025 20:46 - v0.3.125 (stable) adaptation bug fixed now correct baselines
 
 Sat 18/10/2025 19:59 - v0.3.124 (stable) fixes for the logs of che and after update start the tagpulse.exe
@@ -424,6 +426,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
