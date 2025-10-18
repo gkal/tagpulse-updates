@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1760764370
+timestamp_unix: 1760766830
 components {
   name: DESKTOP
-  version: "0.3.110+1760764370"
-  package_url: "packages/desktop-0.3.110.1760764370.exe"
+  version: "0.3.111+1760765887"
+  package_url: "packages/desktop-0.3.111.1760765887.exe"
   sha256: "\x2d\x20\xbe\x92\xb1\x8d\x62\xbd\xd7\x66\x94\x34\x36\xdf\x89\xde\xd5\x83\x8f\x5e\xaa\xf3\x7c\x9a\xfd\x1a\x65\x5b\x51\xc6\xb2\xc8"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.110+1760764370"
-  package_url: "packages/service-0.3.110.1760764370.exe"
+  version: "0.3.111+1760765887"
+  package_url: "packages/service-0.3.111.1760765887.exe"
   sha256: "\x79\xab\x43\x95\x40\x98\xfc\x7a\x0b\xd0\xf3\xd9\x38\xa6\x8e\x03\xbc\x15\xf8\x57\xcc\x7c\x4d\xe5\x96\xdd\x53\x25\x09\x9f\xf2\x2a"
   size: 10942976
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.110+1760764370"
-  package_url: "packages/lhm-0.3.110.1760764370.exe"
+  version: "0.3.111+1760765887"
+  package_url: "packages/lhm-0.3.111.1760765887.exe"
   sha256: "\x3d\x29\xd6\x01\x2e\xb6\xb5\xce\xfd\x8a\xf1\x6c\x3c\xfd\xf9\x35\x55\xf3\xaf\x76\x16\x3b\xd4\x50\x13\x4d\x9f\xee\xc1\xec\x58\xff"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.110+1760764370"
-  package_url: "packages/updater-0.3.110.1760764370.exe"
+  version: "0.3.111+1760765887"
+  package_url: "packages/updater-0.3.111.1760765887.exe"
   sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
   size: 389632
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.110+1760764370"
-  package_url: "packages/ui-0.3.110.1760764370.zip"
+  version: "0.3.111+1760765887"
+  package_url: "packages/ui-0.3.111.1760765887.zip"
   sha256: "\x2a\xce\x47\x7b\x71\x66\xcb\x12\xbc\xe6\x28\xaa\xa6\x76\xe8\x5c\xb8\x6b\x95\xa3\x2b\x8a\x51\x5e\xef\xe4\xe9\xc3\x85\x2f\x56\x18"
   size: 1321942
   install {

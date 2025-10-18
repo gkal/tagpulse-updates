@@ -1,4 +1,8 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 08:53 - v0.3.112 (stable) polish ui updates and auto updates
+
+Sat 18/10/2025 08:38 - v0.3.111 (stable) Auto-update fix - Initialize UpdateManager in service startup
+
 Sat 18/10/2025 08:12 - v0.3.110 (stable) UI progress display fix
 
 Sat 18/10/2025 07:36 - v0.3.109 (stable) Auto-update diagnostics
@@ -388,6 +392,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
