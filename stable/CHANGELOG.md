@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 12:53 - v0.3.115 (stable) Fix concurrent updates and add update notifications
+
 Sat 18/10/2025 09:30 - v0.3.114 (stable) auto update fix
 
 Sat 18/10/2025 09:17 - v0.3.113 (stable) polish ui updates and auto updates
@@ -398,6 +400,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
