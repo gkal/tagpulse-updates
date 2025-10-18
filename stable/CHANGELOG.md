@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 18:31 - v0.3.122 (stable) CHE cloud priors logging - verification
+
 Sat 18/10/2025 18:18 - v0.3.121 (stable) CHE cloud priors logging - verification
 
 Sat 18/10/2025 18:08 - v0.3.120 (stable) log on che for confirmation on cloud support
@@ -416,6 +418,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
