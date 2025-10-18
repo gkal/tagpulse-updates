@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1760804393
+timestamp_unix: 1760806763
 components {
   name: DESKTOP
   version: "0.3.119+1760797041"
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.123"
-  package_url: "packages/service-0.3.123.exe"
-  sha256: "\xb8\xac\xa8\x85\x56\xbd\xf5\x79\x2c\xfa\x33\x34\xf7\x68\x2c\x4e\x30\xb3\x58\xd2\x2e\xf7\x21\xa2\x04\x2f\x5e\xed\xd3\xb4\xe8\xa1"
-  size: 10964992
+  version: "0.3.124"
+  package_url: "packages/service-0.3.124.exe"
+  sha256: "\xdb\x8b\xee\xd8\x5f\xf8\xb1\xc7\x62\x5c\x53\x3a\xac\x3f\x8d\x24\xe9\x62\xf8\x73\x96\xc3\xd3\x9e\x07\xc3\x57\xea\xfb\xee\x7c\xcb"
+  size: 10968064
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
@@ -39,10 +39,10 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.119+1760797041"
-  package_url: "packages/updater-0.3.119.1760797041.exe"
-  sha256: "\xf5\x40\x36\xdb\x40\x2b\xa4\x6f\x93\x70\x6f\xac\x3a\x8e\xea\x5e\x45\x34\x8f\x29\x4c\x10\xc7\xda\xc8\x02\x01\x27\xb0\xd1\x4a\x09"
-  size: 389632
+  version: "0.3.124"
+  package_url: "packages/updater-0.3.124.exe"
+  sha256: "\x69\x91\xc6\x4c\x5c\xf7\xb7\x48\xc2\x45\x65\x2d\x58\x67\xc7\xad\xd2\x01\xc6\xa7\x3e\x44\x97\xe1\x86\x30\xe0\xea\xea\x84\x8c\x01"
+  size: 393216
   install {
     target: "bin/TagPulseUpdater.exe"
     type: "replace"
