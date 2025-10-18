@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 18/10/2025 08:12 - v0.3.110 (stable) UI progress display fix
+
 Sat 18/10/2025 07:36 - v0.3.109 (stable) Auto-update diagnostics
 
 Sat 18/10/2025 05:49 - v0.3.108 (stable) CPU fix for concurrent disk collections
@@ -386,6 +388,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
