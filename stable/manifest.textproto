@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1760890124
+timestamp_unix: 1760891193
 components {
   name: DESKTOP
   version: "0.3.140"
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.140"
-  package_url: "packages/service-0.3.140.exe"
-  sha256: "\xf1\x59\xaf\x57\xdf\x19\xf4\xc5\x5e\x8d\x1b\x58\x8f\x47\xae\x9c\x3f\x5e\x5f\x2f\x36\xba\x27\xc4\x4d\x80\x3f\x37\xa5\x40\x15\x83"
-  size: 11060224
+  version: "0.3.143"
+  package_url: "packages/service-0.3.143.exe"
+  sha256: "\x17\x6b\x31\xb1\xc1\x53\xa7\xcc\x5e\xe2\xbe\xd6\x72\xa3\x80\x31\x0f\x81\xd3\xfa\x13\x39\x6c\x1e\xcf\xc2\x51\x81\x4b\xd8\x8a\x62"
+  size: 11067392
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
@@ -50,10 +50,10 @@ components {
 }
 components {
   name: UI
-  version: "0.3.142"
-  package_url: "packages/ui-0.3.142.zip"
-  sha256: "\xe2\xbc\xdd\xbb\xe8\x83\x27\xc7\xc5\xf3\xac\xdc\xa0\xf4\xf6\x3a\xd1\x37\xb3\x31\xc9\xc6\xd9\x70\xd5\xe0\xf4\x14\x83\x1e\x8c\x17"
-  size: 1324958
+  version: "0.3.143"
+  package_url: "packages/ui-0.3.143.zip"
+  sha256: "\x2b\xf8\x48\xcf\x86\x37\x5d\x43\x4d\x1c\x10\x7e\x66\x0f\x79\x89\x6f\x49\xde\x78\x3f\x27\x84\x6e\x8d\x33\x2e\xe3\x8b\x05\xf9\xa2"
+  size: 1325138
   install {
     target: "ui"
     type: "unzip-replace"
