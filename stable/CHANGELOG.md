@@ -1,4 +1,8 @@
 ﻿# TagPulse Changelog
+Sun 19/10/2025 06:50 - v0.3.128 (stable) Test enhanced UI output
+
+Sun 19/10/2025 06:50 - v0.3.127 (stable) Test enhanced UI
+
 Sat 18/10/2025 21:02 - v0.3.126 (stable) adaptation bug fixed now correct baselines and manual update fix
 
 Sat 18/10/2025 20:46 - v0.3.125 (stable) adaptation bug fixed now correct baselines
@@ -426,6 +430,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
