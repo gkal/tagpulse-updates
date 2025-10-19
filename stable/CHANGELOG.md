@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 19/10/2025 19:38 - v0.3.144 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
+
 Sun 19/10/2025 19:26 - v0.3.143 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
 
 Sun 19/10/2025 19:08 - v0.3.142 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
@@ -462,6 +464,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
