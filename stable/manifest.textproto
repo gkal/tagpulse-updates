@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1760867488
+timestamp_unix: 1760867650
 components {
   name: DESKTOP
-  version: "0.3.128+1760867488"
-  package_url: "packages/desktop-0.3.128.1760867488.exe"
+  version: "0.3.139+1760867650"
+  package_url: "packages/desktop-0.3.139.1760867650.exe"
   sha256: "\x2d\x20\xbe\x92\xb1\x8d\x62\xbd\xd7\x66\x94\x34\x36\xdf\x89\xde\xd5\x83\x8f\x5e\xaa\xf3\x7c\x9a\xfd\x1a\x65\x5b\x51\xc6\xb2\xc8"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.128+1760867488"
-  package_url: "packages/service-0.3.128.1760867488.exe"
+  version: "0.3.139+1760867650"
+  package_url: "packages/service-0.3.139.1760867650.exe"
   sha256: "\x77\x4a\xf3\x54\x80\x0c\x14\xc8\xb8\xdf\x5b\x1e\x58\xb4\x88\x61\x21\xa7\xfe\xe0\x63\x91\x38\x0f\xf2\xa1\x2b\xe1\x67\x4f\x55\xb6"
   size: 10985984
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.128+1760867488"
-  package_url: "packages/lhm-0.3.128.1760867488.exe"
+  version: "0.3.139+1760867650"
+  package_url: "packages/lhm-0.3.139.1760867650.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.128+1760867488"
-  package_url: "packages/updater-0.3.128.1760867488.exe"
+  version: "0.3.139+1760867650"
+  package_url: "packages/updater-0.3.139.1760867650.exe"
   sha256: "\x69\x91\xc6\x4c\x5c\xf7\xb7\x48\xc2\x45\x65\x2d\x58\x67\xc7\xad\xd2\x01\xc6\xa7\x3e\x44\x97\xe1\x86\x30\xe0\xea\xea\x84\x8c\x01"
   size: 393216
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.128+1760867488"
-  package_url: "packages/ui-0.3.128.1760867488.zip"
+  version: "0.3.139+1760867650"
+  package_url: "packages/ui-0.3.139.1760867650.zip"
   sha256: "\x0d\xa1\xbe\x1d\xe6\xa3\x7d\xcf\x72\x50\x3c\x6e\x7d\x6a\xaa\x5b\x80\x7c\x75\x0b\x89\xf6\xee\xd9\x39\x36\x90\x89\x41\x08\xd5\xe6"
   size: 1322651
   install {
