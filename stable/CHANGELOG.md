@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 19/10/2025 08:24 - v0.3.132 (stable) manual update fix try 2
+
 Sun 19/10/2025 08:15 - v0.3.131 (stable) manual update fix try 1
 
 Sun 19/10/2025 07:39 - v0.3.130 (stable) update fix double update runs
@@ -436,6 +438,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
