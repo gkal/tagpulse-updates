@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1760891898
+timestamp_unix: 1760894219
 components {
   name: DESKTOP
-  version: "0.3.140"
-  package_url: "packages/desktop-0.3.140.exe"
+  version: "0.3.145"
+  package_url: "packages/desktop-0.3.145.exe"
   sha256: "\xcb\xbe\x7d\xcb\xd4\xf0\x6d\x12\x2d\x62\x0b\xe1\xe4\x8d\xcb\x51\x2a\x5b\x0e\xd7\x9b\xca\xf4\x31\xe0\xe4\x49\xd5\x54\x20\xaf\x5b"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.144"
-  package_url: "packages/service-0.3.144.exe"
+  version: "0.3.145"
+  package_url: "packages/service-0.3.145.exe"
   sha256: "\xb7\x5f\x54\xce\xe7\x15\x94\xcd\xf2\xae\xff\xe1\xf9\x35\x30\xed\x92\x12\x07\xa8\xe1\xfd\x36\x38\x2a\x68\xa0\xb2\x2d\x71\x2e\x79"
   size: 11068928
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.139+1760867650"
-  package_url: "packages/lhm-0.3.139.1760867650.exe"
+  version: "0.3.145"
+  package_url: "packages/lhm-0.3.145.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.139+1760867650"
-  package_url: "packages/updater-0.3.139.1760867650.exe"
+  version: "0.3.145"
+  package_url: "packages/updater-0.3.145.exe"
   sha256: "\x69\x91\xc6\x4c\x5c\xf7\xb7\x48\xc2\x45\x65\x2d\x58\x67\xc7\xad\xd2\x01\xc6\xa7\x3e\x44\x97\xe1\x86\x30\xe0\xea\xea\x84\x8c\x01"
   size: 393216
   install {
@@ -49,10 +49,21 @@ components {
   }
 }
 components {
+  name: SETUP
+  version: "0.3.145"
+  package_url: "https://github.com/gkal/tagpulse-updates/releases/download/v0.3.145/setup-0.3.145.exe"
+  sha256: "\xc9\xed\xb8\xa3\x01\xda\x69\xff\xb5\x56\x4d\x5e\x71\x12\x93\x95\xeb\xb4\x90\x00\x68\x91\x9c\xf9\x13\xfb\x9f\x41\xf3\xe8\x2c\x17"
+  size: 162834186
+  install {
+    target: "setup/TagPulseSetup.exe"
+    type: "replace"
+  }
+}
+components {
   name: UI
-  version: "0.3.143"
-  package_url: "packages/ui-0.3.143.zip"
-  sha256: "\x2b\xf8\x48\xcf\x86\x37\x5d\x43\x4d\x1c\x10\x7e\x66\x0f\x79\x89\x6f\x49\xde\x78\x3f\x27\x84\x6e\x8d\x33\x2e\xe3\x8b\x05\xf9\xa2"
+  version: "0.3.145"
+  package_url: "packages/ui-0.3.145.zip"
+  sha256: "\xfd\x3b\x25\x2d\x65\x34\x7f\xd0\x07\xd4\x43\xbe\xcd\x96\xc2\xc7\x53\x70\x3b\xd4\xa7\xf0\xaa\x91\xf1\xee\xe6\x62\xb0\x4e\x3f\xe2"
   size: 1325138
   install {
     target: "ui"
