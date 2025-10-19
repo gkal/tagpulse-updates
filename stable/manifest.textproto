@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1760852911
+timestamp_unix: 1760853262
 components {
   name: DESKTOP
   version: "0.3.119+1760797041"
@@ -50,10 +50,10 @@ components {
 }
 components {
   name: UI
-  version: "0.3.132"
-  package_url: "packages/ui-0.3.132.zip"
-  sha256: "\x36\x47\xe0\xd9\xaa\x51\x1d\xa5\xdf\x00\x2f\x41\x7b\x59\x58\x58\xfb\x19\x17\x4c\xd8\x3a\x0d\x41\xac\xab\x62\xd3\x14\x40\x77\x72"
-  size: 1322568
+  version: "0.3.136"
+  package_url: "packages/ui-0.3.136.zip"
+  sha256: "\x4d\xe4\xef\x97\xf4\xbd\xda\x3e\xa6\xb8\x4d\x21\x93\x70\x56\x85\xd1\x62\x9a\x3d\xbd\x02\xd3\xb9\x1d\x7f\x73\x3b\x3f\xa4\x12\x9d"
+  size: 1322651
   install {
     target: "ui"
     type: "unzip-replace"
