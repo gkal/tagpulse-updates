@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1760845840
+timestamp_unix: 1760847719
 components {
   name: DESKTOP
   version: "0.3.119+1760797041"
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.126"
-  package_url: "packages/service-0.3.126.exe"
-  sha256: "\x78\xd7\x31\x71\xec\x40\x1e\x52\x13\xed\xf4\x9f\xe6\xc3\x4e\x39\x36\x2a\xd7\x80\x1b\x7d\x64\x7d\xc4\x16\x3f\x76\xbf\xc3\xf0\x9f"
-  size: 10969600
+  version: "0.3.129"
+  package_url: "packages/service-0.3.129.exe"
+  sha256: "\xa0\x16\x8e\xb0\x56\xd1\xeb\x39\xe9\x7a\x95\xd3\x62\xa8\xe2\x5a\xa5\xd9\x46\x8c\x03\x2a\x71\x1c\xf2\x41\x54\x52\x6e\xf4\xe9\x8b"
+  size: 10971136
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
@@ -26,9 +26,9 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.119+1760797041"
-  package_url: "packages/lhm-0.3.119.1760797041.exe"
-  sha256: "\x3d\x29\xd6\x01\x2e\xb6\xb5\xce\xfd\x8a\xf1\x6c\x3c\xfd\xf9\x35\x55\xf3\xaf\x76\x16\x3b\xd4\x50\x13\x4d\x9f\xee\xc1\xec\x58\xff"
+  version: "0.3.129"
+  package_url: "packages/lhm-0.3.129.exe"
+  sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
     target: "bin/TagPulseLHMService.exe"
