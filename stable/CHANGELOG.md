@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Mon 20/10/2025 20:27 - v0.3.154 (stable) fix the null point at the supabase
+
 Mon 20/10/2025 20:25 - v0.3.153 (stable) fix the null point at the supabase
 
 Mon 20/10/2025 20:08 - v0.3.152 (stable) fix the null point at the supabase
@@ -482,6 +484,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
