@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Mon 20/10/2025 16:12 - v0.3.147 (stable) fix the supabase performance data
+
 Sun 19/10/2025 20:32 - v0.3.146 (stable) Test setup upload
 
 Sun 19/10/2025 20:17 - v0.3.145 (stable) Test setup upload
@@ -468,6 +470,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
