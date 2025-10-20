@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Mon 20/10/2025 16:50 - v0.3.149 (stable) Fixed: SETUP excluded from auto-updates
+
 Mon 20/10/2025 16:27 - v0.3.148 (stable) Fixed: SETUP excluded from auto-updates
 
 Mon 20/10/2025 16:12 - v0.3.147 (stable) fix the supabase performance data
@@ -472,6 +474,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
