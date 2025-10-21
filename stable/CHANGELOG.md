@@ -1,4 +1,6 @@
-﻿# TagPulse Changelog
+﻿Tue 21/10/2025 13:11 - v0.3.157 (stable) improve che accuracy
+
+
 Tue 21/10/2025 11:37 - v0.3.156 (stable) improve che accuracy
 
 Mon 20/10/2025 20:43 - v0.3.155 (stable) fix the null point at the supabase
@@ -353,7 +355,7 @@ Wed 01/10/2025 12:41 - v0.1.8a (stable) fix motherboard sensors
 
 Wed 01/10/2025 12:32 - v0.1.8 (stable) fix motherboard sensors
 
-Wed 01/10/2025 12:16 - v0.1.7ο (stable) fix motherboard sensors
+Wed 01/10/2025 12:16 - v0.1.7ΞΏ (stable) fix motherboard sensors
 
 Wed 01/10/2025 11:48 - v0.1.7n (stable) fix motherboard sensors
 
@@ -488,6 +490,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 

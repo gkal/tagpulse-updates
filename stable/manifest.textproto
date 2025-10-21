@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1761035826
+timestamp_unix: 1761041466
 components {
   name: DESKTOP
   version: "0.3.148"
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.156"
-  package_url: "packages/service-0.3.156.exe"
-  sha256: "\xff\x23\x41\xc3\xa7\x46\x06\xfe\xce\xf0\x02\x7a\xd5\x2b\xf4\x30\xa3\x16\xd5\xbf\xc6\x15\x11\xe9\x2d\x8b\xf4\xea\x29\xcd\xca\xa0"
-  size: 11092480
+  version: "0.3.157"
+  package_url: "packages/service-0.3.157.exe"
+  sha256: "\x27\x08\x15\xac\xeb\x43\x36\x29\xe6\xaf\x1a\xd4\xa5\x5a\xad\xd0\x38\x1e\xe9\xe7\xd8\x5a\x5b\x4b\xd2\x63\x37\x66\x6d\xce\x19\xee"
+  size: 11104256
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
