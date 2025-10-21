@@ -1,65 +1,5 @@
-﻿Tue 21/10/2025 13:47 - v0.3.158 (stable) improve che accuracy addition of the version on pc at supa
-
-Tue 21/10/2025 13:11 - v0.3.157 (stable) improve che accuracy
-
-
-Tue 21/10/2025 11:37 - v0.3.156 (stable) improve che accuracy
-
-Mon 20/10/2025 20:43 - v0.3.155 (stable) fix the null point at the supabase
-
-Mon 20/10/2025 20:27 - v0.3.154 (stable) fix the null point at the supabase
-
-Mon 20/10/2025 20:25 - v0.3.153 (stable) fix the null point at the supabase
-
-Mon 20/10/2025 20:08 - v0.3.152 (stable) fix the null point at the supabase
-
-Mon 20/10/2025 19:58 - v0.3.151 (stable) fix the null point at the supabase
-
-Mon 20/10/2025 18:34 - v0.3.150 (stable) fix the update performance fields at supabase
-
-Mon 20/10/2025 16:50 - v0.3.149 (stable) Fixed: SETUP excluded from auto-updates
-
-Mon 20/10/2025 16:27 - v0.3.148 (stable) Fixed: SETUP excluded from auto-updates
-
-Mon 20/10/2025 16:12 - v0.3.147 (stable) fix the supabase performance data
-
-Sun 19/10/2025 20:32 - v0.3.146 (stable) Test setup upload
-
-Sun 19/10/2025 20:17 - v0.3.145 (stable) Test setup upload
-
-Sun 19/10/2025 19:38 - v0.3.144 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
-
-Sun 19/10/2025 19:26 - v0.3.143 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
-
-Sun 19/10/2025 19:08 - v0.3.142 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
-
-Sun 19/10/2025 18:53 - v0.3.141 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
-
-Sun 19/10/2025 18:12 - v0.3.140 (stable) Major upgrade. Auto detect slow/fast computers and lower the usage of anything
-
-Sun 19/10/2025 12:54 - v0.3.139 (stable) Database VACUUM fix - housekeeping runs at correct startup point
-
-Sun 19/10/2025 12:51 - v0.3.128 (stable) Database VACUUM fix - housekeeping now runs at correct startup point
-
-Sun 19/10/2025 12:42 - v0.3.138 (stable) vacuum of the local db again on line try 2
-
-Sun 19/10/2025 12:07 - v0.3.137 (stable) vacuum of the local db again on line
-
-Sun 19/10/2025 08:54 - v0.3.136 (stable) delay check when check for updates
-
-Sun 19/10/2025 08:48 - v0.3.135 (stable) version checker
-
-Sun 19/10/2025 08:44 - v0.3.134 (stable) manual update fix try 3
-
-Sun 19/10/2025 08:34 - v0.3.133 (stable) manual update fix try 3
-
-Sun 19/10/2025 08:24 - v0.3.132 (stable) manual update fix try 2
-
-Sun 19/10/2025 08:15 - v0.3.131 (stable) manual update fix try 1
-
-Sun 19/10/2025 07:39 - v0.3.130 (stable) update fix double update runs
-
-Sun 19/10/2025 07:22 - v0.3.129 (stable) update ui improvements
+﻿# TagPulse Changelog
+Tue 21/10/2025 14:07 - v0.3.159 (stable) improve che accuracy addition of the version on pc at supa
 
 Sun 19/10/2025 06:50 - v0.3.128 (stable) Test enhanced UI output
 
@@ -357,7 +297,7 @@ Wed 01/10/2025 12:41 - v0.1.8a (stable) fix motherboard sensors
 
 Wed 01/10/2025 12:32 - v0.1.8 (stable) fix motherboard sensors
 
-Wed 01/10/2025 12:16 - v0.1.7ΞΏ (stable) fix motherboard sensors
+Wed 01/10/2025 12:16 - v0.1.7ο (stable) fix motherboard sensors
 
 Wed 01/10/2025 11:48 - v0.1.7n (stable) fix motherboard sensors
 
@@ -492,36 +432,6 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
