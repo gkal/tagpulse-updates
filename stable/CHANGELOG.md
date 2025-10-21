@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Tue 21/10/2025 11:37 - v0.3.156 (stable) improve che accuracy
+
 Mon 20/10/2025 20:43 - v0.3.155 (stable) fix the null point at the supabase
 
 Mon 20/10/2025 20:27 - v0.3.154 (stable) fix the null point at the supabase
@@ -486,6 +488,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
