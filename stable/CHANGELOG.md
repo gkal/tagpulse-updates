@@ -1,4 +1,6 @@
-﻿Tue 21/10/2025 13:11 - v0.3.157 (stable) improve che accuracy
+﻿Tue 21/10/2025 13:47 - v0.3.158 (stable) improve che accuracy addition of the version on pc at supa
+
+Tue 21/10/2025 13:11 - v0.3.157 (stable) improve che accuracy
 
 
 Tue 21/10/2025 11:37 - v0.3.156 (stable) improve che accuracy
@@ -490,6 +492,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
