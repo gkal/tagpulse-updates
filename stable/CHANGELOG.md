@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Tue 21/10/2025 14:38 - v0.3.161 (stable) fixed the updated at at supabase
+
 Tue 21/10/2025 14:27 - v0.3.160 (stable) new setup that allows exe files to av whitelist
 
 Tue 21/10/2025 14:07 - v0.3.159 (stable) improve che accuracy addition of the version on pc at supa
@@ -434,6 +436,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
