@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Wed 22/10/2025 15:19 - v0.3.165 (stable) timezone compatibility at supa
+
 Wed 22/10/2025 14:04 - v0.3.164 (stable) ui tooltips
 
 Wed 22/10/2025 13:21 - v0.3.163 (stable) CHE cloud learning v2
@@ -442,6 +444,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
