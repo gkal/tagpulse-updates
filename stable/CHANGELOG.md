@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Wed 22/10/2025 14:04 - v0.3.164 (stable) ui tooltips
+
 Wed 22/10/2025 13:21 - v0.3.163 (stable) CHE cloud learning v2
 
 Tue 21/10/2025 17:08 - v0.3.162 (stable) fixed the updated at at supabase
@@ -440,6 +442,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
