@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1761152411
+timestamp_unix: 1761155866
 components {
   name: DESKTOP
   version: "0.3.148"
@@ -26,10 +26,10 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.148"
-  package_url: "packages/lhm-0.3.148.exe"
-  sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
-  size: 72432453
+  version: "0.3.172"
+  package_url: "packages/lhm-0.3.172.exe"
+  sha256: "\xbb\x75\x2f\x9c\x08\x50\x36\xe8\x5f\x7d\x7f\x9b\x3f\x50\xe2\x36\xa5\x71\x04\x02\x79\xd9\x0d\x91\x46\xec\xe0\x3d\xf4\x00\xf9\x35"
+  size: 3366057
   install {
     target: "bin/TagPulseLHMService.exe"
     type: "replace"
