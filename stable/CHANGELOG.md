@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Wed 22/10/2025 20:00 - v0.3.171 (stable) new setup build and fixes on the ui for low end pc
+
 Wed 22/10/2025 19:33 - v0.3.170 (stable) che auto learning from cloud
 
 Wed 22/10/2025 19:19 - v0.3.169 (stable) date time consisdience to all the supa
@@ -452,6 +454,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
