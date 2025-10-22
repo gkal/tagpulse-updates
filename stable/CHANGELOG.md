@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Wed 22/10/2025 18:14 - v0.3.167 (stable) different ui experience on low-mid-high perforamance pc
+
 Wed 22/10/2025 15:19 - v0.3.165 (stable) timezone compatibility at supa
 
 Wed 22/10/2025 14:04 - v0.3.164 (stable) ui tooltips
@@ -444,6 +446,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
