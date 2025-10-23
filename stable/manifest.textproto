@@ -1,5 +1,5 @@
 ﻿channel: "stable"
-timestamp_unix: 1761222352
+timestamp_unix: 1761224476
 components {
   name: DESKTOP
   version: "0.3.182"
@@ -39,10 +39,10 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.182"
-  package_url: "packages/updater-0.3.182.exe"
-  sha256: "\x63\x85\xbd\x5f\x49\x59\x46\xa2\x13\x07\xbc\x85\xf9\x16\x83\x1a\x98\xea\x8e\xc0\xa5\xe0\x7a\xc2\x71\x48\x20\xe6\x63\x6f\x71\xbb"
-  size: 394240
+  version: "0.3.184"
+  package_url: "packages/updater-0.3.184.exe"
+  sha256: "\xfe\x63\x2f\xbc\x4a\xf5\xf7\x8d\xf6\xa0\x1d\xb0\x54\x80\xcd\xe0\x78\xa1\xce\xd7\x58\x88\x4a\x74\x1f\x14\x7e\x99\x3e\xd4\x49\x33"
+  size: 394752
   install {
     target: "bin/TagPulseUpdater.exe"
     type: "replace"
