@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 11:01 - v0.3.174 (stable) fixed bug with timestamps in supa
+
 Thu 23/10/2025 08:50 - v0.3.173 (stable) lhm include net 8
 
 Wed 22/10/2025 20:57 - v0.3.172 (stable) improved setup ui
@@ -458,6 +460,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
