@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 18:07 - v0.3.192 (stable) FIX: TagPulse.exe now launches in user desktop session instead of Session 0. │
+
 Thu 23/10/2025 17:53 - v0.3.191 (stable) REAL FIX: Updater now forces service restart if already running to ensure new binary loads. Fixes version sync showing old versions.
 
 Thu 23/10/2025 17:40 - v0.3.190 (stable) FIX: Version sync race condition - service now always reads fresh from registry to avoid stale cache when service auto-starts before updater completes
@@ -494,6 +496,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
