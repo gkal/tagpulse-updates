@@ -1,5 +1,5 @@
 
-stable“éèÇl0.3.188packages/desktop-0.3.188.exe" ¶Í	„2Àe¹Y½ƒt26°YuîØQGxóŒ!®—ÞÌ(€è2
+stable•üèÇl0.3.188packages/desktop-0.3.188.exe" ¶Í	„2Àe¹Y½ƒt26°YuîØQGxóŒ!®—ÞÌ(€è2
 bin/TagPulse.exereplace–0.3.188packages/service-0.3.188.exe" ×8²:·†^©×GS5Îlêéã K!‚§ÿŸˆy^(€À­2D
 bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.3.188packages/lhm-0.3.188.exe" ­bÔç]ŸÞ2NÖà„©=m©"—Ó‡^Mƒ÷w‰Í(ÅöÄ"2G
 bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServices0.3.188packages/updater-0.3.188.exe" þc/¼Jõ÷ö °T€Íàx¡Î×XˆJt~™>ÔI3(€Œ2"
