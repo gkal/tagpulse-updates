@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 16:54 - v0.3.187 (stable) check update of the supabase
+
 Thu 23/10/2025 16:29 - v0.3.186 (stable) fix sync issue tagpulseupdater with restarting service race
 
 Thu 23/10/2025 16:23 - v0.3.185 (stable) fix sync issue tagpulseupdater with restarting service race
@@ -484,6 +486,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
