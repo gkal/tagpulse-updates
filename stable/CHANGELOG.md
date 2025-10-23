@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 12:05 - v0.3.177 (stable) Fixed Supabase timestamp sync CHE dashboard hardware class fleet model fetching
+
 Thu 23/10/2025 11:36 - v0.3.176 (stable) fixes timestamps to supabase
 
 Thu 23/10/2025 11:20 - v0.3.175 (stable) fixes wrong recognition of mid-low-high pcs
@@ -464,6 +466,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
