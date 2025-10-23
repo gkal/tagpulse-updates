@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 16:29 - v0.3.186 (stable) fix sync issue tagpulseupdater with restarting service race
+
 Thu 23/10/2025 16:23 - v0.3.185 (stable) fix sync issue tagpulseupdater with restarting service race
 
 Thu 23/10/2025 16:01 - v0.3.184 (stable) FIX: Race condition causing version sync to report previous version. Registry now written BEFORE service restart.
@@ -482,6 +484,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
