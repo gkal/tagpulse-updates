@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 15:25 - v0.3.183 (stable) TEMP: Force inventory resync for 2 specific machines. Revert after sync.
+
 Thu 23/10/2025 14:52 - v0.3.182 (stable) Critical CHE crash fix: null pointer protection │
 
 Thu 23/10/2025 14:26 - v0.3.181 (stable) Critical fixes: performance caching crash prevention updater restart crash dump
@@ -476,6 +478,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
