@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 14:10 - v0.3.179 (stable) fix sync version to db properly
+
 Thu 23/10/2025 13:45 - v0.3.178 (stable) Critical fix: UpdateManager initialization + all timestamp fixes
 
 Thu 23/10/2025 12:05 - v0.3.177 (stable) Fixed Supabase timestamp sync CHE dashboard hardware class fleet model fetching
@@ -468,6 +470,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
