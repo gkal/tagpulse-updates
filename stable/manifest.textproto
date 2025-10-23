@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1761206483
+timestamp_unix: 1761207645
 components {
   name: DESKTOP
-  version: "0.3.148"
-  package_url: "packages/desktop-0.3.148.exe"
+  version: "0.3.175"
+  package_url: "packages/desktop-0.3.175.exe"
   sha256: "\xb6\xcd\x09\x84\x13\x32\xc0\x65\xb9\x59\xbd\x83\x74\x32\x36\xb0\x18\x59\x75\xee\xd8\x51\x47\x78\xf3\x8c\x21\x9d\xae\x97\xde\xcc"
   size: 111616
   install {
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.173"
-  package_url: "packages/service-0.3.173.exe"
-  sha256: "\x98\xe0\xc5\xff\xa3\xb9\xa3\x61\xde\x4d\x39\xb7\x2a\xd5\x3e\x13\xec\x56\x52\x0a\x3f\x34\xd6\x54\xb6\xb3\x2e\xeb\x87\x72\x6e\xe8"
+  version: "0.3.175"
+  package_url: "packages/service-0.3.175.exe"
+  sha256: "\x09\x54\x92\x4e\xba\x56\x9e\x5a\xd3\xa7\x3a\x09\x27\xfb\xc7\xdf\x22\x1e\x50\x7e\x15\x8f\x38\x63\xcd\x54\x5c\xa9\x5f\x97\x4f\x42"
   size: 11217408
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.173"
-  package_url: "packages/lhm-0.3.173.exe"
+  version: "0.3.175"
+  package_url: "packages/lhm-0.3.175.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.148"
-  package_url: "packages/updater-0.3.148.exe"
+  version: "0.3.175"
+  package_url: "packages/updater-0.3.175.exe"
   sha256: "\x69\x91\xc6\x4c\x5c\xf7\xb7\x48\xc2\x45\x65\x2d\x58\x67\xc7\xad\xd2\x01\xc6\xa7\x3e\x44\x97\xe1\x86\x30\xe0\xea\xea\x84\x8c\x01"
   size: 393216
   install {
@@ -50,9 +50,9 @@ components {
 }
 components {
   name: UI
-  version: "0.3.171"
-  package_url: "packages/ui-0.3.171.zip"
-  sha256: "\xbd\x75\xb0\x9f\x5e\x67\xc9\xe0\x95\xb1\xd6\x4d\xb3\xef\x9d\xff\xc5\xe3\xfe\x52\xf6\xb9\x10\x1c\x65\x2a\xf9\x37\x83\x15\xb1\x36"
+  version: "0.3.175"
+  package_url: "packages/ui-0.3.175.zip"
+  sha256: "\x71\x31\x89\x16\x96\x57\xd7\x98\x21\xe4\xa4\x0f\x44\x33\x25\x1f\xa0\xab\xa8\x54\x09\x90\x2d\x91\x3f\x08\xd9\x6d\xfa\x16\xb9\x57"
   size: 1328061
   install {
     target: "ui"
