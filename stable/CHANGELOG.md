@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 14:26 - v0.3.181 (stable) Critical fixes: performance caching crash prevention updater restart crash dump
+
 Thu 23/10/2025 14:17 - v0.3.180Critical (stable) fixes: performance caching crash prevention updater restart crash dump
 
 Thu 23/10/2025 14:10 - v0.3.179 (stable) fix sync version to db properly
@@ -472,6 +474,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 

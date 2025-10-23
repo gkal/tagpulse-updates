@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1761218238
+timestamp_unix: 1761218758
 components {
   name: DESKTOP
-  version: "0.3.178"
-  package_url: "packages/desktop-0.3.178.exe"
+  version: "0.3.181"
+  package_url: "packages/desktop-0.3.181.exe"
   sha256: "\xb6\xcd\x09\x84\x13\x32\xc0\x65\xb9\x59\xbd\x83\x74\x32\x36\xb0\x18\x59\x75\xee\xd8\x51\x47\x78\xf3\x8c\x21\x9d\xae\x97\xde\xcc"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.180Critical"
-  package_url: "packages/service-0.3.180Critical.exe"
+  version: "0.3.181"
+  package_url: "packages/service-0.3.181.exe"
   sha256: "\xcc\x80\x4f\x82\x04\xa7\xdc\xbe\x2a\x41\x07\x6b\x76\x4c\x0d\x11\x64\x8a\x6c\x8c\x60\x5d\x91\x2a\x16\xe3\x19\x00\x4a\x17\x94\xc0"
   size: 11220992
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.178"
-  package_url: "packages/lhm-0.3.178.exe"
+  version: "0.3.181"
+  package_url: "packages/lhm-0.3.181.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.179"
-  package_url: "packages/updater-0.3.179.exe"
+  version: "0.3.181"
+  package_url: "packages/updater-0.3.181.exe"
   sha256: "\x63\x85\xbd\x5f\x49\x59\x46\xa2\x13\x07\xbc\x85\xf9\x16\x83\x1a\x98\xea\x8e\xc0\xa5\xe0\x7a\xc2\x71\x48\x20\xe6\x63\x6f\x71\xbb"
   size: 394240
   install {
@@ -50,9 +50,9 @@ components {
 }
 components {
   name: UI
-  version: "0.3.178"
-  package_url: "packages/ui-0.3.178.zip"
-  sha256: "\x08\xf9\x64\x1e\x8b\x9b\x44\xcd\xe2\x88\x1c\x1c\xc1\x95\xc0\xe9\x92\xb8\xa0\x21\xdb\x12\xcf\x4e\x27\x05\xeb\xb8\x36\xf7\x12\x5c"
+  version: "0.3.181"
+  package_url: "packages/ui-0.3.181.zip"
+  sha256: "\x2e\xb2\x0e\xe8\xe4\x25\x6a\x4f\x44\x20\x6a\x30\xac\x34\x8a\x2c\x36\x30\x5c\x5c\x57\xb5\x4b\x7a\xe3\x17\xb3\x97\xe6\x55\x97\x6b"
   size: 1328061
   install {
     target: "ui"
