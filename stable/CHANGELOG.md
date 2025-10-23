@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 08:50 - v0.3.173 (stable) lhm include net 8
+
 Wed 22/10/2025 20:57 - v0.3.172 (stable) improved setup ui
 
 Wed 22/10/2025 20:00 - v0.3.171 (stable) new setup build and fixes on the ui for low end pc
@@ -456,6 +458,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
