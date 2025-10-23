@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1761230357
+timestamp_unix: 1761230398
 components {
   name: DESKTOP
-  version: "0.3.188"
-  package_url: "packages/desktop-0.3.188.exe"
+  version: "0.3.190"
+  package_url: "packages/desktop-0.3.190.exe"
   sha256: "\xb6\xcd\x09\x84\x13\x32\xc0\x65\xb9\x59\xbd\x83\x74\x32\x36\xb0\x18\x59\x75\xee\xd8\x51\x47\x78\xf3\x8c\x21\x9d\xae\x97\xde\xcc"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.188"
-  package_url: "packages/service-0.3.188.exe"
+  version: "0.3.190"
+  package_url: "packages/service-0.3.190.exe"
   sha256: "\xd7\x38\xb2\x3a\xb7\x8d\x86\x5e\xa9\xd7\x47\x53\x35\x07\xce\x6c\xea\xe9\x0c\xe3\xa0\x4b\x14\x21\x82\xa7\xff\x9f\x88\x79\x0d\x5e"
   size: 11231232
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.188"
-  package_url: "packages/lhm-0.3.188.exe"
+  version: "0.3.190"
+  package_url: "packages/lhm-0.3.190.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.188"
-  package_url: "packages/updater-0.3.188.exe"
+  version: "0.3.190"
+  package_url: "packages/updater-0.3.190.exe"
   sha256: "\xfe\x63\x2f\xbc\x4a\xf5\xf7\x8d\xf6\xa0\x1d\xb0\x54\x80\xcd\xe0\x78\xa1\xce\xd7\x58\x88\x4a\x74\x1f\x14\x7e\x99\x3e\xd4\x49\x33"
   size: 394752
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.3.188"
-  package_url: "packages/ui-0.3.188.zip"
+  version: "0.3.190"
+  package_url: "packages/ui-0.3.190.zip"
   sha256: "\xd9\xdd\xf0\x4c\x42\x80\x4f\xd2\x0d\x9e\xc4\x83\xb2\x08\xfd\x55\xaf\x01\x58\x89\x5e\xe7\xae\x26\x37\x38\xe8\xbf\xa8\x14\x61\xb6"
   size: 1328061
   install {

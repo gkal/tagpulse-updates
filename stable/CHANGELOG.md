@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 17:40 - v0.3.190 (stable) FIX: Version sync race condition - service now always reads fresh from registry to avoid stale cache when service auto-starts before updater completes
+
 Thu 23/10/2025 17:39 - v0.3.189 (stable) FIX: Version sync race condition - service now always reads fresh from registry to avoid stale cache when service auto-starts before updater completes
 
 Thu 23/10/2025 16:58 - v0.3.188 (stable) check update of the supabase
@@ -490,6 +492,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
