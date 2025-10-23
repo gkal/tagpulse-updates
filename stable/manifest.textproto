@@ -1,9 +1,9 @@
 ﻿channel: "stable"
-timestamp_unix: 1761210324
+timestamp_unix: 1761216315
 components {
   name: DESKTOP
-  version: "0.3.175"
-  package_url: "packages/desktop-0.3.175.exe"
+  version: "0.3.178"
+  package_url: "packages/desktop-0.3.178.exe"
   sha256: "\xb6\xcd\x09\x84\x13\x32\xc0\x65\xb9\x59\xbd\x83\x74\x32\x36\xb0\x18\x59\x75\xee\xd8\x51\x47\x78\xf3\x8c\x21\x9d\xae\x97\xde\xcc"
   size: 111616
   install {
@@ -13,8 +13,8 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.3.176"
-  package_url: "packages/service-0.3.176.exe"
+  version: "0.3.178"
+  package_url: "packages/service-0.3.178.exe"
   sha256: "\xf6\x80\x2a\x34\x5b\xe2\xd4\x17\x25\xee\xf3\xad\xa0\x60\x4d\x9b\xde\x1c\x16\xae\x76\xda\xa8\x45\x23\x05\xce\xa0\x50\x44\x7d\x53"
   size: 11217920
   install {
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.3.175"
-  package_url: "packages/lhm-0.3.175.exe"
+  version: "0.3.178"
+  package_url: "packages/lhm-0.3.178.exe"
   sha256: "\xad\x62\xd4\xe7\x5d\x9f\xde\x32\x4e\xd6\xe0\x84\xa9\x07\x3d\x6d\xa9\x22\x16\x97\xd3\x87\x14\x5e\x4d\x83\xf7\x77\x89\x04\xcd\x12"
   size: 72432453
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.3.175"
-  package_url: "packages/updater-0.3.175.exe"
+  version: "0.3.178"
+  package_url: "packages/updater-0.3.178.exe"
   sha256: "\x69\x91\xc6\x4c\x5c\xf7\xb7\x48\xc2\x45\x65\x2d\x58\x67\xc7\xad\xd2\x01\xc6\xa7\x3e\x44\x97\xe1\x86\x30\xe0\xea\xea\x84\x8c\x01"
   size: 393216
   install {
@@ -50,9 +50,9 @@ components {
 }
 components {
   name: UI
-  version: "0.3.175"
-  package_url: "packages/ui-0.3.175.zip"
-  sha256: "\x71\x31\x89\x16\x96\x57\xd7\x98\x21\xe4\xa4\x0f\x44\x33\x25\x1f\xa0\xab\xa8\x54\x09\x90\x2d\x91\x3f\x08\xd9\x6d\xfa\x16\xb9\x57"
+  version: "0.3.178"
+  package_url: "packages/ui-0.3.178.zip"
+  sha256: "\x08\xf9\x64\x1e\x8b\x9b\x44\xcd\xe2\x88\x1c\x1c\xc1\x95\xc0\xe9\x92\xb8\xa0\x21\xdb\x12\xcf\x4e\x27\x05\xeb\xb8\x36\xf7\x12\x5c"
   size: 1328061
   install {
     target: "ui"
