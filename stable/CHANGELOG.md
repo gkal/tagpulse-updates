@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Thu 23/10/2025 19:48 - v0.3.195 (stable) fixed ui display of performance computers
+
 Thu 23/10/2025 19:33 - v0.3.194 (stable) proper detection of machine performance
 
 Thu 23/10/2025 18:23 - v0.3.193 (stable) fixes with the updater and fixes on tagpulse exe
@@ -500,6 +502,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
