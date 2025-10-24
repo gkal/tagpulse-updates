@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 24/10/2025 21:03 - v0.4.8 (stable) DEBUG: Added extensive logging to inventory sync to diagnose why inventory is not being created or synced to Supabase.
+
 Fri 24/10/2025 20:47 - v0.4.7 (stable) FIX: Create inventory snapshot if none exists. Sync inventory to Supabase on startup. Console mode removed.
 
 Fri 24/10/2025 20:25 - v0.4.6 (stable) CRITICAL FIX: Simple inventory sync - if local inventory exists but Supabase is empty sync it directly. No more complex logic.
@@ -528,6 +530,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
