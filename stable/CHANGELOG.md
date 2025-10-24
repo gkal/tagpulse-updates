@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 24/10/2025 17:36 - v0.4.1 (stable) fix bugs
+
 Fri 24/10/2025 17:20 - v0.4.0 (stable) fix supa inventory
 
 Fri 24/10/2025 16:53 - v0.3.199 (stable) setup with the fix
@@ -514,6 +516,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
