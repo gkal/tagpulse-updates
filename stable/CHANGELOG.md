@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 24/10/2025 17:46 - v0.4.2 (stable) CRITICAL FIX: Inventory sync thread database column name bug. This fixes automatic inventory creation.
+
 Fri 24/10/2025 17:36 - v0.4.1 (stable) fix bugs
 
 Fri 24/10/2025 17:20 - v0.4.0 (stable) fix supa inventory
@@ -516,6 +518,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
