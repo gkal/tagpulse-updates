@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 24/10/2025 20:25 - v0.4.6 (stable) CRITICAL FIX: Simple inventory sync - if local inventory exists but Supabase is empty sync it directly. No more complex logic.
+
 Fri 24/10/2025 19:58 - v0.4.5 (stable) CRITICAL FIX: Force inventory sync for machines with missing data. CHE cloud exporter will now properly sync hardware inventory to Supabase.
 
 Fri 24/10/2025 19:03 - v0.4.4 (stable) FIX: Inventory sync on startup. Ensures existing inventory syncs to Supabase immediately including bucket_key calculation.
@@ -524,6 +526,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
