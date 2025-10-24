@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Fri 24/10/2025 16:53 - v0.3.199 (stable) setup with the fix
+
 Fri 24/10/2025 16:19 - v0.3.198 (stable) fix no add new machines problem
 
 Fri 24/10/2025 - v0.3.194 (stable) CRITICAL FIX: Supabase sync failures resolved (bucket creation + inventory sync). Machines now auto-sync inventory data every 2min initially, then 6h. Fixes #1: Edge Function creates buckets before machine insert. Fixes #2: Hardware query uses correct table. Fixes #3: Periodic inventory sync ensures complete data.
@@ -510,6 +512,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
