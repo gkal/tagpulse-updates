@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 17:31 - v0.4.31 (stable) FIX: Neural migration version detection bug - read int instead of size_t to correctly identify network file versions. Fixes spurious Unrecognized network file header warnings.
+
 Sat 25/10/2025 17:11 - v0.4.30 (stable) CRITICAL FIX: Database schema column names corrected from custom_* to perf_custom_* matching code expectations. This fixes perf_custom_* fields failing to sync to Supabase.
 
 Sat 25/10/2025 15:56 - v0.4.29 (stable) FIX: Performance fields now sync to Supabase. ingest-rollup now updates all perf_* fields including benchmark_ms classification_reason cpu cores/ghz etc.
@@ -524,6 +526,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
