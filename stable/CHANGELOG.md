@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 20:49 - v0.4.42 (stable) CRITICAL FIX: WAL checkpoint deadlock - removed manual transactions that were preventing database checkpoints from running causing WAL to grow to 40MB+
+
 Sat 25/10/2025 19:49 - v0.4.41 (stable) TEST: Verifying automatic background scheduler continues working after v0.4.40 fix. This update should be picked up automatically within 2-4 minutes.
 
 Sat 25/10/2025 19:44 - v0.4.40 (stable) CRITICAL FIX: Scheduler thread now starts even when updater is already running. This fixes automatic background updates failing after service restart during an update.
@@ -546,6 +548,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
