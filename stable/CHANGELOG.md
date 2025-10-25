@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 20:56 - v0.4.43 (stable) CRITICAL FIX: Removed excessive UpdateLastSeen calls from cloud exporter - was being called on every export causing 1MB WAL growth per minute
+
 Sat 25/10/2025 20:49 - v0.4.42 (stable) CRITICAL FIX: WAL checkpoint deadlock - removed manual transactions that were preventing database checkpoints from running causing WAL to grow to 40MB+
 
 Sat 25/10/2025 19:49 - v0.4.41 (stable) TEST: Verifying automatic background scheduler continues working after v0.4.40 fix. This update should be picked up automatically within 2-4 minutes.
@@ -548,6 +550,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
