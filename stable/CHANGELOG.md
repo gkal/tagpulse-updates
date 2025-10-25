@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 07:36 - v0.4.11 (stable) COMPREHENSIVE FIX: Fresh start now properly closes database retries deletion 3x forces service restart even on failure restores company/user identity correctly and ensures inventory creation on first startup. This solves ALL fresh start issues.
+
 Sat 25/10/2025 07:21 - v0.4.10 (stable) FIX: Enhanced updater logging to diagnose service restart failures. This will show exactly what happens when service needs to reload new binary.
 
 Sat 25/10/2025 06:01 - v0.4.9 (stable) MAJOR: Fresh start with identity preservation - delete machine from Supabase to reset while keeping company/user data
@@ -534,6 +536,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
