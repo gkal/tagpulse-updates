@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 19:02 - v0.4.37 (stable) FIX: Automatic PawnIO driver installation on service startup. Ensures hardware sensors work without manual driver installation.
+
 Sat 25/10/2025 18:45 - v0.4.36 (stable) FIX: Rebuild LHM service with properly bundled .NET runtime to fix sensor data extraction
 
 Sat 25/10/2025 18:15 - v0.4.35 (stable) ROOT CAUSE FIX: LoadFromFile now validates neuron IDs exist before adding to layers. This prevents orphaned neuron IDs from causing null pointer crashes. Logs show any file corruption detected.
@@ -536,6 +538,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
