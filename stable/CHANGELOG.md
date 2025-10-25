@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 15:56 - v0.4.29 (stable) FIX: Performance fields now sync to Supabase. ingest-rollup now updates all perf_* fields including benchmark_ms classification_reason cpu cores/ghz etc.
+
 Sat 25/10/2025 15:40 - v0.4.28 (stable) CRITICAL: Automatic fresh start when machine deleted from Supabase. CHE now detects 404 errors and triggers fresh start immediately without requiring service restart.
 
 Sat 25/10/2025 15:11 - v0.4.27 (stable) CRITICAL FIX: PawnIO driver now properly unloaded on LHM shutdown to prevent lhm-cache file locks. Fresh start now excludes lhm-cache from deletion to preserve .NET runtime files. Fixes LHM service failing to start after fresh start.
@@ -520,6 +522,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
