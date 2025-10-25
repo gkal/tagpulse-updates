@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 07:54 - v0.4.12 (stable) CRITICAL FIX: Reset g_servicesStarted flag on service restart to ensure StartServices runs after updater forces restart. This fixes fresh start not executing.
+
 Sat 25/10/2025 07:36 - v0.4.11 (stable) COMPREHENSIVE FIX: Fresh start now properly closes database retries deletion 3x forces service restart even on failure restores company/user identity correctly and ensures inventory creation on first startup. This solves ALL fresh start issues.
 
 Sat 25/10/2025 07:21 - v0.4.10 (stable) FIX: Enhanced updater logging to diagnose service restart failures. This will show exactly what happens when service needs to reload new binary.
@@ -536,6 +538,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
