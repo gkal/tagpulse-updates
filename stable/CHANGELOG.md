@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 19:49 - v0.4.41 (stable) TEST: Verifying automatic background scheduler continues working after v0.4.40 fix. This update should be picked up automatically within 2-4 minutes.
+
 Sat 25/10/2025 19:44 - v0.4.40 (stable) CRITICAL FIX: Scheduler thread now starts even when updater is already running. This fixes automatic background updates failing after service restart during an update.
 
 Sat 25/10/2025 19:36 - v0.4.39 (stable) TEST: Verifying automatic background update scheduler picks up updates within 15 minutes
@@ -544,6 +546,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
