@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 12:11 - v0.4.26 (stable) FIX: CHE cloud exporter now uses authenticated requests to ingest-rollup and ingest-signatures Edge Functions. This fixes 401 errors preventing inventory data from syncing to Supabase.
+
 Sat 25/10/2025 11:50 - v0.4.25 (stable) CRITICAL FIX: Fresh start infinite loop when machine deleted from Supabase. Now skips check after fresh start to allow inventory sync.
 
 Sat 25/10/2025 11:33 - v0.4.24 (stable) CRITICAL FIX: Scheduler thread now starts AFTER startup update check to prevent race condition blocking updates
@@ -514,6 +516,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
