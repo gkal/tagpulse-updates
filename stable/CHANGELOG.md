@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 10:41 - v0.4.23 (stable) Self-contained LHM with embedded .NET runtime. No separate .NET installation needed.
+
 Sat 25/10/2025 10:36 - v0.4.22 (stable) TEST: Version injection now enabled for self-contained LHM executable
 
 Sat 25/10/2025 10:34 - v0.4.21 (stable) CRITICAL FIX: LHM service now built as self-contained with .NET runtime included. No separate .NET installation required.
@@ -508,6 +510,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
