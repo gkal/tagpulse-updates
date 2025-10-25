@@ -1,47 +1,5 @@
 ﻿# TagPulse Changelog
-Sat 25/10/2025 09:41 - v0.4.17 (stable) CRITICAL FIX: Inventory sync table bug CHE null pointer crash and version now read from exe files
-
-Sat 25/10/2025 09:15 - v0.4.16 (stable) CRITICAL FIX: Inventory sync querying non-existent performance_profiles table. Now correctly queries machine_identity and calculates bucket_key. Also fixes CHE neural network null pointer crash in Forward().
-
-Sat 25/10/2025 08:28 - v0.4.14 (stable) CRITICAL FIX: SQL query bug + FOREIGN KEY constraint. Enables inventory sync and identity preservation after fresh start.
-
-Sat 25/10/2025 08:09 - v0.4.13 (stable) CRITICAL FIX: Two-phase fresh start to avoid database lock. Phase 1: Mark for deletion and exit. Phase 2: Delete data before database initialization. This solves the infinite restart loop issue.
-
-Sat 25/10/2025 07:54 - v0.4.12 (stable) CRITICAL FIX: Reset g_servicesStarted flag on service restart to ensure StartServices runs after updater forces restart. This fixes fresh start not executing.
-
-Sat 25/10/2025 07:36 - v0.4.11 (stable) COMPREHENSIVE FIX: Fresh start now properly closes database retries deletion 3x forces service restart even on failure restores company/user identity correctly and ensures inventory creation on first startup. This solves ALL fresh start issues.
-
-Sat 25/10/2025 07:21 - v0.4.10 (stable) FIX: Enhanced updater logging to diagnose service restart failures. This will show exactly what happens when service needs to reload new binary.
-
-Sat 25/10/2025 06:01 - v0.4.9 (stable) MAJOR: Fresh start with identity preservation - delete machine from Supabase to reset while keeping company/user data
-
-Fri 24/10/2025 21:03 - v0.4.8 (stable) DEBUG: Added extensive logging to inventory sync to diagnose why inventory is not being created or synced to Supabase.
-
-Fri 24/10/2025 20:47 - v0.4.7 (stable) FIX: Create inventory snapshot if none exists. Sync inventory to Supabase on startup. Console mode removed.
-
-Fri 24/10/2025 20:25 - v0.4.6 (stable) CRITICAL FIX: Simple inventory sync - if local inventory exists but Supabase is empty sync it directly. No more complex logic.
-
-Fri 24/10/2025 19:58 - v0.4.5 (stable) CRITICAL FIX: Force inventory sync for machines with missing data. CHE cloud exporter will now properly sync hardware inventory to Supabase.
-
-Fri 24/10/2025 19:03 - v0.4.4 (stable) FIX: Inventory sync on startup. Ensures existing inventory syncs to Supabase immediately including bucket_key calculation.
-
-Fri 24/10/2025 18:05 - v0.4.3 (stable) CRITICAL FIX: Inventory sync database column bug. Network adapter selection. SSE heartbeat timeout.
-
-Fri 24/10/2025 17:46 - v0.4.2 (stable) CRITICAL FIX: Inventory sync thread database column name bug. This fixes automatic inventory creation.
-
-Fri 24/10/2025 17:36 - v0.4.1 (stable) fix bugs
-
-Fri 24/10/2025 17:20 - v0.4.0 (stable) fix supa inventory
-
-Fri 24/10/2025 16:53 - v0.3.199 (stable) setup with the fix
-
-Fri 24/10/2025 16:19 - v0.3.198 (stable) fix no add new machines problem
-
-Fri 24/10/2025 - v0.3.194 (stable) CRITICAL FIX: Supabase sync failures resolved (bucket creation + inventory sync). Machines now auto-sync inventory data every 2min initially, then 6h. Fixes #1: Edge Function creates buckets before machine insert. Fixes #2: Hardware query uses correct table. Fixes #3: Periodic inventory sync ensures complete data.
-
-Thu 23/10/2025 21:13 - v0.3.197 (stable) correct setup build
-
-Thu 23/10/2025 19:56 - v0.3.196 (stable) fixed ui display of performance computers
+Sat 25/10/2025 10:10 - v0.4.20 (stable) CRITICAL FIX: Exclude .NET executables from version injection to prevent LHM service corruption
 
 Thu 23/10/2025 19:48 - v0.3.195 (stable) fixed ui display of performance computers
 
@@ -546,25 +504,6 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
