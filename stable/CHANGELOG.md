@@ -1,4 +1,8 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 09:41 - v0.4.17 (stable) CRITICAL FIX: Inventory sync table bug CHE null pointer crash and version now read from exe files
+
+Sat 25/10/2025 09:15 - v0.4.16 (stable) CRITICAL FIX: Inventory sync querying non-existent performance_profiles table. Now correctly queries machine_identity and calculates bucket_key. Also fixes CHE neural network null pointer crash in Forward().
+
 Sat 25/10/2025 08:28 - v0.4.14 (stable) CRITICAL FIX: SQL query bug + FOREIGN KEY constraint. Enables inventory sync and identity preservation after fresh start.
 
 Sat 25/10/2025 08:09 - v0.4.13 (stable) CRITICAL FIX: Two-phase fresh start to avoid database lock. Phase 1: Mark for deletion and exit. Phase 2: Delete data before database initialization. This solves the infinite restart loop issue.
@@ -542,6 +546,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
