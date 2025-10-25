@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 08:09 - v0.4.13 (stable) CRITICAL FIX: Two-phase fresh start to avoid database lock. Phase 1: Mark for deletion and exit. Phase 2: Delete data before database initialization. This solves the infinite restart loop issue.
+
 Sat 25/10/2025 07:54 - v0.4.12 (stable) CRITICAL FIX: Reset g_servicesStarted flag on service restart to ensure StartServices runs after updater forces restart. This fixes fresh start not executing.
 
 Sat 25/10/2025 07:36 - v0.4.11 (stable) COMPREHENSIVE FIX: Fresh start now properly closes database retries deletion 3x forces service restart even on failure restores company/user identity correctly and ensures inventory creation on first startup. This solves ALL fresh start issues.
@@ -538,6 +540,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
