@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 17:37 - v0.4.32 (stable) CRASH FIX: Temporarily disabled fleet learning to diagnose crash occurring 5 seconds after startup. Also fixed neural migration version detection bug.
+
 Sat 25/10/2025 17:31 - v0.4.31 (stable) FIX: Neural migration version detection bug - read int instead of size_t to correctly identify network file versions. Fixes spurious Unrecognized network file header warnings.
 
 Sat 25/10/2025 17:11 - v0.4.30 (stable) CRITICAL FIX: Database schema column names corrected from custom_* to perf_custom_* matching code expectations. This fixes perf_custom_* fields failing to sync to Supabase.
@@ -526,6 +528,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
