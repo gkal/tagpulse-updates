@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 11:50 - v0.4.25 (stable) CRITICAL FIX: Fresh start infinite loop when machine deleted from Supabase. Now skips check after fresh start to allow inventory sync.
+
 Sat 25/10/2025 11:33 - v0.4.24 (stable) CRITICAL FIX: Scheduler thread now starts AFTER startup update check to prevent race condition blocking updates
 
 Sat 25/10/2025 10:41 - v0.4.23 (stable) Self-contained LHM with embedded .NET runtime. No separate .NET installation needed.
@@ -512,6 +514,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
