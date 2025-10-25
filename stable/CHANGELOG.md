@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 06:01 - v0.4.9 (stable) MAJOR: Fresh start with identity preservation - delete machine from Supabase to reset while keeping company/user data
+
 Fri 24/10/2025 21:03 - v0.4.8 (stable) DEBUG: Added extensive logging to inventory sync to diagnose why inventory is not being created or synced to Supabase.
 
 Fri 24/10/2025 20:47 - v0.4.7 (stable) FIX: Create inventory snapshot if none exists. Sync inventory to Supabase on startup. Console mode removed.
@@ -530,6 +532,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
