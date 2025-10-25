@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 18:09 - v0.4.34 (stable) CRITICAL FIX: Null pointer crash in evolving neural network Train function. Added safety checks when accessing neurons during backpropagation weight updates.
+
 Sat 25/10/2025 17:56 - v0.4.33 (stable) CRITICAL FIX: Null pointer crash in evolving neural network Forward function. Added safety checks when accessing neurons from map to prevent crash 5 seconds after startup. Re-enabled fleet learning.
 
 Sat 25/10/2025 17:37 - v0.4.32 (stable) CRASH FIX: Temporarily disabled fleet learning to diagnose crash occurring 5 seconds after startup. Also fixed neural migration version detection bug.
@@ -530,6 +532,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
