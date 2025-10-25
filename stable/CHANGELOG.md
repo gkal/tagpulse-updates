@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 08:28 - v0.4.14 (stable) CRITICAL FIX: SQL query bug + FOREIGN KEY constraint. Enables inventory sync and identity preservation after fresh start.
+
 Sat 25/10/2025 08:09 - v0.4.13 (stable) CRITICAL FIX: Two-phase fresh start to avoid database lock. Phase 1: Mark for deletion and exit. Phase 2: Delete data before database initialization. This solves the infinite restart loop issue.
 
 Sat 25/10/2025 07:54 - v0.4.12 (stable) CRITICAL FIX: Reset g_servicesStarted flag on service restart to ensure StartServices runs after updater forces restart. This fixes fresh start not executing.
@@ -540,6 +542,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
