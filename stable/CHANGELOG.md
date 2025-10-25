@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sat 25/10/2025 18:45 - v0.4.36 (stable) FIX: Rebuild LHM service with properly bundled .NET runtime to fix sensor data extraction
+
 Sat 25/10/2025 18:15 - v0.4.35 (stable) ROOT CAUSE FIX: LoadFromFile now validates neuron IDs exist before adding to layers. This prevents orphaned neuron IDs from causing null pointer crashes. Logs show any file corruption detected.
 
 Sat 25/10/2025 18:09 - v0.4.34 (stable) CRITICAL FIX: Null pointer crash in evolving neural network Train function. Added safety checks when accessing neurons during backpropagation weight updates.
@@ -534,6 +536,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
