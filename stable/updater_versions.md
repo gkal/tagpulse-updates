@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 26/10/2025 19:24 - v0.4.69 (stable) CRITICAL HOTFIX: Fixed HTTP server deadlock from v0.4.68 checkpoint fix. Added timeout to prevent infinite wait loop during initialization.
+
 Sun 26/10/2025 19:08 - v0.4.68 (stable) CRITICAL FIX: WAL checkpoint now blocks reads and uses main connection. Fixes unbounded WAL growth - WAL stays under 100KB. Checkpoints finally succeed
 
 Sun 26/10/2025 18:23 - v0.4.67 (stable) CRITICAL FIX: WAL checkpoints now use SEPARATE database connection to prevent SQLITE_LOCKED errors. Fixes 100% checkpoint failure causing WAL growth to 4-5MB.
@@ -598,6 +600,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
