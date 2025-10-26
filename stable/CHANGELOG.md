@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 08:05 - v0.4.50 (stable) ADDED: disk_primary_type field now syncs to Supabase machines table. Shows NVME SSD or HDD from primary disk.
+
 Sun 26/10/2025 07:41 - v0.4.49 (stable) ADDED: Automatic cleanup of contaminated CHE temperature baselines during housekeeping. Removes baselines with unrealistic temps below 15C from LHM sensor failures.
 
 Sun 26/10/2025 07:32 - v0.4.48 (stable) PROPERLY FIXED: Database WAL growth - all 5 CHE Load functions now use ExecuteSelectQuery instead of direct SQLiteManager access. This prevents read locks that were blocking WAL checkpoints.
@@ -560,6 +562,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
