@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 11:12 - v0.4.56 (stable) CRITICAL FIX: Set registry key at service startup when identity exists in database. Fixes issue where desktop app opens /first-run even when identity is already initialized.
+
 Sun 26/10/2025 10:52 - v0.4.55 (stable) CRITICAL FIX: CHE now loads historical learning data properly. Restores millions of samples that were not being loaded after WAL refactoring. Uses DbOperationsHandler for thread-safe database access.
 
 Sun 26/10/2025 10:42 - v0.4.54 (stable) CRITICAL FIX: Identity check logic bug. Fixed need_identity default value - must assume identity needed unless proven otherwise. This fixes the infinite first-run redirect loop when database queries fail.
@@ -572,6 +574,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
