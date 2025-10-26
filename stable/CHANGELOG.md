@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 07:00 - v0.4.46 (stable) FIX: Missing performance fields in Supabase sync. Added perf_cpu_logical_cores perf_cpu_max_ghz perf_classification_reason perf_benchmark_ms. Removed jsoncpp from component_versions.
+
 Sun 26/10/2025 06:51 - v0.4.45 (stable) CRITICAL FIX: WAL growth issue - Fixed 10 CHE files violating database access policy causing database locks that prevented WAL checkpoints
 
 Sat 25/10/2025 20:56 - v0.4.43 (stable) CRITICAL FIX: Removed excessive UpdateLastSeen calls from cloud exporter - was being called on every export causing 1MB WAL growth per minute
@@ -552,6 +554,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
