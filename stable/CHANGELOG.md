@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 12:31 - v0.4.61 (stable) FIX: Inventory sync now sends all available machine fields to Supabase including hostname windows_product_id total_ram_gb disk_type and CPU performance metrics
+
 Sun 26/10/2025 12:18 - v0.4.60 (stable) CRITICAL FIX: Database path backslashes properly escaped. v0.4.59 had malformed path preventing DB check. This version REALLY works
 
 Sun 26/10/2025 12:10 - v0.4.59 (stable) MAJOR SIMPLIFICATION: Desktop app now checks database directly instead of registry. Eliminates race conditions and sync issues. Single source of truth
@@ -582,6 +584,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
