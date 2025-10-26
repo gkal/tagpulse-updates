@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 12:18 - v0.4.60 (stable) CRITICAL FIX: Database path backslashes properly escaped. v0.4.59 had malformed path preventing DB check. This version REALLY works
+
 Sun 26/10/2025 12:10 - v0.4.59 (stable) MAJOR SIMPLIFICATION: Desktop app now checks database directly instead of registry. Eliminates race conditions and sync issues. Single source of truth
 
 Sun 26/10/2025 11:55 - v0.4.58 (stable) CLEANUP: Complete removal of all console mode code. Deleted console_display files removed 369 lines from main.cpp cleaned all console references from codebase.
@@ -580,6 +582,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
