@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 07:32 - v0.4.48 (stable) PROPERLY FIXED: Database WAL growth - all 5 CHE Load functions now use ExecuteSelectQuery instead of direct SQLiteManager access. This prevents read locks that were blocking WAL checkpoints.
+
 Sun 26/10/2025 07:14 - v0.4.47 (stable) FIX: CHE temperature baseline validation - prevent zero/invalid temperatures from LHM failures from contaminating baselines. Minimum 15C threshold added.
 
 Sun 26/10/2025 07:00 - v0.4.46 (stable) FIX: Missing performance fields in Supabase sync. Added perf_cpu_logical_cores perf_cpu_max_ghz perf_classification_reason perf_benchmark_ms. Removed jsoncpp from component_versions.
@@ -556,6 +558,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
