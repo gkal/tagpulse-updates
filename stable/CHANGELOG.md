@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 16:10 - v0.4.65 (stable) FIX: WAL checkpoint now uses PASSIVE mode to prevent failures when CHE has read locks. Added logging to track checkpoint success/failure. This fixes 8MB WAL growth issue.
+
 Sun 26/10/2025 14:11 - v0.4.64 (stable) COMPLETE CHE FIX: Now loads phase counters and sample counts. Shows Phase 4 with 1M+ samples instead of starting from zero.
 
 Sun 26/10/2025 14:00 - v0.4.63 (stable) CRITICAL FIX: CHE now loads learned data on startup - baselines signatures phase progress. Fixes starting from zero bug.
@@ -590,6 +592,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
