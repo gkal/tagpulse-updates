@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 18:23 - v0.4.67 (stable) CRITICAL FIX: WAL checkpoints now use SEPARATE database connection to prevent SQLITE_LOCKED errors. Fixes 100% checkpoint failure causing WAL growth to 4-5MB.
+
 Sun 26/10/2025 17:13 - v0.4.66 (stable) FIX CHE empty checkpoint lambda causing WAL growth
 
 Sun 26/10/2025 16:10 - v0.4.65 (stable) FIX: WAL checkpoint now uses PASSIVE mode to prevent failures when CHE has read locks. Added logging to track checkpoint success/failure. This fixes 8MB WAL growth issue.
@@ -594,6 +596,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
