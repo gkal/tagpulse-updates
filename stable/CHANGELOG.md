@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 14:11 - v0.4.64 (stable) COMPLETE CHE FIX: Now loads phase counters and sample counts. Shows Phase 4 with 1M+ samples instead of starting from zero.
+
 Sun 26/10/2025 14:00 - v0.4.63 (stable) CRITICAL FIX: CHE now loads learned data on startup - baselines signatures phase progress. Fixes starting from zero bug.
 
 Sun 26/10/2025 12:40 - v0.4.62 (stable) CRITICAL FIX: Added missing perf_benchmark_ms field and fixed windows_product_id not being sent. Now ALL available machine data fields are properly synced to Supabase.
@@ -588,6 +590,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
