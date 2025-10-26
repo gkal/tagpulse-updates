@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 11:55 - v0.4.58 (stable) CLEANUP: Complete removal of all console mode code. Deleted console_display files removed 369 lines from main.cpp cleaned all console references from codebase.
+
 Sun 26/10/2025 11:38 - v0.4.57 (stable) REAL FIX: Registry key now properly set in SERVICE MODE startup path. Previous v0.4.56 only had fix in console mode. This version fixes identity redirect issue for ALL remote machines.
 
 Sun 26/10/2025 11:12 - v0.4.56 (stable) CRITICAL FIX: Set registry key at service startup when identity exists in database. Fixes issue where desktop app opens /first-run even when identity is already initialized.
@@ -576,6 +578,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
