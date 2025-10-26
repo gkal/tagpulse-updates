@@ -1,4 +1,6 @@
 ﻿# TagPulse Changelog
+Sun 26/10/2025 10:10 - v0.4.53 (stable) CRITICAL FIX: Database column name bug causing first-run redirect loop. Fixed perf_custom_* column names in SaveToDatabase. This fixes remote machine identity issues after fresh start.
+
 Sun 26/10/2025 09:28 - v0.4.52 (stable) CRITICAL FIX: CHE API crashes from std::stoi empty string errors. All 6 CHE components now handle NULL values from ExecuteSelectQuery. FIX: Race condition - periodic syncs skip identity fields to prevent overwriting two-star commands. CHANGED: Remote command check now runs every 30 minutes.
 
 Sun 26/10/2025 08:31 - v0.4.51 (stable) FEATURE: Two-star command system for remote field updates. Prefix company_name or user_full_name with ** in Supabase to update local machines on startup.
@@ -566,6 +568,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
