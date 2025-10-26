@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 26/10/2025 21:10 - v0.4.72 (stable) FIX: Strategic 70ms CHE pause after each processing batch to create checkpoint window. Allows WAL checkpoints to succeed without blocking UI.
+
 Sun 26/10/2025 20:00 - v0.4.71 (stable) CRITICAL FIX: WAL checkpoint with brief 100ms read-blocking. Prevents 40MB WAL growth while keeping UI responsive. Uses TRUNCATE on main connection.
 
 Sun 26/10/2025 19:41 - v0.4.70 (stable) CRITICAL FIX: Removed checkpoint read-blocking that caused 30-second UI freezes. Restored opportunistic checkpoints for responsive app.
@@ -604,6 +606,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
