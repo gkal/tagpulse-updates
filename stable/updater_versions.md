@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 13:56 - v0.4.79 (stable) CRITICAL FIX: Checkpoint now uses dedicated checkpoint_db_ connection instead of main db_ connection. This fixes WAL growth issue where checkpoints reported 0 frames. Also added pause logic to SaveManager thread for coordinator.
+
 Mon 27/10/2025 12:02 - v0.4.78 (stable) CRITICAL FIX: Coordinator now actually starts - v0.4.76 and v0.4.77 had the code but never called Start method
 
 Mon 27/10/2025 11:48 - v0.4.77 (stable) FIX: Global Checkpoint Coordinator now properly compiled. This version actually includes the thread coordination code to prevent WAL growth.
@@ -618,6 +620,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
