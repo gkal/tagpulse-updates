@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 11:34 - v0.4.76 (stable) MAJOR: Global Checkpoint Coordinator - all database threads pause simultaneously every 5 seconds to allow WAL checkpoints to succeed. This is the real fix
+
 Mon 27/10/2025 10:02 - v0.4.75 (stable) TEST: Increased all 3 thread pauses from 70ms to 200ms to diagnose checkpoint failures. Testing if longer pauses help or if another thread is blocking.
 
 Mon 27/10/2025 09:40 - v0.4.74 (stable) CRITICAL FIX: Increase DbWriteQueue pause from 10ms to 70ms to allow WAL checkpoints. All three database-accessing threads now pause for 70ms.
@@ -612,6 +614,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
