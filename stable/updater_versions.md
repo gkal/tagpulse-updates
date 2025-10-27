@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 20:26 - v0.5.0 (stable) FEATURE: Fleet Model Status UI with detailed modal. Real-time auto-refresh every 5 seconds. Shows model version hardware class weight count download statistics and success rates. Click Fleet Model panel in CHE Dashboard for full details.
+
 Mon 27/10/2025 16:55 - v0.4.82 (stable) FIX: Component versions now strip trailing .0 and LHM uses registry version
 
 Mon 27/10/2025 16:35 - v0.4.81 (stable) FIX: Component version sync reads file versions first adds UI version to sync
@@ -626,6 +628,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
