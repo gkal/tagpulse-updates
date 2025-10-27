@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 14:45 - v0.4.80 (stable) CRITICAL FIX: Enable WAL mode on checkpoint_db_ connection. Without this checkpoint_db_ operates in rollback journal mode and reports frames=0 causing unbounded WAL growth.
+
 Mon 27/10/2025 13:56 - v0.4.79 (stable) CRITICAL FIX: Checkpoint now uses dedicated checkpoint_db_ connection instead of main db_ connection. This fixes WAL growth issue where checkpoints reported 0 frames. Also added pause logic to SaveManager thread for coordinator.
 
 Mon 27/10/2025 12:02 - v0.4.78 (stable) CRITICAL FIX: Coordinator now actually starts - v0.4.76 and v0.4.77 had the code but never called Start method
@@ -620,6 +622,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
