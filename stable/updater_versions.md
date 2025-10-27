@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 09:40 - v0.4.74 (stable) CRITICAL FIX: Increase DbWriteQueue pause from 10ms to 70ms to allow WAL checkpoints. All three database-accessing threads now pause for 70ms.
+
 Mon 27/10/2025 07:14 - v0.4.73 (stable) FIX: Add 70ms pause to save manager thread. Both CHE worker and save manager now pause to allow checkpoints.
 
 Sun 26/10/2025 21:10 - v0.4.72 (stable) FIX: Strategic 70ms CHE pause after each processing batch to create checkpoint window. Allows WAL checkpoints to succeed without blocking UI.
@@ -608,6 +610,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
