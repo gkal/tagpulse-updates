@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 27/10/2025 16:55 - v0.4.82 (stable) FIX: Component versions now strip trailing .0 and LHM uses registry version
+
 Mon 27/10/2025 16:35 - v0.4.81 (stable) FIX: Component version sync reads file versions first adds UI version to sync
 
 Mon 27/10/2025 14:45 - v0.4.80 (stable) CRITICAL FIX: Enable WAL mode on checkpoint_db_ connection. Without this checkpoint_db_ operates in rollback journal mode and reports frames=0 causing unbounded WAL growth.
@@ -624,6 +626,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
