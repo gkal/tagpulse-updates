@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 28/10/2025 05:38 - v0.5.2 (stable) CRITICAL HOTFIX: Disabled fleet model check to prevent crash caused by direct SQLiteManager access from CHE thread. Fleet learning temporarily disabled until proper caching architecture is implemented.
+
 Mon 27/10/2025 20:49 - v0.5.1 (stable) HOTFIX: Fixed critical crash caused by direct SQLiteManager access from HTTP thread.
 
 Mon 27/10/2025 20:46 - v0.4.84 (stable) HOTFIX: Fixed critical crash caused by direct SQLiteManager access from HTTP thread. Fleet model endpoint now returns safe empty data until proper caching is implemented.
@@ -634,6 +636,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
