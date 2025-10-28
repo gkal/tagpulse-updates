@@ -1,20 +1,13 @@
 ﻿# TagPulse Versions
-Tue 28/10/2025 05:38 - v0.5.2 (stable) CRITICAL HOTFIX: Disabled fleet model check to prevent crash caused by direct SQLiteManager access from CHE thread. Fleet learning temporarily disabled until proper caching architecture is implemented.
-
-Mon 27/10/2025 20:49 - v0.5.1 (stable) HOTFIX: Fixed critical crash caused by direct SQLiteManager access from HTTP thread.
-
-Mon 27/10/2025 20:46 - v0.4.84 (stable) HOTFIX: Fixed critical crash caused by direct SQLiteManager access from HTTP thread. Fleet model endpoint now returns safe empty data until proper caching is implemented.
-
-
-Mon 27/10/2025 20:26 - v0.4.83 (stable) FEATURE: Fleet Model Status UI with detailed modal. Real-time auto-refresh every 5 seconds. Shows model version hardware class weight count download statistics and success rates. Click Fleet Model panel in CHE Dashboard for full details.
+Tue 28/10/2025 13:56 - v0.5.3 (stable) implement phase 1 to phase 3 so che can start using fleet learning started
 
 Mon 27/10/2025 16:55 - v0.4.82 (stable) FIX: Component versions now strip trailing .0 and LHM uses registry version
 
 Mon 27/10/2025 16:35 - v0.4.81 (stable) FIX: Component version sync reads file versions first adds UI version to sync
 
-Mon 27/10/2025 14:45 - v0.4.80 (stable) CRITICAL FIX: Enable WAL mode on checkpoint\_db\_ connection. Without this checkpoint\_db\_ operates in rollback journal mode and reports frames=0 causing unbounded WAL growth.
+Mon 27/10/2025 14:45 - v0.4.80 (stable) CRITICAL FIX: Enable WAL mode on checkpoint_db_ connection. Without this checkpoint_db_ operates in rollback journal mode and reports frames=0 causing unbounded WAL growth.
 
-Mon 27/10/2025 13:56 - v0.4.79 (stable) CRITICAL FIX: Checkpoint now uses dedicated checkpoint\_db\_ connection instead of main db\_ connection. This fixes WAL growth issue where checkpoints reported 0 frames. Also added pause logic to SaveManager thread for coordinator.
+Mon 27/10/2025 13:56 - v0.4.79 (stable) CRITICAL FIX: Checkpoint now uses dedicated checkpoint_db_ connection instead of main db_ connection. This fixes WAL growth issue where checkpoints reported 0 frames. Also added pause logic to SaveManager thread for coordinator.
 
 Mon 27/10/2025 12:02 - v0.4.78 (stable) CRITICAL FIX: Coordinator now actually starts - v0.4.76 and v0.4.77 had the code but never called Start method
 
@@ -38,7 +31,7 @@ Sun 26/10/2025 19:24 - v0.4.69 (stable) CRITICAL HOTFIX: Fixed HTTP server deadl
 
 Sun 26/10/2025 19:08 - v0.4.68 (stable) CRITICAL FIX: WAL checkpoint now blocks reads and uses main connection. Fixes unbounded WAL growth - WAL stays under 100KB. Checkpoints finally succeed
 
-Sun 26/10/2025 18:23 - v0.4.67 (stable) CRITICAL FIX: WAL checkpoints now use SEPARATE database connection to prevent SQLITE\_LOCKED errors. Fixes 100% checkpoint failure causing WAL growth to 4-5MB.
+Sun 26/10/2025 18:23 - v0.4.67 (stable) CRITICAL FIX: WAL checkpoints now use SEPARATE database connection to prevent SQLITE_LOCKED errors. Fixes 100% checkpoint failure causing WAL growth to 4-5MB.
 
 Sun 26/10/2025 17:13 - v0.4.66 (stable) FIX CHE empty checkpoint lambda causing WAL growth
 
@@ -48,15 +41,15 @@ Sun 26/10/2025 14:11 - v0.4.64 (stable) COMPLETE CHE FIX: Now loads phase counte
 
 Sun 26/10/2025 14:00 - v0.4.63 (stable) CRITICAL FIX: CHE now loads learned data on startup - baselines signatures phase progress. Fixes starting from zero bug.
 
-Sun 26/10/2025 12:40 - v0.4.62 (stable) CRITICAL FIX: Added missing perf\_benchmark\_ms field and fixed windows\_product\_id not being sent. Now ALL available machine data fields are properly synced to Supabase.
+Sun 26/10/2025 12:40 - v0.4.62 (stable) CRITICAL FIX: Added missing perf_benchmark_ms field and fixed windows_product_id not being sent. Now ALL available machine data fields are properly synced to Supabase.
 
-Sun 26/10/2025 12:31 - v0.4.61 (stable) FIX: Inventory sync now sends all available machine fields to Supabase including hostname windows\_product\_id total\_ram\_gb disk\_type and CPU performance metrics
+Sun 26/10/2025 12:31 - v0.4.61 (stable) FIX: Inventory sync now sends all available machine fields to Supabase including hostname windows_product_id total_ram_gb disk_type and CPU performance metrics
 
 Sun 26/10/2025 12:18 - v0.4.60 (stable) CRITICAL FIX: Database path backslashes properly escaped. v0.4.59 had malformed path preventing DB check. This version REALLY works
 
 Sun 26/10/2025 12:10 - v0.4.59 (stable) MAJOR SIMPLIFICATION: Desktop app now checks database directly instead of registry. Eliminates race conditions and sync issues. Single source of truth
 
-Sun 26/10/2025 11:55 - v0.4.58 (stable) CLEANUP: Complete removal of all console mode code. Deleted console\_display files removed 369 lines from main.cpp cleaned all console references from codebase.
+Sun 26/10/2025 11:55 - v0.4.58 (stable) CLEANUP: Complete removal of all console mode code. Deleted console_display files removed 369 lines from main.cpp cleaned all console references from codebase.
 
 Sun 26/10/2025 11:38 - v0.4.57 (stable) REAL FIX: Registry key now properly set in SERVICE MODE startup path. Previous v0.4.56 only had fix in console mode. This version fixes identity redirect issue for ALL remote machines.
 
@@ -64,15 +57,15 @@ Sun 26/10/2025 11:12 - v0.4.56 (stable) CRITICAL FIX: Set registry key at servic
 
 Sun 26/10/2025 10:52 - v0.4.55 (stable) CRITICAL FIX: CHE now loads historical learning data properly. Restores millions of samples that were not being loaded after WAL refactoring. Uses DbOperationsHandler for thread-safe database access.
 
-Sun 26/10/2025 10:42 - v0.4.54 (stable) CRITICAL FIX: Identity check logic bug. Fixed need\_identity default value - must assume identity needed unless proven otherwise. This fixes the infinite first-run redirect loop when database queries fail.
+Sun 26/10/2025 10:42 - v0.4.54 (stable) CRITICAL FIX: Identity check logic bug. Fixed need_identity default value - must assume identity needed unless proven otherwise. This fixes the infinite first-run redirect loop when database queries fail.
 
-Sun 26/10/2025 10:10 - v0.4.53 (stable) CRITICAL FIX: Database column name bug causing first-run redirect loop. Fixed perf\_custom\_\* column names in SaveToDatabase. This fixes remote machine identity issues after fresh start.
+Sun 26/10/2025 10:10 - v0.4.53 (stable) CRITICAL FIX: Database column name bug causing first-run redirect loop. Fixed perf_custom_* column names in SaveToDatabase. This fixes remote machine identity issues after fresh start.
 
 Sun 26/10/2025 09:28 - v0.4.52 (stable) CRITICAL FIX: CHE API crashes from std::stoi empty string errors. All 6 CHE components now handle NULL values from ExecuteSelectQuery. FIX: Race condition - periodic syncs skip identity fields to prevent overwriting two-star commands. CHANGED: Remote command check now runs every 30 minutes.
 
-Sun 26/10/2025 08:31 - v0.4.51 (stable) FEATURE: Two-star command system for remote field updates. Prefix company\_name or user\_full\_name with \*\* in Supabase to update local machines on startup.
+Sun 26/10/2025 08:31 - v0.4.51 (stable) FEATURE: Two-star command system for remote field updates. Prefix company_name or user_full_name with ** in Supabase to update local machines on startup.
 
-Sun 26/10/2025 08:05 - v0.4.50 (stable) ADDED: disk\_primary\_type field now syncs to Supabase machines table. Shows NVME SSD or HDD from primary disk.
+Sun 26/10/2025 08:05 - v0.4.50 (stable) ADDED: disk_primary_type field now syncs to Supabase machines table. Shows NVME SSD or HDD from primary disk.
 
 Sun 26/10/2025 07:41 - v0.4.49 (stable) ADDED: Automatic cleanup of contaminated CHE temperature baselines during housekeeping. Removes baselines with unrealistic temps below 15C from LHM sensor failures.
 
@@ -80,7 +73,7 @@ Sun 26/10/2025 07:32 - v0.4.48 (stable) PROPERLY FIXED: Database WAL growth - al
 
 Sun 26/10/2025 07:14 - v0.4.47 (stable) FIX: CHE temperature baseline validation - prevent zero/invalid temperatures from LHM failures from contaminating baselines. Minimum 15C threshold added.
 
-Sun 26/10/2025 07:00 - v0.4.46 (stable) FIX: Missing performance fields in Supabase sync. Added perf\_cpu\_logical\_cores perf\_cpu\_max\_ghz perf\_classification\_reason perf\_benchmark\_ms. Removed jsoncpp from component\_versions.
+Sun 26/10/2025 07:00 - v0.4.46 (stable) FIX: Missing performance fields in Supabase sync. Added perf_cpu_logical_cores perf_cpu_max_ghz perf_classification_reason perf_benchmark_ms. Removed jsoncpp from component_versions.
 
 Sun 26/10/2025 06:51 - v0.4.45 (stable) CRITICAL FIX: WAL growth issue - Fixed 10 CHE files violating database access policy causing database locks that prevented WAL checkpoints
 
@@ -108,11 +101,11 @@ Sat 25/10/2025 17:56 - v0.4.33 (stable) CRITICAL FIX: Null pointer crash in evol
 
 Sat 25/10/2025 17:37 - v0.4.32 (stable) CRASH FIX: Temporarily disabled fleet learning to diagnose crash occurring 5 seconds after startup. Also fixed neural migration version detection bug.
 
-Sat 25/10/2025 17:31 - v0.4.31 (stable) FIX: Neural migration version detection bug - read int instead of size\_t to correctly identify network file versions. Fixes spurious Unrecognized network file header warnings.
+Sat 25/10/2025 17:31 - v0.4.31 (stable) FIX: Neural migration version detection bug - read int instead of size_t to correctly identify network file versions. Fixes spurious Unrecognized network file header warnings.
 
-Sat 25/10/2025 17:11 - v0.4.30 (stable) CRITICAL FIX: Database schema column names corrected from custom\_\* to perf\_custom\_\* matching code expectations. This fixes perf\_custom\_\* fields failing to sync to Supabase.
+Sat 25/10/2025 17:11 - v0.4.30 (stable) CRITICAL FIX: Database schema column names corrected from custom_* to perf_custom_* matching code expectations. This fixes perf_custom_* fields failing to sync to Supabase.
 
-Sat 25/10/2025 15:56 - v0.4.29 (stable) FIX: Performance fields now sync to Supabase. ingest-rollup now updates all perf\_\* fields including benchmark\_ms classification\_reason cpu cores/ghz etc.
+Sat 25/10/2025 15:56 - v0.4.29 (stable) FIX: Performance fields now sync to Supabase. ingest-rollup now updates all perf_* fields including benchmark_ms classification_reason cpu cores/ghz etc.
 
 Sat 25/10/2025 15:40 - v0.4.28 (stable) CRITICAL: Automatic fresh start when machine deleted from Supabase. CHE now detects 404 errors and triggers fresh start immediately without requiring service restart.
 
@@ -264,21 +257,21 @@ Fri 17/10/2025 19:37 - v0.3.103 (stable) Auto-update fix
 
 Fri 17/10/2025 19:27 - v0.3.102 (stable) Dashboard CPU fix
 
-Fri 17/10/2025 19:18 - v0.3.102 (stable) Dashboard CPU fix - respects hardware\_poll\_ms
+Fri 17/10/2025 19:18 - v0.3.102 (stable) Dashboard CPU fix - respects hardware_poll_ms
 
 Fri 17/10/2025 19:17 - v0.3.102 (stable) Dashboard CPU fix with rebuilt LHM binary
 
-Fri 17/10/2025 19:06 - v0.3.101 (stable) dashboard CPU fix - respects hardware\_poll\_ms
+Fri 17/10/2025 19:06 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
 
-Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware\_poll\_ms
+Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
 
-Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware\_poll\_ms
+Fri 17/10/2025 19:05 - v0.3.101 (stable) dashboard CPU fix - respects hardware_poll_ms
 
 Fri 17/10/2025 19:02 - v0.3.101+1760716430 (stable) dashboard CPU fix
 
-Fri 17/10/2025 18:53 - v0.3.101 (stable) -ChangelogMessage Fix dashboard view hardcoded 2s interval - respects hardware\_poll\_ms config
+Fri 17/10/2025 18:53 - v0.3.101 (stable) -ChangelogMessage Fix dashboard view hardcoded 2s interval - respects hardware_poll_ms config
 
-Fri 17/10/2025 18:30 - v0.3.101 (stable) Fix dashboard view hardcoded 2s interval - respects hardware\_poll\_ms config
+Fri 17/10/2025 18:30 - v0.3.101 (stable) Fix dashboard view hardcoded 2s interval - respects hardware_poll_ms config
 
 Fri 17/10/2025 18:19 - v0.3.100 (stable) Disable ETW network monitoring CPU killer
 
@@ -624,7 +617,6 @@ Sun 28/09/2025 09:22 - v0.1.2d (stable) Config Page improvements
 Sun 28/09/2025 08:48 - v0.1.2c (stable) UI Improvements and updater improvements
 
 
-
 Sun 28/09/2025 07:35 - v0.1.2b (stable) UI Improvements
 
 Sun 28/09/2025 07:23 - v0.1.2a (stable) UI Improvements
@@ -636,6 +628,311 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
