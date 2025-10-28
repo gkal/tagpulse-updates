@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 28/10/2025 20:31 - v0.5.5 (stable) fix benchmark problem
+
 Tue 28/10/2025 14:19 - v0.5.4 (stable) -ReleaseNotes CRITICAL: CHE Phase Selection Fix - Loads Phase 4 with 1.1M samples instead of Phase 0 on restart. Adjusted Stage 0 threshold to 1.5 sigma for multi-stage filtering. Temp detection verified with real baselines.
 
 Tue 28/10/2025 13:56 - v0.5.3 (stable) implement phase 1 to phase 3 so che can start using fleet learning started
@@ -630,6 +632,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
