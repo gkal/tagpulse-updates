@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 29/10/2025 14:40 - v0.5.7 (stable) CRITICAL FIX: Manual performance override now persists across Restarts
+
 Tue 28/10/2025 20:49 - v0.5.6 (stable) fix bug on profiles of pcs
 
 Tue 28/10/2025 20:31 - v0.5.5 (stable) fix benchmark problem
@@ -634,6 +636,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
