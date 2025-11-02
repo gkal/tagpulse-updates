@@ -1,4 +1,11 @@
 ﻿# TagPulse Versions
+Sun 02-11-2025 07:05 - v0.5.13 (stable) --packall Now all the exe has version included
+
+Sun 02-11-2025 07:01 - v0.5.12 (stable) Test rcedit fix for C++ executables
+
+Sun 02-11-2025 06:58 - v0.5.11 (stable) Test hybrid version injection approach - LOCAL TEST ONLY
+
+Sun 02-11-2025 05:27 - v0.5.10 (stable) Setup build with the same version as the last deploy
 Sat 01-11-2025 20:49 - v0.5.10 (stable) Setup build with the same version as the last deploy
 Sat 01/11/2025 20:36 - v0.5.10 (stable) Setup build with the same version as the last deploy
 
@@ -634,6 +641,10 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
 
 
 
