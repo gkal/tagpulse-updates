@@ -1,4 +1,18 @@
 ﻿# TagPulse Versions
+Sun 02-11-2025 08:02 - v0.5.21 (stable) --packall Now all the exe has version included
+
+Sun 02-11-2025 07:57 - v0.5.20 (stable) Test complete rcedit arguments for file version and language
+
+Sun 02-11-2025 07:33 - v0.5.19 (stable) Test Language Neutral for .NET projects
+
+Sun 02-11-2025 07:33 - v0.5.18 (stable) Test Language Neutral setting
+
+Sun 02-11-2025 07:24 - v0.5.17 (stable) Test exact file version format fix
+
+Sun 02-11-2025 07:20 - v0.5.16 (stable) Test updater version format verification
+
+Sun 02-11-2025 07:08 - v0.5.14 (stable) Test timestamp fix - local only
+
 Sun 02-11-2025 07:05 - v0.5.13 (stable) --packall Now all the exe has version included
 
 Sun 02-11-2025 07:01 - v0.5.12 (stable) Test rcedit fix for C++ executables
@@ -641,6 +655,13 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
 
 
 
