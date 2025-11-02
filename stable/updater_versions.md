@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 02-11-2025 19:23 - v0.5.22 (stable) fix che learning problems and ui updates
+
 Sun 02-11-2025 08:02 - v0.5.21 (stable) --packall Now all the exe has version included
 
 Sun 02-11-2025 07:57 - v0.5.20 (stable) Test complete rcedit arguments for file version and language
@@ -655,6 +657,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
