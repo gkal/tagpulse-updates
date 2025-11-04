@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 04-11-2025 08:42 - v0.5.24 (stable) EMERGENCY ROLLBACK: Fix corrupted 0.5.23 deployment. Restores working 0.5.22 binaries for all machines.
+
 Tue 04-11-2025 08:25 - v0.5.23 (stable) restart for wal reduced
 
 Sun 02-11-2025 08:02 - v0.5.21 (stable) --packall Now all the exe has version included
@@ -657,6 +659,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
