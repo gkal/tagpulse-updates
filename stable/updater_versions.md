@@ -1,5 +1,5 @@
 ﻿# TagPulse Versions
-Sun 02-11-2025 19:23 - v0.5.22 (stable) fix che learning problems and ui updates
+Tue 04-11-2025 08:25 - v0.5.23 (stable) restart for wal reduced
 
 Sun 02-11-2025 08:02 - v0.5.21 (stable) --packall Now all the exe has version included
 
