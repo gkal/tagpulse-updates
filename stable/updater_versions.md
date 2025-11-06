@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 06-11-2025 14:28 - v0.5.31 (stable) TEST: Normal mode validation
+
 Thu 06-11-2025 14:27 - v0.5.30 (stable) Setup build with the same version as the last deploy
 Thu 06-11-2025 14:25 - v0.5.30 (stable) Setup build with the same version as the last deploy
 Thu 06-11-2025 14:25 - v0.5.30 (stable) TEST: Setup validation implementation
@@ -663,6 +665,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
