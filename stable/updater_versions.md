@@ -1,4 +1,5 @@
 ﻿# TagPulse Versions
+Thu 06-11-2025 20:41 - v0.5.34 (stable) Setup build with the same version as the last deploy
 Thu 06-11-2025 20:40 - v0.5.34 (stable) new fixes on tagpulse.exe
 
 Thu 06-11-2025 19:29 - v0.5.33 (stable) Fixes on setup and on updater and on tagpulse
@@ -673,6 +674,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
