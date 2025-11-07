@@ -1,4 +1,5 @@
 ﻿# TagPulse Versions
+Fri 07-11-2025 06:03 - v0.5.35 (stable) Setup build with the same version as the last deploy
 Fri 07-11-2025 06:02 - v0.5.35 (stable) fix tagpulse.exe to open broweser
 
 Thu 06-11-2025 20:41 - v0.5.34 (stable) Setup build with the same version as the last deploy
@@ -676,6 +677,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
