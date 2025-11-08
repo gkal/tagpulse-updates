@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 08-11-2025 18:33 - v0.5.42 (stable) Faster CHE calculations fix performance issues ui fixes
+
 Sat 08-11-2025 18:31 - v0.5.41 (stable) -all Faster CHE calculations fix performance issues
 
 
@@ -684,5 +686,6 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
