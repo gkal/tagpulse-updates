@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 09-11-2025 08:41 - v0.5.44 (stable) Che fleet learning improvments
+
 Sat 08-11-2025 18:47 - v0.5.43 (stable) fix update company name and user full name
 
 Sat 08-11-2025 18:33 - v0.5.42 (stable) Faster CHE calculations fix performance issues ui fixes
@@ -688,6 +690,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
