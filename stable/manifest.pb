@@ -1,7 +1,7 @@
 
-stableÿÁÈÈj0.5.48packages/desktop-0.5.48.exe" ryØ6ĞÙµyÓÃ@EjŸè4°	ğ
+stableËÑÈÈj0.5.48packages/desktop-0.5.48.exe" ryØ6ĞÙµyÓÃ@EjŸè4°	ğ
 ògy3më×Äá(€ b2
-bin/TagPulse.exereplace”0.5.49packages/service-0.5.49.exe" ÆGºD0‹ÚxÛã†_%ø°µ;M¨Úõ˜îÔWC_íNAğ—(€„Ç2D
+bin/TagPulse.exereplace”0.5.50packages/service-0.5.50.exe" dâèŞ[àbŞ¹ƒQ<[«_(şÁUUˆZœoĞgYë™(€„Ç2D
 bin/TagPulseService.exereplaceTagPulseService"TagPulseService“0.5.48packages/lhm-0.5.48.exe" oç®­U°àFX
 ùqÈÆ—ì§	Õ{¡/Äª´âE’ ê»(ÇöÄ"2G
 bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServiceq0.5.48packages/updater-0.5.48.exe" ¤`àşzl#gÂ;ÈĞ]èà­ˆ”ërói¹¦H<±G}(€Ü2"
