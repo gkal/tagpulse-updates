@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 10-11-2025 18:14 - v0.5.47 (stable) fixed 30d 90d ranges history display upgrades and improved cloud updates
+
 Mon 10-11-2025 13:05 - v0.5.46 (stable) missing columns and history ui fixes
 
 Sun 09-11-2025 20:10 - v0.5.45 (stable) history tab added major update show local and cloud data history
@@ -694,6 +696,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
