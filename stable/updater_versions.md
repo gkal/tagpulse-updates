@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 10-11-2025 19:29 - v0.5.49 (stable) history get wrong data from the local db
+
 Mon 10-11-2025 18:44 - v0.5.48 (stable) fix autoreload loop
 
 Mon 10-11-2025 18:14 - v0.5.47 (stable) fixed 30d 90d ranges history display upgrades and improved cloud updates
@@ -698,6 +700,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
