@@ -1,4 +1,5 @@
 ﻿# TagPulse Versions
+Tue 11-11-2025 12:03 - v0.5.51 (stable) Setup build with the same version as the last deploy
 Tue 11-11-2025 10:42 - v0.5.51 (stable) URGENT FIX tagpulseupdater using wrong url
 
 Tue 11-11-2025 05:42 - v0.5.50 (stable) Setup build with the same version as the last deploy
@@ -705,6 +706,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
