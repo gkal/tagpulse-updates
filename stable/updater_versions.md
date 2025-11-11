@@ -1,4 +1,5 @@
 ﻿# TagPulse Versions
+Tue 11-11-2025 05:42 - v0.5.50 (stable) Setup build with the same version as the last deploy
 Mon 10-11-2025 20:02 - v0.5.50 (stable) FIX: Performance profile SQL query typo preventing performance meter from starting on some │
 
 Mon 10-11-2025 19:29 - v0.5.49 (stable) history get wrong data from the local db
@@ -702,6 +703,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
