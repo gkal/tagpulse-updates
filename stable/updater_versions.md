@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 10:15 - v0.5.58 (stable) CRITICAL: Single-channel system implementation
+
 Sun 16-11-2025 10:08 - v0.5.57 (stable) CRITICAL: Single-channel system implementation
 
 Sun 16-11-2025 09:46 - v0.5.56 (stable) CRITICAL FIX: Manifest URL parsing bug that prevented fleet machines
@@ -728,6 +730,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
