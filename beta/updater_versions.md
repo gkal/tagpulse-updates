@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 09:25 - v0.5.55b (beta) fix corrupted manifest from previous failed update
+
 Sun 16-11-2025 09:21 - v0.5.55b (beta) fix corrupted manifest from previous failed update
 
 Sun 16-11-2025 08:59 - v--packallb (beta) 0.5.54 fix update issues
@@ -716,6 +718,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
