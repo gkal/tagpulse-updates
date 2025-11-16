@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 13:16 - v0.5.63 (stable) ok anything work file go full fleet
+
+Sun 16-11-2025 12:37 - v0.5.62b (stable) test purpose emergency
+
 Sun 16-11-2025 12:21 - v0.5.61b (stable) beta tester:update check
 
 Sun 16-11-2025 10:36 - v0.5.60b (stable) beta tester:update check
@@ -738,6 +742,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
