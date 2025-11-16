@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 08:59 - v--packallb (beta) 0.5.54 fix update issues
+
 Sun 16-11-2025 08:45 - v0.5.53b (beta) --packall software impact and history dashboard for testing
 
 Sun 16-11-2025 08:42 - v--packallb (beta) 0.5.53 software impact and history dashboard for testing
@@ -712,6 +714,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 

@@ -1,5 +1,5 @@
 ﻿channel: "beta"
-timestamp_unix: 1763275497
+timestamp_unix: 1763276379
 components {
   name: DESKTOP
   version: "0.5.53b+1763275497"
@@ -13,10 +13,10 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.5.53b+1763275497"
-  package_url: "packages/service-0.5.53b.1763275497.exe"
-  sha256: "\x68\x45\x52\xd2\x58\xf0\x43\xfc\xa2\x9a\x1b\x89\x0d\x93\x59\xf6\x51\xaa\x0d\x94\x58\x5d\xf5\x85\xc4\x76\xb1\x50\x54\xb3\xb0\x9c"
-  size: 12072960
+  version: "--packallb"
+  package_url: "packages/service---packallb.exe"
+  sha256: "\xc9\xba\x20\x37\xcd\xb2\x9e\x7e\xda\x93\x73\x2a\xc4\xfa\x38\x9e\x4e\x20\x60\xa9\x9e\xa9\x62\x17\x60\xc3\xb0\x6f\xcf\xd3\x77\xd7"
+  size: 12071936
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
@@ -26,9 +26,9 @@ components {
 }
 components {
   name: LHM
-  version: "0.5.53b+1763275497"
-  package_url: "packages/lhm-0.5.53b.1763275497.exe"
-  sha256: "\xbf\xc8\x20\x0b\xbc\x66\xc8\x50\xce\x92\x50\xe0\x45\xe1\x47\x38\xc2\x5e\x02\xfd\xf4\x3d\x0a\x59\x7a\xa5\x6c\x14\x24\x24\x73\xbb"
+  version: "--packallb"
+  package_url: "packages/lhm---packallb.exe"
+  sha256: "\x08\x1e\xb4\x13\x7a\x4e\x42\x08\x4b\x7b\x4d\x8d\xdd\x89\x3f\x8d\x1f\x7f\x19\x0a\x35\x2f\x72\x9b\xeb\x9a\x8c\x91\x2b\xa5\x06\x50"
   size: 72432455
   install {
     target: "bin/TagPulseLHMService.exe"
