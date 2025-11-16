@@ -1,10 +1,10 @@
 ﻿channel: "stable"
-timestamp_unix: 1763278980
+timestamp_unix: 1763279173
 components {
   name: DESKTOP
-  version: "0.5.56+1763278980"
-  package_url: "packages/desktop-0.5.56.1763278980.exe"
-  sha256: "\x63\x7e\x3f\xdb\xde\xbb\x24\x46\x0f\xab\x08\x47\x8c\x8b\xd1\xde\x92\x8c\x55\x0d\xe6\x90\x08\xaf\xcb\x1c\xf9\x54\x75\x6c\xce\x42"
+  version: "0.5.56+1763279173"
+  package_url: "packages/desktop-0.5.56.1763279173.exe"
+  sha256: "\x6e\x0f\x3d\x4e\x13\xca\x1b\x99\x6e\x55\x11\x4f\xd5\xcd\x1d\xbf\x26\xb8\x5a\xa7\x08\x3b\x15\xd1\x39\xf8\xc5\xf9\xb6\x66\xd9\x95"
   size: 1609728
   install {
     target: "bin/TagPulse.exe"
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.5.56+1763278980"
-  package_url: "packages/service-0.5.56.1763278980.exe"
-  sha256: "\x42\xbb\x6f\xc8\x63\x5d\x9e\xe6\xca\x22\xad\x9f\x23\xe2\x53\xd4\x6c\x7f\x0b\xfc\x32\xc6\xe1\x8b\x23\x2c\x54\x30\x71\x2f\x47\x86"
+  version: "0.5.56+1763279173"
+  package_url: "packages/service-0.5.56.1763279173.exe"
+  sha256: "\x91\xf5\x29\x42\x83\x91\x30\x92\xf3\x1c\x04\xc6\x5f\xc9\xed\x8f\x2e\xe3\xb9\xf3\x1c\x8a\xd3\xdc\xf9\xa0\x3a\x73\xfc\xc1\x2a\xbb"
   size: 12071936
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.5.56+1763278980"
-  package_url: "packages/lhm-0.5.56.1763278980.exe"
+  version: "0.5.56+1763279173"
+  package_url: "packages/lhm-0.5.56.1763279173.exe"
   sha256: "\x25\xdb\xa1\x1d\x91\x46\x46\x60\xf9\x58\x51\xfa\x4c\x98\xdc\x0b\xa9\xc3\x8c\x6e\xc7\x02\xfd\x84\xe1\xe4\x20\xda\x80\x11\xb0\x28"
   size: 72432455
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.5.56+1763278980"
-  package_url: "packages/updater-0.5.56.1763278980.exe"
+  version: "0.5.56+1763279173"
+  package_url: "packages/updater-0.5.56.1763279173.exe"
   sha256: "\x8c\xd3\xe3\x3c\xd0\x63\x99\x39\x3f\x37\xc1\x24\x91\x1d\x20\x42\x03\x0d\xc5\xc2\xef\xd6\x03\x20\x5a\x4c\x04\x04\xbc\x26\x0e\x70"
   size: 415744
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.5.56+1763278980"
-  package_url: "packages/ui-0.5.56.1763278980.zip"
+  version: "0.5.56+1763279173"
+  package_url: "packages/ui-0.5.56.1763279173.zip"
   sha256: "\x5d\x31\x2a\x54\x09\xfd\x95\xef\xda\xdd\x92\xae\xd7\xed\x3e\x20\x78\xef\xb3\xc0\x06\x8d\xcf\x55\x40\x81\x87\x5a\x32\x17\x28\xb2"
   size: 1442723
   install {

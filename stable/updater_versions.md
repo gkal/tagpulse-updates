@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 09:46 - v0.5.56 (stable) CRITICAL FIX: Manifest URL parsing bug that prevented fleet machines
+
 Sun 16-11-2025 09:43 - v0.5.56 (stable) URL fix for fleet computers
 
 Sun 16-11-2025 09:42 - v0.5.56 (stable) URL fix for fleet computers
@@ -724,6 +726,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
