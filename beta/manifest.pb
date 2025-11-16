@@ -1,5 +1,5 @@
 
-betaÓáåÈl0.5.52bpackages/desktop-0.5.52b.exe" &ı°öØºç‚AM.®.¨Ëi>ÀÃûynAå@äºı(€ b2
+betaÒäåÈl0.5.52bpackages/desktop-0.5.52b.exe" &ı°öØºç‚AM.®.¨Ëi>ÀÃûynAå@äºı(€ b2
 bin/TagPulse.exereplace–0.5.52bpackages/service-0.5.52b.exe" §õ0’ô¯ñsó˜Â8Ö3c{ıB8uÎTa(€ğà2D
 bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.5.52bpackages/lhm-0.5.52b.exe" ¿È ¼fÈPÎ’PàEáG8Â^ıô=
 Yz¥l$$s»(ÇöÄ"2G
