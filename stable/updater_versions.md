@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 16-11-2025 19:54 - v0.5.65 (stable) Added https://codeberg.org/gkal/tagpulse-updates as fall back 24h delay
+
 Sun 16-11-2025 18:08 - v0.5.64 (stable) setup with update fixes
 
 Sun 16-11-2025 15:05 - v0.5.63 (stable) Setup build with the same version as the last deploy
@@ -745,6 +747,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
