@@ -6,11 +6,11 @@ REM Use when the fleet has broken update mechanisms
 setlocal EnableDelayedExpansion
 set "SCRIPT_DIR=%~dp0"
 
-echo.
+echo:
 echo ==========================================
 echo   TagPulse Emergency Fleet Rescue v1.0
 echo ==========================================
-echo.
+echo:
 echo This script will:
 echo 1. Stop all TagPulse services
 echo 2. Download emergency files from GitHub
@@ -31,13 +31,13 @@ if "%CURRENT_VERSION%"=="" (
 echo Detected problematic version: %CURRENT_VERSION%
 echo Will download latest stable version to replace broken installation
 echo Stable URL: https://raw.githubusercontent.com/gkal/tagpulse-updates/main/stable
-echo.
+echo:
 
 REM Ask for confirmation
 choice /M "Continue with emergency rescue using latest stable version"
 if errorlevel 2 exit /b 0
 
-echo.
+echo:
 echo === STEP 1: Stopping TagPulse Services ===
 net stop "TagPulseService" 2>nul
 net stop "TagPulseLHMService" 2>nul
@@ -46,7 +46,7 @@ taskkill /F /IM "TagPulseService.exe" 2>nul
 taskkill /F /IM "TagPulseLHMService.exe" 2>nul
 taskkill /F /IM "TagPulseUpdater.exe" 2>nul
 echo Services stopped.
-echo.
+echo:
 
 REM Create temp directory for downloads
 set "TEMP_DIR=%TEMP%\TagPulseEmergencyRescue"
@@ -54,12 +54,14 @@ if exist "%TEMP_DIR%" rmdir /s /q "%TEMP_DIR%"
 mkdir "%TEMP_DIR%"
 
 echo === STEP 2: Downloading Latest Stable Files ===
-echo.
+echo:
 
-REM Download latest stable manifest to get the current version
+REM Download and parse manifest to get current versions dynamically
 set "STABLE_BASE=https://raw.githubusercontent.com/gkal/tagpulse-updates/main/stable"
 echo Downloading latest stable manifest...
-powershell -Command "try { Invoke-WebRequest -Uri '%STABLE_BASE%/manifest.pb' -OutFile '%TEMP_DIR%\manifest.pb' -UseBasicParsing } catch { exit 1 }"
+
+REM Download both protobuf and textproto versions (textproto is human-readable)
+powershell -Command "try { Invoke-WebRequest -Uri '%STABLE_BASE%/manifest.textproto' -OutFile '%TEMP_DIR%\manifest.textproto' -UseBasicParsing } catch { exit 1 }"
 if errorlevel 1 (
     echo ERROR: Could not download stable manifest
     echo Please check your internet connection and try again
@@ -67,92 +69,95 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM Parse all versions from manifest (binary protobuf format)
-echo Detecting available stable versions...
+echo Detecting available versions from manifest...
 
-REM Create version parsing script to separate display from output
-echo try { > "%TEMP_DIR%\parse_version.ps1"
-echo   $bytes = [System.IO.File]::ReadAllBytes('%TEMP_DIR%\manifest.pb') >> "%TEMP_DIR%\parse_version.ps1"
-echo   $text = [System.Text.Encoding]::ASCII.GetString($bytes) >> "%TEMP_DIR%\parse_version.ps1"
-echo   $versions = @() >> "%TEMP_DIR%\parse_version.ps1"
-echo   $matches = [regex]::Matches($text, '([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?[a-z]?)') >> "%TEMP_DIR%\parse_version.ps1"
-echo   foreach ($match in $matches) { $versions += $match.Groups[1].Value } >> "%TEMP_DIR%\parse_version.ps1"
-echo   if ($versions.Count -eq 0) { Write-Error 'No versions found in manifest'; exit 1 } >> "%TEMP_DIR%\parse_version.ps1"
-echo   $uniqueVersions = $versions ^| Sort-Object -Unique >> "%TEMP_DIR%\parse_version.ps1"
-echo   Write-Host 'Found versions in stable manifest:' -ForegroundColor Green >> "%TEMP_DIR%\parse_version.ps1"
-echo   $uniqueVersions ^| ForEach-Object { Write-Host '  - ' $_ -ForegroundColor Yellow } >> "%TEMP_DIR%\parse_version.ps1"
-echo   $latestVersion = ($uniqueVersions ^| Select-Object -Last 1) >> "%TEMP_DIR%\parse_version.ps1"
-echo   Write-Host '' >> "%TEMP_DIR%\parse_version.ps1"
-echo   Write-Host 'Will use latest version for rescue:' $latestVersion -ForegroundColor Cyan >> "%TEMP_DIR%\parse_version.ps1"
-echo   Write-Output $latestVersion >> "%TEMP_DIR%\parse_version.ps1"
-echo } catch { >> "%TEMP_DIR%\parse_version.ps1"
-echo   Write-Error $_.Exception.Message >> "%TEMP_DIR%\parse_version.ps1"
-echo   exit 1 >> "%TEMP_DIR%\parse_version.ps1"
-echo } >> "%TEMP_DIR%\parse_version.ps1"
+REM Extract version using very simple approach
+echo Extracting version from manifest...
 
-powershell -ExecutionPolicy Bypass -File "%TEMP_DIR%\parse_version.ps1" > "%TEMP_DIR%\latest_version.txt" 2>&1
-if errorlevel 1 (
-    echo ERROR: Could not parse latest version from manifest
-    echo Debug info:
-    type "%TEMP_DIR%\latest_version.txt"
-    pause
-    exit /b 1
-)
+REM Get first version line and save to temp file
+findstr /C:"version:" "%TEMP_DIR%\manifest.textproto" | findstr /V "timestamp" | findstr /N "." | findstr "^1:" > "%TEMP_DIR%\first_version.txt"
 
-echo Component-specific versions will be detected from manifest during download
+REM Read the line and extract version manually
+set /p VERSION_LINE=<"%TEMP_DIR%\first_version.txt"
+REM Remove the line number prefix (1:)
+set "VERSION_LINE=%VERSION_LINE:~2%"
+REM The line looks like: '  version: "0.5.64"'
+REM Extract everything between the quotes
+for /f "tokens=2" %%a in ("%VERSION_LINE%") do set "QUOTED_VER=%%a"
+REM Remove quotes by taking substring (skip first char, remove last char)
+set "CLEAN_VER=%QUOTED_VER:~1,-1%"
+
+echo Found common version: %CLEAN_VER%
+
+REM Create individual version files
+echo %CLEAN_VER% > "%TEMP_DIR%\desktop_version.txt"
+echo %CLEAN_VER% > "%TEMP_DIR%\service_version.txt"
+echo %CLEAN_VER% > "%TEMP_DIR%\lhm_version.txt"
+echo %CLEAN_VER% > "%TEMP_DIR%\updater_version.txt"
+echo %CLEAN_VER% > "%TEMP_DIR%\ui_version.txt"
+
+echo Found component versions:
+echo   DESKTOP: %CLEAN_VER%
+echo   SERVICE: %CLEAN_VER%  
+echo   LHM: %CLEAN_VER%
+echo   UPDATER: %CLEAN_VER%
+echo   UI: %CLEAN_VER%
+
+echo Component versions detected successfully.
 echo Will replace broken version %CURRENT_VERSION% with latest stable components
-echo.
+echo:
 
 REM Download each component using simpler approach
 echo Downloading stable components...
 
-REM Create simple hardcoded download script using known available versions
+REM Create dynamic download script using parsed versions
 echo $base = "%STABLE_BASE%" > "%TEMP_DIR%\download.ps1"
 echo $tempDir = "%TEMP_DIR%" >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
 echo try { >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading components with known available versions...' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
+echo     $desktopVer = (Get-Content "$tempDir\desktop_version.txt").Trim() >> "%TEMP_DIR%\download.ps1"
+echo     $serviceVer = (Get-Content "$tempDir\service_version.txt").Trim() >> "%TEMP_DIR%\download.ps1"
+echo     $lhmVer = (Get-Content "$tempDir\lhm_version.txt").Trim() >> "%TEMP_DIR%\download.ps1"
+echo     $updaterVer = (Get-Content "$tempDir\updater_version.txt").Trim() >> "%TEMP_DIR%\download.ps1"
+echo     $uiVer = (Get-Content "$tempDir\ui_version.txt").Trim() >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host 'Downloading components with current stable versions...' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host " " >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
 echo     $ProgressPreference = 'SilentlyContinue' >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading updater component 0.4 MB' >> "%TEMP_DIR%\download.ps1"
-echo     Invoke-WebRequest -Uri "$base/packages/updater-0.5.62b.exe" -OutFile "$tempDir\updater.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host "Downloading updater component v$updaterVer" >> "%TEMP_DIR%\download.ps1"
+echo     Invoke-WebRequest -Uri "$base/packages/updater-$updaterVer.exe" -OutFile "$tempDir\updater.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host '✓ Updater downloaded' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading UI component 1.4 MB' >> "%TEMP_DIR%\download.ps1"
-echo     Invoke-WebRequest -Uri "$base/packages/ui-0.5.62b.zip" -OutFile "$tempDir\ui.zip" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host "Downloading UI component v$uiVer" >> "%TEMP_DIR%\download.ps1"
+echo     Invoke-WebRequest -Uri "$base/packages/ui-$uiVer.zip" -OutFile "$tempDir\ui.zip" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host '✓ UI downloaded' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading desktop component 1.5 MB' >> "%TEMP_DIR%\download.ps1"
-echo     Invoke-WebRequest -Uri "$base/packages/desktop-0.5.62b.exe" -OutFile "$tempDir\desktop.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host "Downloading desktop component v$desktopVer" >> "%TEMP_DIR%\download.ps1"
+echo     Invoke-WebRequest -Uri "$base/packages/desktop-$desktopVer.exe" -OutFile "$tempDir\desktop.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host '✓ Desktop downloaded' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading service component 11.5 MB' >> "%TEMP_DIR%\download.ps1"
-echo     Invoke-WebRequest -Uri "$base/packages/service-0.5.63.exe" -OutFile "$tempDir\service.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host "Downloading service component v$serviceVer" >> "%TEMP_DIR%\download.ps1"
+echo     Invoke-WebRequest -Uri "$base/packages/service-$serviceVer.exe" -OutFile "$tempDir\service.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host '✓ Service downloaded' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     Write-Host 'Downloading LHM component 69.1 MB - This may take a few minutes' -ForegroundColor Yellow >> "%TEMP_DIR%\download.ps1"
-echo     Invoke-WebRequest -Uri "$base/packages/lhm-0.5.62b.exe" -OutFile "$tempDir\lhm.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host "Downloading LHM component v$lhmVer - This may take a few minutes" -ForegroundColor Yellow >> "%TEMP_DIR%\download.ps1"
+echo     Invoke-WebRequest -Uri "$base/packages/lhm-$lhmVer.exe" -OutFile "$tempDir\lhm.exe" -UseBasicParsing >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host '✓ LHM downloaded' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
-echo     "0.5.62b" ^| Out-File "$tempDir\desktop_version.txt" -Encoding ASCII >> "%TEMP_DIR%\download.ps1"
-echo     "0.5.63" ^| Out-File "$tempDir\service_version.txt" -Encoding ASCII >> "%TEMP_DIR%\download.ps1"
-echo     "0.5.62b" ^| Out-File "$tempDir\lhm_version.txt" -Encoding ASCII >> "%TEMP_DIR%\download.ps1"
-echo     "0.5.62b" ^| Out-File "$tempDir\updater_version.txt" -Encoding ASCII >> "%TEMP_DIR%\download.ps1"
-echo     "0.5.62b" ^| Out-File "$tempDir\ui_version.txt" -Encoding ASCII >> "%TEMP_DIR%\download.ps1"
-echo. >> "%TEMP_DIR%\download.ps1"
+echo: >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host 'All downloads completed successfully' -ForegroundColor Green >> "%TEMP_DIR%\download.ps1"
 echo } catch { >> "%TEMP_DIR%\download.ps1"
 echo     Write-Host 'Download failed' -ForegroundColor Red >> "%TEMP_DIR%\download.ps1"
+echo     Write-Host $_.Exception.Message -ForegroundColor Red >> "%TEMP_DIR%\download.ps1"
 echo     exit 1 >> "%TEMP_DIR%\download.ps1"
 echo } >> "%TEMP_DIR%\download.ps1"
 
 echo Running download script...
-echo.
+echo:
 echo Download Progress: Total size ~84 MB (LHM component is 69 MB)
 echo Please wait - this may take 2-5 minutes depending on connection speed...
-echo.
+echo:
 @powershell -ExecutionPolicy Bypass -File "%TEMP_DIR%\download.ps1"
 if errorlevel 1 (
     echo ERROR: Failed to download components
@@ -160,10 +165,10 @@ if errorlevel 1 (
 )
 
 echo All components downloaded successfully.
-echo.
+echo:
 
 echo === STEP 3: Installing Emergency Files ===
-echo.
+echo:
 
 REM Detect TagPulse installation directory
 set "INSTALL_DIR="
@@ -171,18 +176,9 @@ for /f "tokens=3*" %%i in ('reg query "HKLM\SOFTWARE\TagPulse" /v InstallPath 2^
 if "%INSTALL_DIR%"=="" set "INSTALL_DIR=C:\Program Files\TagPulse"
 
 echo Installing to: %INSTALL_DIR%
-echo.
+echo:
 
-REM Backup existing files
-echo Creating backup of existing files...
-set "BACKUP_DIR=%INSTALL_DIR%\backup\emergency_%CURRENT_VERSION%_%date:~-4,4%%date:~-10,2%%date:~-7,2%_%time:~0,2%%time:~3,2%%time:~6,2%"
-set "BACKUP_DIR=%BACKUP_DIR: =0%"
-mkdir "%BACKUP_DIR%" 2>nul
-
-copy "%INSTALL_DIR%\bin\TagPulse.exe" "%BACKUP_DIR%\" 2>nul
-copy "%INSTALL_DIR%\bin\TagPulseService.exe" "%BACKUP_DIR%\" 2>nul
-copy "%INSTALL_DIR%\bin\TagPulseLHMService.exe" "%BACKUP_DIR%\" 2>nul
-copy "%INSTALL_DIR%\bin\TagPulseUpdater.exe" "%BACKUP_DIR%\" 2>nul
+REM Skip backup - this is emergency rescue for broken installations
 
 echo   1. Installing desktop component...
 copy "%TEMP_DIR%\desktop.exe" "%INSTALL_DIR%\bin\TagPulse.exe" /Y
@@ -221,7 +217,7 @@ if errorlevel 1 (
 )
 
 echo All components installed successfully.
-echo.
+echo:
 
 echo === STEP 4: Updating Registry Versions ===
 
@@ -245,7 +241,7 @@ reg add "HKLM\SOFTWARE\TagPulse\Components" /v LHM /t REG_SZ /d "%LHM_VER%" /f >
 reg add "HKLM\SOFTWARE\TagPulse\Components" /v Updater /t REG_SZ /d "%UPDATER_VER%" /f >nul
 reg add "HKLM\SOFTWARE\TagPulse\Components" /v UI /t REG_SZ /d "%UI_VER%" /f >nul
 echo Registry updated with actual component versions
-echo.
+echo:
 
 echo === STEP 5: Starting TagPulse Services ===
 net start "TagPulseService"
@@ -254,25 +250,25 @@ if errorlevel 1 (
 ) else (
     echo TagPulseService started successfully
 )
-echo.
+echo:
 
 echo === EMERGENCY RESCUE COMPLETED ===
-echo.
+echo:
 echo Summary:
 echo - Previous problematic version: %CURRENT_VERSION%
-echo - Updated to stable version: %FIXED_VERSION%
-echo - Backup location: %BACKUP_DIR%
+echo - Updated to stable version: %CLEAN_VER%
 echo - Installation: %INSTALL_DIR%
-echo.
+echo - No backup created (emergency rescue mode)
+echo:
 echo The emergency rescue is complete!
 echo TagPulse should now be running with the latest stable version.
-echo.
+echo:
 
 :cleanup
 echo Cleaning up temporary files...
 rmdir /s /q "%TEMP_DIR%" 2>nul
 
-echo.
+echo:
 echo Press any key to exit...
 pause >nul
 exit /b 0
