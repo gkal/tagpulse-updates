@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 17-11-2025 13:42 - v0.5.67 (stable) fix beta stable difference
+
 Mon 17-11-2025 13:06 - v0.5.66b (stable) history fixes updater fixes,cleanup 30d on the supa records
 
 Mon 17-11-2025 12:55 - v0.5.65 (stable) Setup build with the same version as the last deploy
@@ -750,6 +752,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
