@@ -1,2 +1,62 @@
 channel: "stable"
-timestamp_unix: 1763384269
+timestamp_unix: 1763385948
+components {
+  name: DESKTOP
+  version: "0.5.69b"
+  package_url: "packages/desktop-0.5.69b.exe"
+  sha256: "\xfc\x6b\x8b\xe4\xc2\x50\xd0\xec\xd6\xef\x02\x7e\x51\x26\xb2\xd9\xd7\x12\x9f\x6a\x37\x48\x91\xec\xc5\xa5\x9d\x87\xd9\xea\xc7\x58"
+  size: 1619968
+  install {
+    target: "bin/TagPulse.exe"
+    type: "replace"
+  }
+}
+components {
+  name: SERVICE
+  version: "0.5.69b"
+  package_url: "packages/service-0.5.69b.exe"
+  sha256: "\xf6\x89\xaf\x07\xe4\x5e\xfe\x3f\x7c\xff\xfe\x39\xe3\x21\xae\xe5\x14\xb2\xf2\x04\x2f\x2a\x12\xa4\x04\x4b\x92\x8e\x6c\x26\x7b\x17"
+  size: 12079616
+  install {
+    target: "bin/TagPulseService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: LHM
+  version: "0.5.69b"
+  package_url: "packages/lhm-0.5.69b.exe"
+  sha256: "\x32\x35\x0d\x4c\x7c\xf7\xb1\xbe\x58\x4f\x7b\xf5\xe8\x8a\x55\x42\x8e\x28\x08\x35\x9e\xe0\xed\xe3\xea\xd0\x68\x0f\x6e\xc4\x8d\xfc"
+  size: 72432455
+  install {
+    target: "bin/TagPulseLHMService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: UPDATER
+  version: "0.5.69b"
+  package_url: "packages/updater-0.5.69b.exe"
+  sha256: "\x22\xda\x54\x3a\xd2\x15\x92\x75\xaf\x41\xc3\xb3\x56\x3b\x77\x47\x27\xbc\xa8\x00\x7b\x95\x7e\x90\x73\xab\x8d\xd4\xb2\x1a\x8e\x57"
+  size: 518144
+  install {
+    target: "bin/TagPulseUpdater.exe"
+    type: "replace"
+  }
+}
+components {
+  name: UI
+  version: "0.5.69b"
+  package_url: "packages/ui-0.5.69b.zip"
+  sha256: "\xed\xfa\xc6\xc7\x5c\x6b\x5a\xf9\xcf\x01\x20\x4c\x58\xe9\x46\x0e\x1f\x86\x28\xd7\x63\x36\x38\x87\x0e\xdc\xfa\x3d\x14\x96\x80\xd9"
+  size: 1442860
+  install {
+    target: "ui"
+    type: "unzip-replace"
+    reload_ui: true
+  }
+}

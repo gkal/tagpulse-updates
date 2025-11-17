@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 17-11-2025 15:26 - v0.5.69b (stable) history ui changes
+
 Mon 17-11-2025 14:58 - v0.5.68 (stable) Setup build with the same version as the last deploy
 Mon 17-11-2025 14:31 - v0.5.68 (stable) New updater and setup fixes
 
@@ -756,6 +758,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
