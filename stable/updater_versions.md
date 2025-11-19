@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 19-11-2025 06:18 - v0.5.71b (stable) Better ui message form the end users and support for the proccess
+
 Tue 18-11-2025 17:47 - v0.5.70 (stable) added online check every hour
 
 Mon 17-11-2025 15:26 - v0.5.69b (stable) history ui changes
@@ -760,6 +762,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
