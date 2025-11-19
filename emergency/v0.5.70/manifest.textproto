@@ -1,0 +1,98 @@
+channel: "emergency"
+emergency_for_version: "0.5.70"
+emergency_fixed_version: "0.5.75"
+timestamp_unix: 1763553905
+components {
+  name: DESKTOP
+  version: "0.5.75"
+  package_url: "packages/desktop-0.5.75.exe"
+  sha256: "\x29\xb3\x61\x63\x35\xbd\x2a\x98\x37\xc5\x75\x38\xa5\xfc\x8b\x8a\x22\xda\xb8\x02\xf7\xc4\x5b\xdb\x57\x60\x04\x61\x9d\x05\x19\xb4"
+  size: 1619456
+  install {
+    target: "bin/TagPulse.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: SERVICE
+  version: "0.5.75"
+  package_url: "packages/service-0.5.75.exe"
+  sha256: "\xea\x98\x4d\x36\xed\xb4\xc4\xd7\x51\x6b\x16\x3c\x1d\x45\x42\x44\xed\x75\xec\x0b\x45\x9d\x4a\x74\xa9\xbc\x18\x10\x0e\x6f\xa9\x29"
+  size: 12157952
+  install {
+    target: "bin/TagPulseService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+    reload_ui: true
+  }
+}
+components {
+  name: LHM
+  version: "0.5.75"
+  package_url: "packages/lhm-0.5.75.exe"
+  sha256: "\x5e\xe0\x54\xd3\xca\xb8\x7e\xa9\x7a\x93\xfc\x82\x78\x75\xd8\x8b\x0b\xd7\x54\x77\x63\x3d\x38\xfd\xcf\x30\xec\x78\x6b\x64\x08\x07"
+  size: 72432455
+  install {
+    target: "bin/TagPulseLHMService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+    reload_ui: true
+  }
+}
+components {
+  name: UPDATER
+  version: "0.5.75"
+  package_url: "packages/updater-0.5.75.exe"
+  sha256: "\xc5\xfe\x38\xf5\xc9\x28\x06\xea\xe4\xb1\x5d\x26\x8b\x5d\x48\x55\x28\x6a\xce\x5e\xd2\x50\x75\xd5\x3c\xc9\xf6\x09\xe0\x0e\xe2\x1d"
+  size: 525312
+  install {
+    target: "bin/TagPulseUpdater.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: SPDLOG_DLL
+  version: "0.5.75"
+  package_url: "packages/spdlog_dll-0.5.75.exe"
+  sha256: "\x7a\x56\x67\xbc\x8c\x77\xae\x07\xc8\xb5\xbc\xc1\x17\x89\x54\xbe\x65\xa2\x18\xb8\xf1\x00\x92\x64\x6d\x91\xc5\x5d\xcb\x60\xd7\x5f"
+  size: 285184
+  install {
+    target: "bin/spdlog.dll"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: FMT_DLL
+  version: "0.5.75"
+  package_url: "packages/fmt_dll-0.5.75.exe"
+  sha256: "\xe9\x00\x8c\xed\x1d\x9f\x4a\x4e\x15\xb1\x8b\x24\x7c\xc2\x0a\x32\xb4\x1e\x7a\x0b\xc7\x65\x9e\x91\x16\x33\x9e\xb5\x34\xf2\xf2\x01"
+  size: 130048
+  install {
+    target: "bin/fmt.dll"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+  }
+}
+components {
+  name: UI
+  version: "0.5.75"
+  package_url: "packages/ui-0.5.75.zip"
+  sha256: "\xf8\xd9\x01\x22\xf8\x22\x25\x22\xf1\x1c\xf1\x81\xc3\xe4\x4d\xbe\xa6\x3b\x69\xee\x0f\x60\x1e\x9e\x9e\x15\x0c\x64\x5b\xb8\xf6\xef"
+  size: 1442726
+  install {
+    target: "ui"
+    type: "unzip-replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+    reload_ui: true
+  }
+}
