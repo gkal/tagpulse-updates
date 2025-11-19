@@ -1,0 +1,86 @@
+channel: "beta"
+timestamp_unix: 1763546973
+components {
+  name: DESKTOP
+  version: "0.5.72b"
+  package_url: "packages/desktop-0.5.72b.exe"
+  sha256: "\x27\x3c\x53\x0a\x18\xec\xcc\x21\x0c\xf2\x55\xac\x08\x4e\x5b\x57\x00\x2b\xc7\x2a\x7c\xc7\x4e\xac\x48\x6c\xc8\xf1\x15\x8a\x73\xcb"
+  size: 1619456
+  install {
+    target: "bin/TagPulse.exe"
+    type: "replace"
+  }
+}
+components {
+  name: SERVICE
+  version: "0.5.72b"
+  package_url: "packages/service-0.5.72b.exe"
+  sha256: "\x03\xaa\x05\x55\xcf\xfd\xdf\x5c\x49\x57\x4c\x1b\x6e\x57\xa2\xb0\x66\x6f\xa4\x49\xfd\x25\x80\x0c\xed\xd2\x1e\x04\x2f\x00\x4d\xdb"
+  size: 12146176
+  install {
+    target: "bin/TagPulseService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+    reload_ui: true
+  }
+}
+components {
+  name: LHM
+  version: "0.5.69b"
+  package_url: "packages/lhm-0.5.69b.exe"
+  sha256: "\x32\x35\x0d\x4c\x7c\xf7\xb1\xbe\x58\x4f\x7b\xf5\xe8\x8a\x55\x42\x8e\x28\x08\x35\x9e\xe0\xed\xe3\xea\xd0\x68\x0f\x6e\xc4\x8d\xfc"
+  size: 72432455
+  install {
+    target: "bin/TagPulseLHMService.exe"
+    type: "replace"
+    stop_services: "TagPulseService"
+    start_services: "TagPulseService"
+    reload_ui: true
+  }
+}
+components {
+  name: UPDATER
+  version: "0.5.72b"
+  package_url: "packages/updater-0.5.72b.exe"
+  sha256: "\xb9\xfc\xcf\x4b\x8d\xb5\xcc\x91\xdb\x88\xc7\xcb\x4b\x73\x14\xfe\x21\x7c\xc4\x30\xf3\x5b\x65\xa7\xe9\x70\x05\x96\x7d\x48\xa7\xe5"
+  size: 525312
+  install {
+    target: "bin/TagPulseUpdater.exe"
+    type: "replace"
+  }
+}
+components {
+  name: SPDLOG_DLL
+  version: "0.5.71b"
+  package_url: "packages/spdlog_dll-0.5.71b.exe"
+  sha256: "\x7a\x56\x67\xbc\x8c\x77\xae\x07\xc8\xb5\xbc\xc1\x17\x89\x54\xbe\x65\xa2\x18\xb8\xf1\x00\x92\x64\x6d\x91\xc5\x5d\xcb\x60\xd7\x5f"
+  size: 285184
+  install {
+    target: "bin/spdlog.dll"
+    type: "replace"
+  }
+}
+components {
+  name: FMT_DLL
+  version: "0.5.71b"
+  package_url: "packages/fmt_dll-0.5.71b.exe"
+  sha256: "\xe9\x00\x8c\xed\x1d\x9f\x4a\x4e\x15\xb1\x8b\x24\x7c\xc2\x0a\x32\xb4\x1e\x7a\x0b\xc7\x65\x9e\x91\x16\x33\x9e\xb5\x34\xf2\xf2\x01"
+  size: 130048
+  install {
+    target: "bin/fmt.dll"
+    type: "replace"
+  }
+}
+components {
+  name: UI
+  version: "0.5.70"
+  package_url: "packages/ui-0.5.70.zip"
+  sha256: "\x35\x78\x1b\x65\x0f\x46\xb9\xb0\x84\xab\xec\x3f\xb9\x47\x2e\x00\x3d\x2a\x22\x87\xe9\x20\xbd\xe6\xdf\xb5\x1e\xbe\xa4\x81\x8f\xfd"
+  size: 1442726
+  install {
+    target: "ui"
+    type: "unzip-replace"
+    reload_ui: true
+  }
+}
