@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 19-11-2025 13:10 - v0.5.74 (stable) new channels beta and stable
+
 Wed 19-11-2025 12:51 - v0.5.73 (stable) new channels beta and stable
 
 Wed 19-11-2025 12:09 - v0.5.72b (beta) new channels beta and stable
@@ -766,6 +768,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
