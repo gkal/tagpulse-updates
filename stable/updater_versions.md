@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 19-11-2025 13:40 - v0.5.75 (stable) CRITICAL FIX: Added stop_services for DLL updates to prevent file lock errors
+
 Wed 19-11-2025 13:10 - v0.5.74 (stable) new channels beta and stable
 
 Wed 19-11-2025 12:51 - v0.5.73 (stable) new channels beta and stable
@@ -768,6 +770,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
