@@ -1,11 +1,11 @@
 channel: "stable"
-timestamp_unix: 1763525905
+timestamp_unix: 1763549469
 components {
   name: DESKTOP
-  version: "0.5.71b"
-  package_url: "packages/desktop-0.5.71b.exe"
-  sha256: "\x71\x0c\x8d\x6b\xe5\x89\x07\x98\x27\x36\x35\x4e\x52\x2a\x29\x6b\x5b\x01\xb0\xd5\x12\x29\x64\xc3\xcc\xac\x9c\x74\x5d\x93\xc5\x37"
-  size: 1619968
+  version: "0.5.72b"
+  package_url: "packages/desktop-0.5.72b.exe"
+  sha256: "\x27\x3c\x53\x0a\x18\xec\xcc\x21\x0c\xf2\x55\xac\x08\x4e\x5b\x57\x00\x2b\xc7\x2a\x7c\xc7\x4e\xac\x48\x6c\xc8\xf1\x15\x8a\x73\xcb"
+  size: 1619456
   install {
     target: "bin/TagPulse.exe"
     type: "replace"
@@ -13,15 +13,16 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.5.71b"
-  package_url: "packages/service-0.5.71b.exe"
-  sha256: "\x61\x25\xe3\x5e\xf8\xa8\x28\x75\x96\x14\xbf\x53\x52\x00\xe9\x00\x10\xd6\x78\xdd\x0a\xaf\xc9\xcd\x52\x9a\x50\xdd\xd4\xe0\xd8\x3a"
-  size: 12142080
+  version: "0.5.73"
+  package_url: "packages/service-0.5.73.exe"
+  sha256: "\x67\x55\xe5\x80\xa0\xa2\xaf\x17\xe9\xfe\x0c\xf4\xb2\x97\x12\xe4\x47\xc4\x5e\x7f\x8c\xf7\x5d\x01\x7c\xc7\x60\x33\xba\x37\x1c\x98"
+  size: 12146176
   install {
     target: "bin/TagPulseService.exe"
     type: "replace"
     stop_services: "TagPulseService"
     start_services: "TagPulseService"
+    reload_ui: true
   }
 }
 components {
@@ -35,14 +36,15 @@ components {
     type: "replace"
     stop_services: "TagPulseService"
     start_services: "TagPulseService"
+    reload_ui: true
   }
 }
 components {
   name: UPDATER
-  version: "0.5.71b"
-  package_url: "packages/updater-0.5.71b.exe"
-  sha256: "\x52\x4e\x52\x5b\x92\xab\x14\xf6\x7e\x25\xf5\x2d\x36\x76\xcf\x04\xa4\x84\xdb\xcf\xbb\x88\x75\xb7\x78\x3d\x62\xd7\x7b\x90\x82\x84"
-  size: 518144
+  version: "0.5.72b"
+  package_url: "packages/updater-0.5.72b.exe"
+  sha256: "\xb9\xfc\xcf\x4b\x8d\xb5\xcc\x91\xdb\x88\xc7\xcb\x4b\x73\x14\xfe\x21\x7c\xc4\x30\xf3\x5b\x65\xa7\xe9\x70\x05\x96\x7d\x48\xa7\xe5"
+  size: 525312
   install {
     target: "bin/TagPulseUpdater.exe"
     type: "replace"
