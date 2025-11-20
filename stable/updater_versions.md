@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 20-11-2025 16:23 - v0.5.80 (stable) fix database schema for software impact
+
 Thu 20-11-2025 15:41 - v0.5.79 (stable) fix database schema for software impact
 
 Thu 20-11-2025 15:33 - v0.5.78b (stable) fix database schema for software impact
@@ -787,6 +789,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
