@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 20-11-2025 19:13 - v0.5.86 (stable) test to see if the fixes work
+
 Thu 20-11-2025 19:04 - v0.5.85 (stable) test to see if the fixes work
 
 Thu 20-11-2025 18:34 - v0.5.84 (stable) test to see if the fixes work
@@ -799,6 +801,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
