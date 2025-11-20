@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 20-11-2025 18:20 - v0.5.83 (stable) Fix: Version injection now works correctly for all components
+
 Thu 20-11-2025 17:13 - v0.5.82 (stable) Fix: Version injection now works correctly for all components
 
 Thu 20-11-2025 16:26 - v0.5.81 (stable) fix database schema for software impact
@@ -793,6 +795,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
