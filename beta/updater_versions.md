@@ -1,4 +1,49 @@
 ﻿# TagPulse Versions
+Fri 21-11-2025 12:11 - v0.5.89b (stable) fixed updates values to registry
+
+Fri 21-11-2025 06:27 - v0.5.89 (stable) Update values from registry now
+
+Fri 21-11-2025 06:01 - v0.5.88 (stable) test to see if the fixes work
+
+Thu 20-11-2025 19:24 - v0.5.87 (stable) test to see if the fixes work
+
+Thu 20-11-2025 19:13 - v0.5.86 (stable) test to see if the fixes work
+
+Thu 20-11-2025 19:04 - v0.5.85 (stable) test to see if the fixes work
+
+Thu 20-11-2025 18:34 - v0.5.84 (stable) test to see if the fixes work
+
+Thu 20-11-2025 18:20 - v0.5.83 (stable) Fix: Version injection now works correctly for all components
+
+Thu 20-11-2025 17:13 - v0.5.82 (stable) Fix: Version injection now works correctly for all components
+
+Thu 20-11-2025 16:26 - v0.5.81 (stable) fix database schema for software impact
+
+Thu 20-11-2025 16:23 - v0.5.80 (stable) fix database schema for software impact
+
+Thu 20-11-2025 15:41 - v0.5.79 (stable) fix database schema for software impact
+
+Thu 20-11-2025 15:33 - v0.5.78b (stable) fix database schema for software impact
+
+Thu 20-11-2025 14:25 - v0.5.77 (stable) Setup build with the same version as the last deploy
+Thu 20-11-2025 14:19 - v0.5.77 (stable) Setup build with the same version as the last deploy
+Thu 20-11-2025 13:58 - v0.5.77 (stable) Setup build with the same version as the last deploy
+Wed 19-11-2025 18:32 - v0.5.77 (stable) Correct manifest
+
+Wed 19-11-2025 17:24 - v0.5.76 (stable) Setup build with the same version as the last deploy
+Wed 19-11-2025 17:08 - v0.5.76 (stable) improves on updates
+
+Wed 19-11-2025 16:55 - v0.5.75 (stable) Setup build with the same version as the last deploy
+Wed 19-11-2025 14:06 - v0.5.75 (stable) Emergency fix for 0.5.68 PCs - DLL lock fix
+
+Wed 19-11-2025 14:05 - v0.5.75 (stable) Emergency fix for 0.5.70 PCs - DLL lock fix
+
+Wed 19-11-2025 13:40 - v0.5.75 (stable) CRITICAL FIX: Added stop_services for DLL updates to prevent file lock errors
+
+Wed 19-11-2025 13:10 - v0.5.74 (stable) new channels beta and stable
+
+Wed 19-11-2025 12:51 - v0.5.73 (stable) new channels beta and stable
+
 Wed 19-11-2025 12:09 - v0.5.72b (beta) new channels beta and stable
 
 Wed 19-11-2025 06:18 - v0.5.71b (stable) Better ui message form the end users and support for the proccess
@@ -764,6 +809,31 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
