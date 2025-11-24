@@ -1,4 +1,7 @@
 ﻿# TagPulse Versions
+Mon 24-11-2025 19:05 - v0.5.102 (stable) setup and updater fixes
+
+Mon 24-11-2025 19:04 - v0.5.101 (stable) Setup build with the same version as the last deploy
 Mon 24-11-2025 18:31 - v0.5.101 (stable) CHE better termal protection alerts
 
 Mon 24-11-2025 18:22 - v0.5.100 (stable) Setup build with the same version as the last deploy
@@ -834,6 +837,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
