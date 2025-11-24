@@ -1,4 +1,5 @@
 ﻿# TagPulse Versions
+Mon 24-11-2025 16:05 - v0.5.98 (stable) Setup build with the same version as the last deploy
 Sun 23-11-2025 14:33 - v0.5.98 (stable) Optimazing Che Computation
 
 Sun 23-11-2025 14:09 - v0.5.97b (stable) Optimization of neural networks
@@ -825,6 +826,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
