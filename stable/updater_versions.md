@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 25-11-2025 09:01 - v0.5.106 (stable) updater fixes
+
 Tue 25-11-2025 07:22 - v0.5.105 (stable) CHE better termal protection alerts
 
 Mon 24-11-2025 20:12 - v0.5.104 (stable) CHE better termal protection alerts
@@ -844,6 +846,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
