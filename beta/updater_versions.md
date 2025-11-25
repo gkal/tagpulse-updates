@@ -1,4 +1,31 @@
 ﻿# TagPulse Versions
+Tue 25-11-2025 13:00 - v0.5.108b (stable) tagpulseupdater check
+
+Tue 25-11-2025 09:12 - v0.5.107 (stable) updater fixes
+
+Tue 25-11-2025 09:01 - v0.5.106 (stable) updater fixes
+
+Tue 25-11-2025 07:22 - v0.5.105 (stable) CHE better termal protection alerts
+
+Mon 24-11-2025 20:12 - v0.5.104 (stable) CHE better termal protection alerts
+
+Mon 24-11-2025 19:33 - v0.5.103 (stable) CHE better termal protection alerts
+
+Mon 24-11-2025 19:32 - v0.5.102 (stable) Setup build with the same version as the last deploy
+Mon 24-11-2025 19:05 - v0.5.102 (stable) setup and updater fixes
+
+Mon 24-11-2025 19:04 - v0.5.101 (stable) Setup build with the same version as the last deploy
+Mon 24-11-2025 18:31 - v0.5.101 (stable) CHE better termal protection alerts
+
+Mon 24-11-2025 18:22 - v0.5.100 (stable) Setup build with the same version as the last deploy
+Mon 24-11-2025 17:53 - v0.5.100 (stable) setup and updater fixes
+
+Mon 24-11-2025 17:51 - v0.5.99 (stable) Setup build with the same version as the last deploy
+Mon 24-11-2025 16:22 - v0.5.99 (stable) setup and updater fixes
+
+Mon 24-11-2025 16:05 - v0.5.98 (stable) Setup build with the same version as the last deploy
+Sun 23-11-2025 14:33 - v0.5.98 (stable) Optimazing Che Computation
+
 Sun 23-11-2025 14:09 - v0.5.97b (stable) Optimization of neural networks
 
 Sun 23-11-2025 09:04 - v0.5.96 (stable) software impact complete
@@ -823,6 +850,22 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
