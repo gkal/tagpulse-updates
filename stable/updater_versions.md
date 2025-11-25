@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Tue 25-11-2025 14:20 - v0.5.109 (stable) neural network fix
+
+Tue 25-11-2025 13:00 - v0.5.108b (stable) tagpulseupdater check
+
 Tue 25-11-2025 09:12 - v0.5.107 (stable) updater fixes
 
 Tue 25-11-2025 09:01 - v0.5.106 (stable) updater fixes
@@ -848,6 +852,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
