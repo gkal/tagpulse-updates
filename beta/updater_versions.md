@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Wed 26-11-2025 18:19 - v0.5.113b (stable) major update Commands
+
+Tue 25-11-2025 16:29 - v0.5.112 (stable) CHE neural fix
+
 Tue 25-11-2025 16:05 - v0.5.111b (stable) CHE baseline fix v2
 
 Tue 25-11-2025 15:31 - v0.5.111 (stable) CHE baseline fix
@@ -858,6 +862,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
