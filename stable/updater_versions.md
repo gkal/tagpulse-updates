@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 20:42 - v0.5.124 (stable) crash fixes
+
 Thu 27-11-2025 19:44 - v0.5.123 (stable) improved and history of the pdb files stored locally
 
 Thu 27-11-2025 18:33 - v0.5.122 (stable) recognize the type of the computer
@@ -882,6 +884,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
