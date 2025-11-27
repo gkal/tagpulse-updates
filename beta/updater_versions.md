@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 16:56 - v0.5.119b (stable) recognize the type of the computer
+
 Thu 27-11-2025 15:19 - v0.5.118b (stable) added windows service recovery fixed
 
 Thu 27-11-2025 11:36 - v0.5.117b (stable) added windows service recovery
@@ -872,6 +874,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
