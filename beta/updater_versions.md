@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 08:11 - v0.5.114b (stable) Fix auto-start: use HKLM instead of HKCU so TagPulse.exe starts for all users on login
+
 Wed 26-11-2025 18:19 - v0.5.113b (stable) major update Commands
 
 Tue 25-11-2025 16:29 - v0.5.112 (stable) CHE neural fix
@@ -862,6 +864,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
