@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 11:14 - v0.5.116b (stable) added windows service recovery
+
 Thu 27-11-2025 09:20 - v0.5.115b (stable) db fixes
 
 Thu 27-11-2025 08:11 - v0.5.114b (stable) Fix auto-start: use HKLM instead of HKCU so TagPulse.exe starts for all users on login
@@ -866,6 +868,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
