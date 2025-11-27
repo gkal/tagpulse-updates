@@ -1,4 +1,20 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 17:24 - v0.5.120 (stable) recognize the type of the computer
+
+Thu 27-11-2025 16:56 - v0.5.119b (stable) recognize the type of the computer
+
+Thu 27-11-2025 15:19 - v0.5.118b (stable) added windows service recovery fixed
+
+Thu 27-11-2025 11:36 - v0.5.117b (stable) added windows service recovery
+
+Thu 27-11-2025 11:14 - v0.5.116b (stable) added windows service recovery
+
+Thu 27-11-2025 09:20 - v0.5.115b (stable) db fixes
+
+Thu 27-11-2025 08:11 - v0.5.114b (stable) Fix auto-start: use HKLM instead of HKCU so TagPulse.exe starts for all users on login
+
+Wed 26-11-2025 18:19 - v0.5.113b (stable) major update Commands
+
 Tue 25-11-2025 16:29 - v0.5.112 (stable) CHE neural fix
 
 Tue 25-11-2025 16:05 - v0.5.111b (stable) CHE baseline fix v2
@@ -860,6 +876,14 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
 
 
 
