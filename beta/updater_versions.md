@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 27-11-2025 11:36 - v0.5.117b (stable) added windows service recovery
+
 Thu 27-11-2025 11:14 - v0.5.116b (stable) added windows service recovery
 
 Thu 27-11-2025 09:20 - v0.5.115b (stable) db fixes
@@ -868,6 +870,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
