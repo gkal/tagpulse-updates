@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 28-11-2025 18:44 - v0.5.132 (stable) sqlite crash fix
+
 Fri 28-11-2025 17:31 - v0.5.131 (stable) Crash on update fixed
 
 Fri 28-11-2025 17:12 - v0.5.130 (stable) Crashes fix
@@ -898,6 +900,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
