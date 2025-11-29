@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 29-11-2025 15:08 - v0.5.139 (stable) Correct crash report to supabase
+
 Sat 29-11-2025 14:27 - v0.5.138 (stable) Fixed UTF-8 support
 
 Sat 29-11-2025 14:05 - v0.5.137 (stable) Added software and windows update support
@@ -912,6 +914,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
