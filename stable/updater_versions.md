@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 29-11-2025 08:44 - v0.5.135 (stable) Added kill button to proccess network detection fixed
+
 Sat 29-11-2025 06:52 - v0.5.134 (stable) Network priority fix 2
 
 Sat 29-11-2025 06:31 - v0.5.133 (stable) Network priority fix
@@ -904,6 +906,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
