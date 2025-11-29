@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 29-11-2025 16:04 - v0.5.143 (stable) fix updater housekeeping of the crash files
+
 Sat 29-11-2025 15:59 - v0.5.142 (stable) wal fix #2
 
 Sat 29-11-2025 15:53 - v0.5.141 (stable) Fixced wal size increase
@@ -920,6 +922,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
