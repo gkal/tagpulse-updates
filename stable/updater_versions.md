@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 29-11-2025 22:02 - v0.5.146 (stable) Fixed migration issues for the local sqlite
+
 Sat 29-11-2025 21:30 - v0.5.145 (stable) Added software run at start with ability to disable items
 
 Sat 29-11-2025 17:07 - v0.5.144 (stable) Added software runs at startup
@@ -926,6 +928,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
