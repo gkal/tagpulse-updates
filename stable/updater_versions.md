@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 30-11-2025 14:57 - v0.5.152 (stable) restore old working broweser window and fix the stop service to on/off
+
 Sun 30-11-2025 13:21 - v0.5.151 (stable) fixed open same brower window if it is open already
 
 Sun 30-11-2025 12:10 - v0.5.150 (stable) Update no loger report crash
@@ -938,6 +940,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
