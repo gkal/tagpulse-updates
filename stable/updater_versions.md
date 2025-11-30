@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 30-11-2025 10:54 - v0.5.149 (stable) all commands working
+
 Sun 30-11-2025 08:20 - v0.5.148 (stable) Fixed cryptominer identifier
 
 Sun 30-11-2025 07:37 - v0.5.147 (stable) Fixed che temp baselines and windows updates recogninsion
@@ -932,6 +934,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
