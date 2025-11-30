@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 30-11-2025 13:21 - v0.5.151 (stable) fixed open same brower window if it is open already
+
 Sun 30-11-2025 12:10 - v0.5.150 (stable) Update no loger report crash
 
 Sun 30-11-2025 10:54 - v0.5.149 (stable) all commands working
@@ -936,6 +938,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
