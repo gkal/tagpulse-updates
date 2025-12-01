@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 11:28 - v0.5.154 (stable) fix che error
+
 Sun 30-11-2025 19:16 - v0.5.153 (stable) Fixed sync of hardware changes
 
 Sun 30-11-2025 14:57 - v0.5.152 (stable) restore old working broweser window and fix the stop service to on/off
@@ -942,6 +944,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
