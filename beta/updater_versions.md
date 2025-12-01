@@ -1,4 +1,88 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 16:22 - v0.5.160b (stable) SmartAttribute-validation-and-crash-fixes
+
+Mon 01-12-2025 16:18 - v0.5.160 (stable) Fix crash handler to use Win32 APIs (text reports now work even with heap corruption), add
+
+Mon 01-12-2025 15:53 - v0.5.159 (stable) propably fix for the machine that dont send windows updates
+
+Mon 01-12-2025 15:09 - v0.5.158 (stable) fix upload software-windows updates
+
+Mon 01-12-2025 14:27 - v0.5.157 (stable) fix che errors and memory corruptions
+
+Mon 01-12-2025 14:13 - v0.5.156 (stable) Fixed_deque_crash_and_inventory_sync
+
+Mon 01-12-2025 12:15 - v0.5.155 (stable) fix che error
+
+Mon 01-12-2025 11:28 - v0.5.154 (stable) fix che error
+
+Sun 30-11-2025 19:16 - v0.5.153 (stable) Fixed sync of hardware changes
+
+Sun 30-11-2025 14:57 - v0.5.152 (stable) restore old working broweser window and fix the stop service to on/off
+
+Sun 30-11-2025 13:21 - v0.5.151 (stable) fixed open same brower window if it is open already
+
+Sun 30-11-2025 12:10 - v0.5.150 (stable) Update no loger report crash
+
+Sun 30-11-2025 10:54 - v0.5.149 (stable) all commands working
+
+Sun 30-11-2025 08:20 - v0.5.148 (stable) Fixed cryptominer identifier
+
+Sun 30-11-2025 07:37 - v0.5.147 (stable) Fixed che temp baselines and windows updates recogninsion
+
+Sat 29-11-2025 22:02 - v0.5.146 (stable) Fixed migration issues for the local sqlite
+
+Sat 29-11-2025 21:30 - v0.5.145 (stable) Added software run at start with ability to disable items
+
+Sat 29-11-2025 17:07 - v0.5.144 (stable) Added software runs at startup
+
+Sat 29-11-2025 16:04 - v0.5.143 (stable) fix updater housekeeping of the crash files
+
+Sat 29-11-2025 15:59 - v0.5.142 (stable) wal fix #2
+
+Sat 29-11-2025 15:53 - v0.5.141 (stable) Fixced wal size increase
+
+Sat 29-11-2025 15:28 - v0.5.140 (stable) Correct crash report to supabase and crash report fixed
+
+Sat 29-11-2025 15:08 - v0.5.139 (stable) Correct crash report to supabase
+
+Sat 29-11-2025 14:27 - v0.5.138 (stable) Fixed UTF-8 support
+
+Sat 29-11-2025 14:05 - v0.5.137 (stable) Added software and windows update support
+
+Sat 29-11-2025 09:48 - v0.5.136 (stable) Clean old crash-dumps files when update occured
+
+Sat 29-11-2025 08:44 - v0.5.135 (stable) Added kill button to proccess network detection fixed
+
+Sat 29-11-2025 06:52 - v0.5.134 (stable) Network priority fix 2
+
+Sat 29-11-2025 06:31 - v0.5.133 (stable) Network priority fix
+
+Fri 28-11-2025 18:44 - v0.5.132 (stable) sqlite crash fix
+
+Fri 28-11-2025 17:31 - v0.5.131 (stable) Crash on update fixed
+
+Fri 28-11-2025 17:12 - v0.5.130 (stable) Crashes fix
+
+Fri 28-11-2025 14:38 - v0.5.129 (stable) fix updater update and crashes
+
+Fri 28-11-2025 14:31 - v0.5.128 (stable) crash fixes updates download crash file
+
+Fri 28-11-2025 14:02 - v0.5.127 (stable) crash fixes updates download crash file
+
+Fri 28-11-2025 09:13 - v0.5.126 (stable) crash fixes updates download crash file
+
+Fri 28-11-2025 08:00 - v0.5.125 (stable) crash fixes updates download crash file
+
+Thu 27-11-2025 20:42 - v0.5.124 (stable) crash fixes
+
+Thu 27-11-2025 19:44 - v0.5.123 (stable) improved and history of the pdb files stored locally
+
+Thu 27-11-2025 18:33 - v0.5.122 (stable) recognize the type of the computer
+
+Thu 27-11-2025 17:25 - v0.5.121 (stable) --pack all recognize the type of the computer
+
+Thu 27-11-2025 17:24 - v0.5.120 (stable) recognize the type of the computer
+
 Thu 27-11-2025 16:56 - v0.5.119b (stable) recognize the type of the computer
 
 Thu 27-11-2025 15:19 - v0.5.118b (stable) added windows service recovery fixed
@@ -874,6 +958,48 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
