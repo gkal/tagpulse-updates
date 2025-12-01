@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 18:38 - v0.5.163 (stable) Added top process
+
 Mon 01-12-2025 16:55 - v0.5.162 (stable) Fix Windows update service not working
 
 Mon 01-12-2025 16:22 - v0.5.160b (stable) SmartAttribute-validation-and-crash-fixes
@@ -960,6 +962,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
