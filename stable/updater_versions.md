@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 20:17 - v0.5.167 (stable) last increase of timeout
+
 Mon 01-12-2025 19:56 - v0.5.166 (stable) investigating WUA timeout #2
 
 Mon 01-12-2025 19:32 - v0.5.165 (stable) investigating WUA timeout
@@ -968,6 +970,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
