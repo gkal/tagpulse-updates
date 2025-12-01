@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 15:09 - v0.5.158 (stable) fix upload software-windows updates
+
 Mon 01-12-2025 14:27 - v0.5.157 (stable) fix che errors and memory corruptions
 
 Mon 01-12-2025 14:13 - v0.5.156 (stable) Fixed_deque_crash_and_inventory_sync
@@ -950,6 +952,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 

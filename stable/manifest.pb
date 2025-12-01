@@ -1,8 +1,7 @@
 
-stable®“¶Él0.5.157packages/desktop-0.5.157.exe" Uód’zXûu"£7V²:Gäh^ú²üªğÍ:(€°c2
-bin/TagPulse.exereplace–0.5.157packages/service-0.5.157.exe" úšE¹vu ™j /wÅ¢<$¾r)ØJ/…s-ı(€´Œ2D
-bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.5.157packages/lhm-0.5.157.exe" º(„¾C¸HĞ$—o½
-¤˜2n1#“{¿g`?÷-`3(ÉöÄ"2G
-bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServices0.5.157packages/updater-0.5.157.exe" ê:>`[¬Äÿ»f{wä©_ $äP–Ú(€Œc2"
-bin/TagPulseUpdater.exereplacea0.5.157packages/ui-0.5.157.zip" ,äªÁÕ4,\I<©²Y¤UÍŞjåªg;®¥eêVY‡(»İX2
+stable§¶Él0.5.158packages/desktop-0.5.158.exe" xùINSaè6j·G*Î%œl0Ë°^	××¹•æuD‰(€°c2
+bin/TagPulse.exereplace–0.5.158packages/service-0.5.158.exe" ÕX×>e‰<–HwVcqnÊ«šcòÈyãˆÓ³øÄ(€´Œ2D
+bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.5.158packages/lhm-0.5.158.exe" ¯Aÿ‘fæOd.u=³âˆ–Ê¼€œØv„8UHkGóC(ÉöÄ"2G
+bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServices0.5.158packages/updater-0.5.158.exe" :+Z0CœcÖT|°Æzªaí(† 8t¢ÊBÿµz(€Œc2"
+bin/TagPulseUpdater.exereplacea0.5.158packages/ui-0.5.158.zip" ,äªÁÕ4,\I<©²Y¤UÍŞjåªg;®¥eêVY‡(»İX2
 uiunzip-replace(
