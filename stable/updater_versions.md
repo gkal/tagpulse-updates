@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 14:27 - v0.5.157 (stable) fix che errors and memory corruptions
+
+Mon 01-12-2025 14:13 - v0.5.156 (stable) Fixed_deque_crash_and_inventory_sync
+
 Mon 01-12-2025 12:15 - v0.5.155 (stable) fix che error
 
 Mon 01-12-2025 11:28 - v0.5.154 (stable) fix che error
@@ -946,6 +950,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
