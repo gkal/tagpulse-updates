@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 01-12-2025 16:18 - v0.5.160 (stable) Fix crash handler to use Win32 APIs (text reports now work even with heap corruption), add
+
 Mon 01-12-2025 15:53 - v0.5.159 (stable) propably fix for the machine that dont send windows updates
 
 Mon 01-12-2025 15:09 - v0.5.158 (stable) fix upload software-windows updates
@@ -954,6 +956,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
