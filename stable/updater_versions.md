@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 02-12-2025 12:27 - v0.5.171 (stable) crash fixing
+
 Tue 02-12-2025 12:12 - v0.5.170 (stable) cryptominer checking
 
 Tue 02-12-2025 11:06 - v0.5.169 (stable) Crash fixes
@@ -976,6 +978,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
