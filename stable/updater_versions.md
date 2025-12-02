@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 02-12-2025 18:50 - v0.5.173 (stable) crash reports from smart disk
+
 Tue 02-12-2025 13:21 - v0.5.172 (stable) crash reports send to db
 
 Tue 02-12-2025 12:27 - v0.5.171 (stable) crash fixing
@@ -980,6 +982,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
