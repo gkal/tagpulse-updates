@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 04-12-2025 14:59 - v0.5.180 (stable) fixes on supa
+
 Thu 04-12-2025 13:28 - v0.5.179 (stable) fixes on bottleneck,health and degradation
 
 Thu 04-12-2025 10:16 - v0.5.178 (stable) fixes from thread detection
@@ -994,6 +996,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
