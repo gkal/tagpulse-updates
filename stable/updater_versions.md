@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 04-12-2025 15:41 - v0.5.182 (stable) supabase fix
+
 Thu 04-12-2025 15:22 - v0.5.181 (stable) crsh fix
 
 Thu 04-12-2025 14:59 - v0.5.180 (stable) fixes on supa
@@ -998,6 +1000,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
