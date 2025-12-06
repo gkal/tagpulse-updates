@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 06-12-2025 16:46 - v0.5.190 (stable) fix upload logs on crash
+
 Sat 06-12-2025 14:57 - v0.5.189 (stable) supabase correct key implement
 
 Sat 06-12-2025 13:40 - v0.5.188 (stable) housekeeping fixed
@@ -1014,6 +1016,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
