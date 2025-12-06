@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 06-12-2025 20:47 - v0.5.192 (stable) crash fix and unknown exception is got trap
+
 Sat 06-12-2025 19:48 - v0.5.191 (stable) che message fix
 
 Sat 06-12-2025 16:46 - v0.5.190 (stable) fix upload logs on crash
@@ -1018,6 +1020,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
