@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 06-12-2025 07:58 - v0.5.186 (stable) local supa implemented
+
 Thu 04-12-2025 19:39 - v0.5.185 (stable) sync with supa implement
 
 Thu 04-12-2025 17:38 - v0.5.184 (stable) fixe messages
@@ -1006,6 +1008,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
