@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 07-12-2025 12:43 - v0.5.196 (stable) database migration complete to v14
+
 Sun 07-12-2025 10:56 - v0.5.195 (stable) cryptominer whitelist
 
 Sun 07-12-2025 09:46 - v0.5.194 (stable) fix cryptominer detection
@@ -1026,6 +1028,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
