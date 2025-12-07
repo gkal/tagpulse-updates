@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 07-12-2025 20:45 - v0.5.202 (stable) watchdog bug fix
+
 Sun 07-12-2025 20:23 - v0.5.200 (stable) watchdog created to have the dmp files for debug
 
 Sun 07-12-2025 17:16 - v0.5.199 (stable) deduplication alerts from che fixed
@@ -1036,6 +1038,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
