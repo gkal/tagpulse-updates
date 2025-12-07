@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 07-12-2025 09:46 - v0.5.194 (stable) fix cryptominer detection
+
 Sun 07-12-2025 08:58 - v0.5.193 (stable) new neurons fix, wua keeps the correct windows updates to supa
 
 Sat 06-12-2025 20:47 - v0.5.192 (stable) crash fix and unknown exception is got trap
@@ -1022,6 +1024,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
