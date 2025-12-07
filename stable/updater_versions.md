@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 07-12-2025 16:44 - v0.5.198 (stable) whitelist improvments
+
 Sun 07-12-2025 14:43 - v0.5.197 (stable) white listed for correct crypto
 
 Sun 07-12-2025 12:43 - v0.5.196 (stable) database migration complete to v14
@@ -1030,6 +1032,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
