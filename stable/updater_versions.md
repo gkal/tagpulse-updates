@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 08-12-2025 17:23 - v0.5.207 (stable) fix the file version
+
 Mon 08-12-2025 16:28 - v0.5.206 (stable) Diagnostic fix .exe path
 
 Mon 08-12-2025 16:07 - v0.5.205 (stable) Diagnostic report added and commands better handling
@@ -1046,6 +1048,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
