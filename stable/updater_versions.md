@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 09-12-2025 17:00 - v0.5.211 (stable) Restart command improved
+
 Mon 08-12-2025 20:04 - v0.5.209 (stable) Minor fixes on the widget ui
 
 Mon 08-12-2025 18:50 - v0.5.208 (stable) added weather widget
@@ -1052,6 +1054,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
