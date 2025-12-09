@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 09-12-2025 19:02 - v0.5.213 (stable) restart command now executed by the updater
+
 Tue 09-12-2025 18:06 - v0.5.212 (stable) fix fake crash not to reported as a crash
 
 Tue 09-12-2025 17:00 - v0.5.211 (stable) Restart command improved
@@ -1056,6 +1058,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
