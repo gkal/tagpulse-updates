@@ -1,4 +1,106 @@
 ﻿# TagPulse Versions
+Thu 11-12-2025 17:09 - v0.5.214b (stable) v2 updater on the move
+
+Tue 09-12-2025 19:02 - v0.5.213 (stable) restart command now executed by the updater
+
+Tue 09-12-2025 18:06 - v0.5.212 (stable) fix fake crash not to reported as a crash
+
+Tue 09-12-2025 17:00 - v0.5.211 (stable) Restart command improved
+
+Mon 08-12-2025 20:04 - v0.5.209 (stable) Minor fixes on the widget ui
+
+Mon 08-12-2025 18:50 - v0.5.208 (stable) added weather widget
+
+Mon 08-12-2025 17:23 - v0.5.207 (stable) fix the file version
+
+Mon 08-12-2025 16:28 - v0.5.206 (stable) Diagnostic fix .exe path
+
+Mon 08-12-2025 16:07 - v0.5.205 (stable) Diagnostic report added and commands better handling
+
+Mon 08-12-2025 11:34 - v0.5.204 (stable) Empty update
+
+Sun 07-12-2025 20:48 - v0.5.203 (stable) watchdog bug emergency fix
+
+Sun 07-12-2025 20:45 - v0.5.202 (stable) watchdog bug fix
+
+Sun 07-12-2025 20:23 - v0.5.200 (stable) watchdog created to have the dmp files for debug
+
+Sun 07-12-2025 17:16 - v0.5.199 (stable) deduplication alerts from che fixed
+
+Sun 07-12-2025 16:44 - v0.5.198 (stable) whitelist improvments
+
+Sun 07-12-2025 14:43 - v0.5.197 (stable) white listed for correct crypto
+
+Sun 07-12-2025 12:43 - v0.5.196 (stable) database migration complete to v14
+
+Sun 07-12-2025 10:56 - v0.5.195 (stable) cryptominer whitelist
+
+Sun 07-12-2025 09:46 - v0.5.194 (stable) fix cryptominer detection
+
+Sun 07-12-2025 08:58 - v0.5.193 (stable) new neurons fix, wua keeps the correct windows updates to supa
+
+Sat 06-12-2025 20:47 - v0.5.192 (stable) crash fix and unknown exception is got trap
+
+Sat 06-12-2025 19:48 - v0.5.191 (stable) che message fix
+
+Sat 06-12-2025 16:46 - v0.5.190 (stable) fix upload logs on crash
+
+Sat 06-12-2025 14:57 - v0.5.189 (stable) supabase correct key implement
+
+Sat 06-12-2025 13:40 - v0.5.188 (stable) housekeeping fixed
+
+Sat 06-12-2025 09:41 - v0.5.187 (stable) messages improvemnt
+
+Sat 06-12-2025 07:58 - v0.5.186 (stable) local supa implemented
+
+Thu 04-12-2025 19:39 - v0.5.185 (stable) sync with supa implement
+
+Thu 04-12-2025 17:38 - v0.5.184 (stable) fixe messages
+
+Thu 04-12-2025 17:17 - v0.5.183 (stable) deduplication of alerts
+
+Thu 04-12-2025 15:41 - v0.5.182 (stable) supabase fix
+
+Thu 04-12-2025 15:22 - v0.5.181 (stable) crsh fix
+
+Thu 04-12-2025 14:59 - v0.5.180 (stable) fixes on supa
+
+Thu 04-12-2025 13:28 - v0.5.179 (stable) fixes on bottleneck,health and degradation
+
+Thu 04-12-2025 10:16 - v0.5.178 (stable) fixes from thread detection
+
+Thu 04-12-2025 09:39 - v0.5.177 (stable) supabase improvments
+
+Wed 03-12-2025 18:34 - v0.5.176 (stable) crash fixes 3
+
+Wed 03-12-2025 18:22 - v0.5.175 (stable) crash fixes 2
+
+Wed 03-12-2025 12:14 - v0.5.174 (stable) crash fixes
+
+Tue 02-12-2025 18:50 - v0.5.173 (stable) crash reports from smart disk
+
+Tue 02-12-2025 13:21 - v0.5.172 (stable) crash reports send to db
+
+Tue 02-12-2025 12:27 - v0.5.171 (stable) crash fixing
+
+Tue 02-12-2025 12:12 - v0.5.170 (stable) cryptominer checking
+
+Tue 02-12-2025 11:06 - v0.5.169 (stable) Crash fixes
+
+Mon 01-12-2025 20:42 - v0.5.168 (stable) last increase of timeout
+
+Mon 01-12-2025 20:17 - v0.5.167 (stable) last increase of timeout
+
+Mon 01-12-2025 19:56 - v0.5.166 (stable) investigating WUA timeout #2
+
+Mon 01-12-2025 19:32 - v0.5.165 (stable) investigating WUA timeout
+
+Mon 01-12-2025 19:13 - v0.5.164 (stable) fixed crash on update and increase to 90sec the WUA delay
+
+Mon 01-12-2025 18:38 - v0.5.163 (stable) Added top process
+
+Mon 01-12-2025 16:55 - v0.5.162 (stable) Fix Windows update service not working
+
 Mon 01-12-2025 16:22 - v0.5.160b (stable) SmartAttribute-validation-and-crash-fixes
 
 Mon 01-12-2025 16:18 - v0.5.160 (stable) Fix crash handler to use Win32 APIs (text reports now work even with heap corruption), add
@@ -958,6 +1060,57 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
