@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 11-12-2025 18:27 - v0.5.218b (stable) updater v2 improvments 2
+
 Thu 11-12-2025 18:11 - v0.5.217b (stable) updater v2 improvments
 
 Thu 11-12-2025 17:38 - v0.5.216b (stable) V2 native mode + backwards compatible
@@ -1066,6 +1068,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
