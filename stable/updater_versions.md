@@ -1,4 +1,50 @@
 ﻿# TagPulse Versions
+Sat 13-12-2025 07:43 - v0.5.236 (stable) updater v2
+
+Sat 13-12-2025 07:23 - v0.5.235b (stable) updater v2 and housekeeping every 24hours at 4 check
+
+Fri 12-12-2025 20:45 - v0.5.234b (stable) updater v2 and housekeeping every 24hours at 4 am
+
+Fri 12-12-2025 19:31 - v0.5.233b (stable) updater v2 improvments 16
+
+Fri 12-12-2025 14:53 - v0.5.232b (stable) updater v2 improvments 15
+
+Fri 12-12-2025 14:26 - v0.5.231b (stable) updater v2 improvments 14
+
+Fri 12-12-2025 13:46 - v0.5.230b (stable) updater v2 improvments 13
+
+Fri 12-12-2025 09:18 - v0.5.229b (stable) updater v2 improvments 12
+
+Fri 12-12-2025 09:05 - v0.5.228b (stable) updater v2 improvments 11
+
+Fri 12-12-2025 08:46 - v0.5.227b (stable) updater v2 improvments 10
+
+Fri 12-12-2025 08:09 - v0.5.226b (stable) updater v2 improvments 9
+
+Fri 12-12-2025 06:33 - v0.5.225b (stable) updater v2 improvments 8
+
+Thu 11-12-2025 20:35 - v0.5.224b (stable) updater v2 improvments 7
+
+Thu 11-12-2025 19:52 - v0.5.223b (stable) updater v2 improvments 6
+
+Thu 11-12-2025 19:36 - v0.5.222b (stable) updater v2 improvments 5
+
+Thu 11-12-2025 19:28 - v0.5.221b (stable) updater v2 improvments 5
+
+Thu 11-12-2025 19:04 - v0.5.220b (stable) updater v2 improvments 4
+
+Thu 11-12-2025 18:45 - v0.5.219b (stable) updater v2 improvments 3
+
+Thu 11-12-2025 18:27 - v0.5.218b (stable) updater v2 improvments 2
+
+Thu 11-12-2025 18:11 - v0.5.217b (stable) updater v2 improvments
+
+Thu 11-12-2025 17:38 - v0.5.216b (stable) V2 native mode + backwards compatible
+
+Thu 11-12-2025 17:19 - v0.5.215b (stable) v2 updater on the move try 2
+
+Thu 11-12-2025 17:09 - v0.5.214b (stable) v2 updater on the move
+
 Tue 09-12-2025 19:02 - v0.5.213 (stable) restart command now executed by the updater
 
 Tue 09-12-2025 18:06 - v0.5.212 (stable) fix fake crash not to reported as a crash
@@ -1058,6 +1104,29 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
