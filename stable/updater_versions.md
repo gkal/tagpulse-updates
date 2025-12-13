@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 13-12-2025 15:47 - v0.6.1 (stable) Added Event Analyzer at the software impact
+
 Sat 13-12-2025 10:20 - v0.5.239 (stable) fix baloon message for autoupdates
 
 Sat 13-12-2025 08:51 - v0.5.238b (stable) fix channel stable and beta for beta machines
@@ -1110,6 +1112,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
