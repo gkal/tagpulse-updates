@@ -1,4 +1,10 @@
 ﻿# TagPulse Versions
+Sat 13-12-2025 08:51 - v0.5.238b (stable) fix channel stable and beta for beta machines
+
+Sat 13-12-2025 08:18 - v0.5.237 (stable) updater v2 merger checks now stable and beta channel
+
+Sat 13-12-2025 07:43 - v0.5.236 (stable) updater v2
+
 Sat 13-12-2025 07:23 - v0.5.235b (stable) updater v2 and housekeeping every 24hours at 4 check
 
 Fri 12-12-2025 20:45 - v0.5.234b (stable) updater v2 and housekeeping every 24hours at 4 am
@@ -1102,6 +1108,9 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
 
 
 
