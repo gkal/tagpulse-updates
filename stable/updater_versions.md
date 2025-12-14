@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 14-12-2025 13:49 - v0.6.7 (stable) added search at the startup items and fixes on event uploading to supa
+
 Sun 14-12-2025 13:14 - v0.6.6 (stable) clear logs command added
 
 Sun 14-12-2025 12:13 - v0.6.5 (stable) Fixes on local and cloud db with the new event analyzer 4
@@ -1122,6 +1124,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
