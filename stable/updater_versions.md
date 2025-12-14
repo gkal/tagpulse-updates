@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 14-12-2025 12:13 - v0.6.5 (stable) Fixes on local and cloud db with the new event analyzer 4
+
 Sun 14-12-2025 11:45 - v0.6.4 (stable) Fixes on local and cloud db with the new event analyzer 3
 
 Sun 14-12-2025 11:05 - v0.6.3 (stable) Fixes on local and cloud db with the new event analyzer fixes
@@ -1118,6 +1120,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
