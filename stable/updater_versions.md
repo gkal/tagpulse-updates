@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 15-12-2025 17:06 - v0.6.10 (stable) fix flood to event viewer by stavros samiotis
+
 Sun 14-12-2025 16:36 - v0.6.9 (stable) fix kb data
 
 Sun 14-12-2025 14:11 - v0.6.8 (stable) windows special characters fix
@@ -1128,6 +1130,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
