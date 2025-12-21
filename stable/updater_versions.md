@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 21-12-2025 10:54 - v0.6.12 (stable) correctly read registry for new admins
+
 Tue 16-12-2025 18:02 - v0.6.11 (stable) improvements to fleet dashboard added speedtest
 
 Mon 15-12-2025 17:06 - v0.6.10 (stable) fix flood to event viewer by stavros samiotis
@@ -1132,6 +1134,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
