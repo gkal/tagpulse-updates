@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 23-12-2025 18:26 - v0.6.16 (stable) history syncronize temp graph with other visible to correlate temp spikes
+
 Tue 23-12-2025 17:17 - v0.6.15 (stable) history fixes,added startapp apps detectio,improved crypto detection
 
 Tue 23-12-2025 16:44 - v0.6.14 (stable) history fixes,added startapp apps detectio,improved crypto detection
@@ -1140,6 +1142,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
