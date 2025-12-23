@@ -1,4 +1,32 @@
 ﻿# TagPulse Versions
+Tue 23-12-2025 16:36 - v0.6.13b (stable) history fixes,added startapp apps detectio,improved crypto detection
+
+Sun 21-12-2025 10:54 - v0.6.12 (stable) correctly read registry for new admins
+
+Tue 16-12-2025 18:02 - v0.6.11 (stable) improvements to fleet dashboard added speedtest
+
+Mon 15-12-2025 17:06 - v0.6.10 (stable) fix flood to event viewer by stavros samiotis
+
+Sun 14-12-2025 16:36 - v0.6.9 (stable) fix kb data
+
+Sun 14-12-2025 14:11 - v0.6.8 (stable) windows special characters fix
+
+Sun 14-12-2025 13:49 - v0.6.7 (stable) added search at the startup items and fixes on event uploading to supa
+
+Sun 14-12-2025 13:14 - v0.6.6 (stable) clear logs command added
+
+Sun 14-12-2025 12:13 - v0.6.5 (stable) Fixes on local and cloud db with the new event analyzer 4
+
+Sun 14-12-2025 11:45 - v0.6.4 (stable) Fixes on local and cloud db with the new event analyzer 3
+
+Sun 14-12-2025 11:05 - v0.6.3 (stable) Fixes on local and cloud db with the new event analyzer fixes
+
+Sun 14-12-2025 09:39 - v0.6.2 (stable) Fixes on local and cloud db with the new event analyzer
+
+Sat 13-12-2025 15:47 - v0.6.1 (stable) Added Event Analyzer at the software impact
+
+Sat 13-12-2025 10:20 - v0.5.239 (stable) fix baloon message for autoupdates
+
 Sat 13-12-2025 08:51 - v0.5.238b (stable) fix channel stable and beta for beta machines
 
 Sat 13-12-2025 08:18 - v0.5.237 (stable) updater v2 merger checks now stable and beta channel
@@ -1108,6 +1136,20 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
