@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Tue 23-12-2025 16:44 - v0.6.14 (stable) history fixes,added startapp apps detectio,improved crypto detection
+
+Tue 23-12-2025 16:36 - v0.6.13b (stable) history fixes,added startapp apps detectio,improved crypto detection
+
 Sun 21-12-2025 10:54 - v0.6.12 (stable) correctly read registry for new admins
 
 Tue 16-12-2025 18:02 - v0.6.11 (stable) improvements to fleet dashboard added speedtest
@@ -1134,6 +1138,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
