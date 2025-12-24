@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 24-12-2025 11:48 - v0.6.19 (stable) crypto detection enchanced and information to kill it
+
 Wed 24-12-2025 10:57 - v0.6.18 (stable) crypto detection enchanced v2
 
 Wed 24-12-2025 10:30 - v0.6.17 (stable) crypto detection enchanced
@@ -1146,6 +1148,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
