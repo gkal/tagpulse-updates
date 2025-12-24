@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 24-12-2025 12:48 - v0.6.21 (stable) crypto detection white list trusted proccess
+
 Wed 24-12-2025 12:15 - v0.6.20 (stable) crypto detection enchanced and information to kill it v2
 
 Wed 24-12-2025 11:48 - v0.6.19 (stable) crypto detection enchanced and information to kill it
@@ -1150,6 +1152,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
