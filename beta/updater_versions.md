@@ -1,4 +1,22 @@
 ﻿# TagPulse Versions
+Sun 28-12-2025 13:40 - v0.6.22b (stable) updater v2 fixed
+
+Wed 24-12-2025 12:48 - v0.6.21 (stable) crypto detection white list trusted proccess
+
+Wed 24-12-2025 12:15 - v0.6.20 (stable) crypto detection enchanced and information to kill it v2
+
+Wed 24-12-2025 11:48 - v0.6.19 (stable) crypto detection enchanced and information to kill it
+
+Wed 24-12-2025 10:57 - v0.6.18 (stable) crypto detection enchanced v2
+
+Wed 24-12-2025 10:30 - v0.6.17 (stable) crypto detection enchanced
+
+Tue 23-12-2025 18:26 - v0.6.16 (stable) history syncronize temp graph with other visible to correlate temp spikes
+
+Tue 23-12-2025 17:17 - v0.6.15 (stable) history fixes,added startapp apps detectio,improved crypto detection
+
+Tue 23-12-2025 16:44 - v0.6.14 (stable) history fixes,added startapp apps detectio,improved crypto detection
+
 Tue 23-12-2025 16:36 - v0.6.13b (stable) history fixes,added startapp apps detectio,improved crypto detection
 
 Sun 21-12-2025 10:54 - v0.6.12 (stable) correctly read registry for new admins
@@ -1136,6 +1154,15 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
 
 
 
