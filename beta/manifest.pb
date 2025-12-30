@@ -1,7 +1,7 @@
 
-beta¦®ÄÊl0.6.22bpackages/desktop-0.6.22b.exe" ÌÁdÍÙÿ³C¤òLa˜t‚ïú§MÖ°³ƒô"wRu(€Äj2
-bin/TagPulse.exereplace–0.6.22bpackages/service-0.6.22b.exe" Íü‚Œç Ø6'<-uşúÂĞ9{:Ér¤ohîÎi(€Äå2D
-bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.6.22bpackages/lhm-0.6.22b.exe" qíş=‰ÊÀ"mâçĞgZXzô÷–^=À¤k~Hòs(ÇöÄ"2G
-bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServicev0.6.22bpackages/updater-0.6.22b.exe" êÏ…üĞëãgäën:YD#âZ.³Ø\ëæÜP`©&«¡(€Är2%
-bin/TagPulseUpdater_v2.exereplaceb0.6.22bpackages/ui-0.6.22b.zip" Ô¬Ú,>óâ0i®n²ÍloÎ½ı*Üğ¡€š¸·X(¬–½2
+betaãœÎÊl0.6.27bpackages/desktop-0.6.27b.exe" ÌÉŸámå´ë9]åw<RĞˆ–kJ—QµàwKl,O(€Äj2
+bin/TagPulse.exereplace–0.6.27bpackages/service-0.6.27b.exe" W€§IØÂ°FArAÇÑ¹nZ™øõv˜Dxk±Xÿ(€¨ç2D
+bin/TagPulseService.exereplaceTagPulseService"TagPulseService•0.6.27bpackages/lhm-0.6.27b.exe" ¿Q\Á¤g®ÿª%-böoDUÑâ´¦!’—¸%Êƒu]Ã(ÇöÄ"2G
+bin/TagPulseLHMService.exereplaceTagPulseService"TagPulseServicev0.6.27bpackages/updater-0.6.27b.exe" êÏ…üĞëãgäën:YD#âZ.³Ø\ëæÜP`©&«¡(€Är2%
+bin/TagPulseUpdater_v2.exereplaceb0.6.27bpackages/ui-0.6.27b.zip" }6[7)ÁÒZ…Æ¢"­Ëh®…Ò<‹T¸lÉÅ^XÅ¨(¬–½2
 uiunzip-replace(
