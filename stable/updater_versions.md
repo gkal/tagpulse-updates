@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 30-12-2025 13:20 - v0.6.29 (stable) Added suport for main app to install updates, and reinitialise the service and added common report system
+
 Tue 30-12-2025 11:19 - v0.6.28 (stable) fix updater_v2 issues and rename username and company
 
 Tue 30-12-2025 10:34 - v0.6.27b (stable) fix updater_v2 issues and rename username and company
@@ -1166,6 +1168,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
