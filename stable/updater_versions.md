@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 30-12-2025 19:51 - v0.6.35 (stable) Vmware detection and country fallback checks
+
 Tue 30-12-2025 19:20 - v0.6.34 (stable) Force update so all machines report correctly now
 
 Tue 30-12-2025 18:40 - v0.6.33 (stable) added country detection
@@ -1176,6 +1178,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
