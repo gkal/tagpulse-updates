@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Tue 30-12-2025 11:19 - v0.6.28 (stable) fix updater_v2 issues and rename username and company
+
+Tue 30-12-2025 10:34 - v0.6.27b (stable) fix updater_v2 issues and rename username and company
+
 Sun 28-12-2025 17:27 - v0.6.26 (stable) Change machine to other admin command created
 
 Sun 28-12-2025 15:11 - v0.6.25 (stable) updater v2 fixedbug fixes v2
@@ -1162,6 +1166,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
