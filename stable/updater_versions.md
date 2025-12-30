@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 30-12-2025 19:20 - v0.6.34 (stable) Force update so all machines report correctly now
+
 Tue 30-12-2025 18:40 - v0.6.33 (stable) added country detection
 
 Tue 30-12-2025 14:37 - v0.6.31 (stable) updater improvemnt and sqlite insert-update fix
@@ -1174,6 +1176,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
