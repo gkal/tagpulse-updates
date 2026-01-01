@@ -1,4 +1,20 @@
 ﻿# TagPulse Versions
+Thu 01-01-2026 13:27 - v0.6.36b (stable) App updates and windows update from fleet dashboard
+
+Tue 30-12-2025 19:51 - v0.6.35 (stable) Vmware detection and country fallback checks
+
+Tue 30-12-2025 19:20 - v0.6.34 (stable) Force update so all machines report correctly now
+
+Tue 30-12-2025 18:40 - v0.6.33 (stable) added country detection
+
+Tue 30-12-2025 14:37 - v0.6.31 (stable) updater improvemnt and sqlite insert-update fix
+
+Tue 30-12-2025 13:59 - v0.6.30 (stable) improvements to updater_v2 to support reinstall of service
+
+Tue 30-12-2025 13:20 - v0.6.29 (stable) Added suport for main app to install updates, and reinitialise the service and added common report system
+
+Tue 30-12-2025 11:19 - v0.6.28 (stable) fix updater_v2 issues and rename username and company
+
 Tue 30-12-2025 10:34 - v0.6.27b (stable) fix updater_v2 issues and rename username and company
 
 Sun 28-12-2025 17:27 - v0.6.26 (stable) Change machine to other admin command created
@@ -1164,6 +1180,14 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
 
 
 
