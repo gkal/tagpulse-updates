@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Thu 01-01-2026 14:26 - v0.6.37 (stable) App updates and windows update from fleet dashboard
+
+Thu 01-01-2026 13:27 - v0.6.36b (stable) App updates and windows update from fleet dashboard
+
 Tue 30-12-2025 19:51 - v0.6.35 (stable) Vmware detection and country fallback checks
 
 Tue 30-12-2025 19:20 - v0.6.34 (stable) Force update so all machines report correctly now
@@ -1178,6 +1182,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
