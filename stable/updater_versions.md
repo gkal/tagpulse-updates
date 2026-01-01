@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 01-01-2026 16:11 - v0.6.38 (stable) Auto install winget in case of missing
+
 Thu 01-01-2026 14:26 - v0.6.37 (stable) App updates and windows update from fleet dashboard
 
 Thu 01-01-2026 13:27 - v0.6.36b (stable) App updates and windows update from fleet dashboard
@@ -1182,6 +1184,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 

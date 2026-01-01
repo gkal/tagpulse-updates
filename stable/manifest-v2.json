@@ -1,7 +1,7 @@
 ﻿{
-    "url":  "packages-v2/tagpulse-0.6.37.zip",
+    "url":  "packages-v2/tagpulse-0.6.38.zip",
     "channel":  "stable",
-    "version":  "0.6.37",
-    "size":  42952717,
-    "sha256":  "7b286b1e6beb44628f9dfbff70f29c50dae84b1f1f109460008e7fab076e500d"
+    "version":  "0.6.38",
+    "size":  42955158,
+    "sha256":  "d392e571286c4fc7121c7993204cbb84a5b255882e4249c09a93cac899f85d68"
 }
