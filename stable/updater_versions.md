@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 02-01-2026 17:45 - v0.6.45 (stable) Better handling on new installation first-run data
+
 Fri 02-01-2026 10:00 - v0.6.44 (stable) updater fixes
 
 Thu 01-01-2026 19:31 - v0.6.43 (stable) coordinator propably final fix
@@ -1196,6 +1198,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
