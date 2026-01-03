@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 03-01-2026 07:25 - v0.6.49b (stable) updater now uses filesize to check for corruption files v2
+
 Sat 03-01-2026 07:11 - v0.6.48b (stable) updater now uses filesize to check for corruption files
 
 Fri 02-01-2026 18:52 - v0.6.47 (stable) Improved startup detection logic
@@ -1204,6 +1206,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
