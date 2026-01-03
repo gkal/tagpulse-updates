@@ -1,4 +1,28 @@
 ﻿# TagPulse Versions
+Sat 03-01-2026 07:11 - v0.6.48b (stable) updater now uses filesize to check for corruption files
+
+Fri 02-01-2026 18:52 - v0.6.47 (stable) Improved startup detection logic
+
+Fri 02-01-2026 18:00 - v0.6.46 (stable) Improved winget updates
+
+Fri 02-01-2026 17:45 - v0.6.45 (stable) Better handling on new installation first-run data
+
+Fri 02-01-2026 10:00 - v0.6.44 (stable) updater fixes
+
+Thu 01-01-2026 19:31 - v0.6.43 (stable) coordinator propably final fix
+
+Thu 01-01-2026 18:31 - v0.6.42 (stable) crash fixes v2
+
+Thu 01-01-2026 18:22 - v0.6.41 (stable) crash fixes
+
+Thu 01-01-2026 18:14 - v0.6.40 (stable) general fixes
+
+Thu 01-01-2026 17:56 - v0.6.39 (stable) general fixes
+
+Thu 01-01-2026 16:11 - v0.6.38 (stable) Auto install winget in case of missing
+
+Thu 01-01-2026 14:26 - v0.6.37 (stable) App updates and windows update from fleet dashboard
+
 Thu 01-01-2026 13:27 - v0.6.36b (stable) App updates and windows update from fleet dashboard
 
 Tue 30-12-2025 19:51 - v0.6.35 (stable) Vmware detection and country fallback checks
@@ -1180,6 +1204,18 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
