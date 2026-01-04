@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 04-01-2026 10:35 - v0.6.55 (stable) minor fixes at the logs
+
 Sun 04-01-2026 09:38 - v0.6.54 (stable) Cancel commands added
 
 Sun 04-01-2026 08:53 - v0.6.53 (stable) inventory faster upload to cloud
@@ -1216,6 +1218,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
