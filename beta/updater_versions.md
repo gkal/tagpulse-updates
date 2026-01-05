@@ -1,4 +1,26 @@
 ﻿# TagPulse Versions
+Mon 05-01-2026 20:50 - v0.6.61b (stable) added anydesk support and last files and directories
+
+Mon 05-01-2026 15:41 - v0.6.60 (stable) updater fixes v3
+
+Mon 05-01-2026 14:37 - v0.6.59 (stable) updater fixes v2
+
+Sun 04-01-2026 20:26 - v0.6.58 (stable) updater fixes
+
+Sun 04-01-2026 19:01 - v0.6.57 (stable) Slowe internet fixes
+
+Sun 04-01-2026 18:02 - v0.6.56 (stable) updater fixes
+
+Sun 04-01-2026 10:35 - v0.6.55 (stable) minor fixes at the logs
+
+Sun 04-01-2026 09:38 - v0.6.54 (stable) Cancel commands added
+
+Sun 04-01-2026 08:53 - v0.6.53 (stable) inventory faster upload to cloud
+
+Sat 03-01-2026 09:24 - v0.6.52 (stable) updater fixes 4
+
+Sat 03-01-2026 08:44 - v0.6.51 (stable) updater fixes 3
+
 Sat 03-01-2026 08:31 - v0.6.50b (stable) updater fixes 2
 
 Sat 03-01-2026 07:25 - v0.6.49b (stable) updater now uses filesize to check for corruption files v2
@@ -1208,6 +1230,17 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
 
 
 
