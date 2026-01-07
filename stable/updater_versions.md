@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 07-01-2026 17:33 - v0.6.63 (stable) enable-disable at startup windows added
+
 Mon 05-01-2026 20:57 - v0.6.62 (stable) added anydesk support and last files and directories
 
 Mon 05-01-2026 20:50 - v0.6.61b (stable) added anydesk support and last files and directories
@@ -1232,6 +1234,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
