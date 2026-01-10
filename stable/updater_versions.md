@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 10-01-2026 14:40 - v0.6.69 (stable) Fixes about starting banners
+
 Sat 10-01-2026 14:04 - v0.6.68 (stable) crash fix for asus
 
 Sat 10-01-2026 13:28 - v0.6.67 (stable) updater fixes
@@ -1244,6 +1246,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
