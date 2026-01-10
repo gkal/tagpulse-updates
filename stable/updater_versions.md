@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Sat 10-01-2026 13:28 - v0.6.67 (stable) updater fixes
+
+Sat 10-01-2026 13:18 - v0.6.66b (stable) updater fixes
+
 Sat 10-01-2026 11:52 - v0.6.65 (stable) fixes for asus computers v2
 
 Sat 10-01-2026 11:42 - v0.6.64 (stable) fixes for asus computers
@@ -1238,6 +1242,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
