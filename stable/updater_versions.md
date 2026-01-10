@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 10-01-2026 11:52 - v0.6.65 (stable) fixes for asus computers v2
+
 Sat 10-01-2026 11:42 - v0.6.64 (stable) fixes for asus computers
 
 Wed 07-01-2026 17:33 - v0.6.63 (stable) enable-disable at startup windows added
@@ -1236,6 +1238,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
