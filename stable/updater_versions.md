@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Fri 16-01-2026 17:59 - v0.6.71 (stable) added 120 second delay to reduce timeouts to db and add 10 workers at db
+
+Fri 16-01-2026 17:44 - v0.6.70b (stable) added 120 second delay to reduce timeouts to db and add 10 workers at db
+
 Sat 10-01-2026 14:40 - v0.6.69 (stable) Fixes about starting banners
 
 Sat 10-01-2026 14:04 - v0.6.68 (stable) crash fix for asus
@@ -1246,6 +1250,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
