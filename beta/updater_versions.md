@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 23-01-2026 19:37 - v0.6.82b (stable) Pulsie introduction and many fixes v5
+
 Fri 23-01-2026 19:27 - v0.6.81b (stable) Pulsie introduction and many fixes v4
 
 Fri 23-01-2026 19:04 - v0.6.80b (stable) Pulsie introduction and many fixes v3
@@ -1270,6 +1272,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
