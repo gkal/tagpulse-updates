@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 25-01-2026 07:38 - v0.6.85 (stable) improvements at crypto miner detections
+
 Sat 24-01-2026 15:47 - v0.6.84 (stable) improvements at config settings and new pulsie message
 
 Fri 23-01-2026 19:55 - v0.6.83 (stable) Pulsie introduction and many fixes
@@ -1276,6 +1278,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
