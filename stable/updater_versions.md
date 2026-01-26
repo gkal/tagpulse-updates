@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 26-01-2026 14:03 - v0.6.86 (stable) sqlite fixes
+
 Sun 25-01-2026 07:38 - v0.6.85 (stable) improvements at crypto miner detections
 
 Sat 24-01-2026 15:47 - v0.6.84 (stable) improvements at config settings and new pulsie message
@@ -1278,6 +1280,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
