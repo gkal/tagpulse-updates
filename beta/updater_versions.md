@@ -1,4 +1,14 @@
 ﻿# TagPulse Versions
+Sun 01-02-2026 07:45 - v0.6.87b (stable) supa key changes
+
+Mon 26-01-2026 14:03 - v0.6.86 (stable) sqlite fixes
+
+Sun 25-01-2026 07:38 - v0.6.85 (stable) improvements at crypto miner detections
+
+Sat 24-01-2026 15:47 - v0.6.84 (stable) improvements at config settings and new pulsie message
+
+Fri 23-01-2026 19:55 - v0.6.83 (stable) Pulsie introduction and many fixes
+
 Fri 23-01-2026 19:37 - v0.6.82b (stable) Pulsie introduction and many fixes v5
 
 Fri 23-01-2026 19:27 - v0.6.81b (stable) Pulsie introduction and many fixes v4
@@ -1272,6 +1282,11 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
 
 
 
