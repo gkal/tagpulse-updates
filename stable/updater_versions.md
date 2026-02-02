@@ -1,4 +1,14 @@
 ﻿# TagPulse Versions
+Mon 02-02-2026 08:37 - v0.6.91 (stable) speed and security optimization
+
+Sun 01-02-2026 15:58 - v0.6.90b (stable) speed and security optimization
+
+Sun 01-02-2026 12:38 - v0.6.89b (stable) fix on not updating the windows or the software
+
+Sun 01-02-2026 11:26 - v0.6.88b (stable) fix on cpu details now show each core Ghz and fixes at new keys
+
+Sun 01-02-2026 07:45 - v0.6.87b (stable) supa key changes
+
 Mon 26-01-2026 14:03 - v0.6.86 (stable) sqlite fixes
 
 Sun 25-01-2026 07:38 - v0.6.85 (stable) improvements at crypto miner detections
@@ -1280,6 +1290,11 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
 
 
 
