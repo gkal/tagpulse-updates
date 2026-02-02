@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 02-02-2026 13:05 - v0.6.94 (stable) failsafe in case of bad internet connection improved v2
+
 Mon 02-02-2026 12:34 - v0.6.93 (stable) failsafe in case of bad internet connection improved
 
 Mon 02-02-2026 12:20 - v0.6.92 (stable) failsafe in case of bad internet connection
@@ -1294,6 +1296,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
