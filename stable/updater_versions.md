@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 02-02-2026 19:26 - v0.6.96 (stable) investigating the http silent crash problem
+
 Mon 02-02-2026 18:06 - v0.6.95 (stable) remove uac noise redure active threads from 8 to 4 and faster http startup
 
 Mon 02-02-2026 13:05 - v0.6.94 (stable) failsafe in case of bad internet connection improved v2
@@ -1298,6 +1300,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
