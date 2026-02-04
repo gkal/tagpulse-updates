@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 04-02-2026 17:24 - v0.6.99 (stable) CHE improvments
+
 Tue 03-02-2026 19:18 - v0.6.98 (stable) History temperature,cpu,gpu and usage fix
 
 Mon 02-02-2026 20:27 - v0.6.97 (stable) http fix
@@ -1304,6 +1306,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
