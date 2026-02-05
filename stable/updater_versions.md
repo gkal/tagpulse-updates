@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 05-02-2026 14:18 - v0.6.101 (stable) implementation of partal downloadning for very slow computers
+
 Thu 05-02-2026 13:37 - v0.6.100 (stable) improvments of CHE
 
 Wed 04-02-2026 17:24 - v0.6.99 (stable) CHE improvments
@@ -1308,6 +1310,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
