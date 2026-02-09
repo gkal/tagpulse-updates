@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 09-02-2026 08:59 - v0.6.104 (stable) windows event viewer fixes
+
 Fri 06-02-2026 19:10 - v0.6.103 (stable) servers windows updates v2
 
 Fri 06-02-2026 17:51 - v0.6.102 (stable) servers windows updates
@@ -1314,6 +1316,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
