@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 09-02-2026 15:17 - v0.6.105 (stable) lhm service stop working fixed
+
 Mon 09-02-2026 08:59 - v0.6.104 (stable) windows event viewer fixes
 
 Fri 06-02-2026 19:10 - v0.6.103 (stable) servers windows updates v2
@@ -1316,6 +1318,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
