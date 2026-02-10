@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 10-02-2026 20:47 - v0.6.109 (stable) better diagnostic tools
+
 Tue 10-02-2026 08:10 - v0.6.108 (stable) fix updater mutex on service down
 
 Mon 09-02-2026 18:52 - v0.6.107 (stable) improvemnts for the new server
@@ -1324,6 +1326,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
