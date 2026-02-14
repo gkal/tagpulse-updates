@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 14-02-2026 13:03 - v0.6.110 (stable) Solution commands started and more remote tools supported
+
 Tue 10-02-2026 20:47 - v0.6.109 (stable) better diagnostic tools
 
 Tue 10-02-2026 08:10 - v0.6.108 (stable) fix updater mutex on service down
@@ -1326,6 +1328,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
