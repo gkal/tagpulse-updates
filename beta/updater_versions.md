@@ -1,4 +1,46 @@
 ﻿# TagPulse Versions
+Wed 18-02-2026 08:01 - v0.6.111b (stable) Local sqlite encrypted
+
+Sat 14-02-2026 13:03 - v0.6.110 (stable) Solution commands started and more remote tools supported
+
+Tue 10-02-2026 20:47 - v0.6.109 (stable) better diagnostic tools
+
+Tue 10-02-2026 08:10 - v0.6.108 (stable) fix updater mutex on service down
+
+Mon 09-02-2026 18:52 - v0.6.107 (stable) improvemnts for the new server
+
+Mon 09-02-2026 17:17 - v0.6.106 (stable) tagpulse eventviewer improvments
+
+Mon 09-02-2026 15:17 - v0.6.105 (stable) lhm service stop working fixed
+
+Mon 09-02-2026 08:59 - v0.6.104 (stable) windows event viewer fixes
+
+Fri 06-02-2026 19:10 - v0.6.103 (stable) servers windows updates v2
+
+Fri 06-02-2026 17:51 - v0.6.102 (stable) servers windows updates
+
+Thu 05-02-2026 14:18 - v0.6.101 (stable) implementation of partal downloadning for very slow computers
+
+Thu 05-02-2026 13:37 - v0.6.100 (stable) improvments of CHE
+
+Wed 04-02-2026 17:24 - v0.6.99 (stable) CHE improvments
+
+Tue 03-02-2026 19:18 - v0.6.98 (stable) History temperature,cpu,gpu and usage fix
+
+Mon 02-02-2026 20:27 - v0.6.97 (stable) http fix
+
+Mon 02-02-2026 19:26 - v0.6.96 (stable) investigating the http silent crash problem
+
+Mon 02-02-2026 18:06 - v0.6.95 (stable) remove uac noise redure active threads from 8 to 4 and faster http startup
+
+Mon 02-02-2026 13:05 - v0.6.94 (stable) failsafe in case of bad internet connection improved v2
+
+Mon 02-02-2026 12:34 - v0.6.93 (stable) failsafe in case of bad internet connection improved
+
+Mon 02-02-2026 12:20 - v0.6.92 (stable) failsafe in case of bad internet connection
+
+Mon 02-02-2026 08:37 - v0.6.91 (stable) speed and security optimization
+
 Sun 01-02-2026 15:58 - v0.6.90b (stable) speed and security optimization
 
 Sun 01-02-2026 12:38 - v0.6.89b (stable) fix on not updating the windows or the software
@@ -1288,6 +1330,27 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
