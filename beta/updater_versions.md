@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 18-02-2026 08:22 - v0.6.112b (stable) Local sqlite encrypted fix
+
 Wed 18-02-2026 08:01 - v0.6.111b (stable) Local sqlite encrypted
 
 Sat 14-02-2026 13:03 - v0.6.110 (stable) Solution commands started and more remote tools supported
@@ -1330,6 +1332,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
