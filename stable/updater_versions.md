@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 19-02-2026 16:59 - v0.6.119 (stable) new ui implementation of bottleneck,degradation and health
+
 Wed 18-02-2026 15:18 - v0.6.118 (stable) AV exclusions+updater fix
 
 Wed 18-02-2026 14:42 - v0.6.117 (stable) AV exclusions
@@ -1344,6 +1346,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
