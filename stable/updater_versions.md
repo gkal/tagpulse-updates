@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 20-02-2026 13:06 - v0.6.122 (stable) disk drives speed corrections
+
 Thu 19-02-2026 21:09 - v0.6.121 (stable) networking improvent speed test
 
 Thu 19-02-2026 18:34 - v0.6.120 (stable) new ui implementation of bottleneck,degradation and health v2
@@ -1350,6 +1352,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
