@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 20-02-2026 21:37 - v0.6.124 (stable) smart disk fix
+
 Fri 20-02-2026 21:07 - v0.6.123 (stable) voltages improved
 
 Fri 20-02-2026 13:06 - v0.6.122 (stable) disk drives speed corrections
@@ -1354,6 +1356,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
