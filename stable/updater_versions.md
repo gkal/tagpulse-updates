@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 23-02-2026 11:42 - v0.6.128 (stable) event viewer in the che desion logic
+
 Sat 21-02-2026 17:12 - v0.6.127 (stable) alerts system fixes v3
 
 Sat 21-02-2026 16:20 - v0.6.126 (stable) alerts system fixes
@@ -1362,6 +1364,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
