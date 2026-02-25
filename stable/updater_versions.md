@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 25-02-2026 10:34 - v0.6.130 (stable) Fix online timers issues
+
 Wed 25-02-2026 07:43 - v0.6.129 (stable) Fix on many boot machine heavy load on network and supa
 
 Mon 23-02-2026 11:42 - v0.6.128 (stable) event viewer in the che desion logic
@@ -1366,6 +1368,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
