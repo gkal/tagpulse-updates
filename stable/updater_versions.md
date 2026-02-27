@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 27-02-2026 13:16 - v0.6.131 (stable) security fixes
+
 Wed 25-02-2026 10:34 - v0.6.130 (stable) Fix online timers issues
 
 Wed 25-02-2026 07:43 - v0.6.129 (stable) Fix on many boot machine heavy load on network and supa
@@ -1368,6 +1370,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
