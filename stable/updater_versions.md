@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 09-03-2026 10:59 - v0.6.134 (stable) added model of named pcs
+
 Sat 07-03-2026 18:27 - v0.6.133 (stable) degradation fixes
 
 Fri 06-03-2026 18:26 - v0.6.132 (stable) Che optimizations
@@ -1374,6 +1376,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
