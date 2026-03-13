@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "0.6.136",
+    "version":  "0.6.137",
     "channel":  "stable",
-    "url":  "packages-v2/tagpulse-0.6.136.zip",
-    "sha256":  "c4ca8ab4f7658529d8ee0e8649d518c3a6c40ae58982a6ae272b7b21db80f127",
-    "size":  44986529,
+    "url":  "packages-v2/tagpulse-0.6.137.zip",
+    "sha256":  "d3639e83d5d809ed40bc2ebe8d6f98410a7c8e3b15aa68247c884de5c9e79ed4",
+    "size":  44986553,
     "files":  {
                   "TagPulseUpdater_v2.exe":  2157568,
                   "TagPulse.exe":  1968640,
