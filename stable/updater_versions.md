@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 13-03-2026 16:42 - v0.6.142 (stable) battery health and degradation implemented v8
+
 Fri 13-03-2026 14:46 - v0.6.141 (stable) battery health and degradation implemented v7
 
 Fri 13-03-2026 14:28 - v0.6.140 (stable) battery health and degradation implemented v6
@@ -1390,6 +1392,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
