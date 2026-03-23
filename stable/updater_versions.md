@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Mon 23-03-2026 20:25 - v0.6.146 (stable) handles improvments
+
 Mon 16-03-2026 10:18 - v0.6.145 (stable) fixes of spam on windows event viewer
 
 Fri 13-03-2026 17:41 - v0.6.144 (stable) battery health and degradation implemented v10
@@ -1398,6 +1400,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
