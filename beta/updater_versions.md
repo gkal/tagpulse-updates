@@ -1,4 +1,78 @@
 ﻿# TagPulse Versions
+Sat 04-04-2026 17:25 - v0.6.149b (stable) Added suport drives read write speeds and small troubleshoting tips
+
+Thu 02-04-2026 12:24 - v0.6.148 (stable) paraller processing fixed
+
+Thu 26-03-2026 07:58 - v0.6.147 (stable) fix wal problems
+
+Mon 23-03-2026 20:25 - v0.6.146 (stable) handles improvments
+
+Mon 16-03-2026 10:18 - v0.6.145 (stable) fixes of spam on windows event viewer
+
+Fri 13-03-2026 17:41 - v0.6.144 (stable) battery health and degradation implemented v10
+
+Fri 13-03-2026 17:07 - v0.6.143 (stable) battery health and degradation implemented v9
+
+Fri 13-03-2026 16:42 - v0.6.142 (stable) battery health and degradation implemented v8
+
+Fri 13-03-2026 14:46 - v0.6.141 (stable) battery health and degradation implemented v7
+
+Fri 13-03-2026 14:28 - v0.6.140 (stable) battery health and degradation implemented v6
+
+Fri 13-03-2026 14:06 - v0.6.139 (stable) battery health and degradation implemented v5
+
+Fri 13-03-2026 13:18 - v0.6.138 (stable) battery health and degradation implemented v4
+
+Fri 13-03-2026 12:50 - v0.6.137 (stable) battery health and degradation implemented v3
+
+Fri 13-03-2026 12:31 - v0.6.136 (stable) battery health and degradation implemented v2
+
+Fri 13-03-2026 11:12 - v0.6.135 (stable) battery health and degradation implemented
+
+Mon 09-03-2026 10:59 - v0.6.134 (stable) added model of named pcs
+
+Sat 07-03-2026 18:27 - v0.6.133 (stable) degradation fixes
+
+Fri 06-03-2026 18:26 - v0.6.132 (stable) Che optimizations
+
+Fri 27-02-2026 13:16 - v0.6.131 (stable) security fixes
+
+Wed 25-02-2026 10:34 - v0.6.130 (stable) Fix online timers issues
+
+Wed 25-02-2026 07:43 - v0.6.129 (stable) Fix on many boot machine heavy load on network and supa
+
+Mon 23-02-2026 11:42 - v0.6.128 (stable) event viewer in the che desion logic
+
+Sat 21-02-2026 17:12 - v0.6.127 (stable) alerts system fixes v3
+
+Sat 21-02-2026 16:20 - v0.6.126 (stable) alerts system fixes
+
+Sat 21-02-2026 08:10 - v0.6.125 (stable) alerts system fixes
+
+Fri 20-02-2026 21:37 - v0.6.124 (stable) smart disk fix
+
+Fri 20-02-2026 21:07 - v0.6.123 (stable) voltages improved
+
+Fri 20-02-2026 13:06 - v0.6.122 (stable) disk drives speed corrections
+
+Thu 19-02-2026 21:09 - v0.6.121 (stable) networking improvent speed test
+
+Thu 19-02-2026 18:34 - v0.6.120 (stable) new ui implementation of bottleneck,degradation and health v2
+
+Thu 19-02-2026 16:59 - v0.6.119 (stable) new ui implementation of bottleneck,degradation and health
+
+Wed 18-02-2026 15:18 - v0.6.118 (stable) AV exclusions+updater fix
+
+Wed 18-02-2026 14:42 - v0.6.117 (stable) AV exclusions
+
+Wed 18-02-2026 14:11 - v0.6.116 (stable) updater improvemnts v3
+
+Wed 18-02-2026 13:40 - v0.6.115 (stable) updater improvemnts
+
+Wed 18-02-2026 12:42 - v0.6.114 (stable) updater improvemnts
+
+Wed 18-02-2026 10:24 - v0.6.113 (stable) Local sqlite encrypted fix + disk degradation improvment
+
 Wed 18-02-2026 08:22 - v0.6.112b (stable) Local sqlite encrypted fix
 
 Wed 18-02-2026 08:01 - v0.6.111b (stable) Local sqlite encrypted
@@ -1332,6 +1406,43 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
