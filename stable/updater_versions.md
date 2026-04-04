@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Sat 04-04-2026 18:44 - v0.6.150 (stable) Added suport drives read write speeds and small troubleshoting tips
+
+Sat 04-04-2026 17:25 - v0.6.149b (stable) Added suport drives read write speeds and small troubleshoting tips
+
 Thu 02-04-2026 12:24 - v0.6.148 (stable) paraller processing fixed
 
 Thu 26-03-2026 07:58 - v0.6.147 (stable) fix wal problems
@@ -1404,6 +1408,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
