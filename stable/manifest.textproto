@@ -1,10 +1,10 @@
 channel: "stable"
-timestamp_unix: 1777698614
+timestamp_unix: 1777701922
 components {
   name: DESKTOP
-  version: "0.6.153"
-  package_url: "packages/desktop-0.6.153.exe"
-  sha256: "\x4f\x5c\x97\x2d\xdc\xf2\xaf\x94\x12\xed\x58\xd7\xdb\x30\xbf\x31\x61\x9d\x1b\x28\xb6\x81\x75\x27\x7c\xa7\x90\xfb\x5e\x0a\x72\xd7"
+  version: "0.6.154"
+  package_url: "packages/desktop-0.6.154.exe"
+  sha256: "\x3c\x88\x90\x42\x19\x3b\x79\xf0\xfd\x0d\xc0\x72\x0a\x9c\x5a\xfa\xba\x05\x05\xa7\x24\xc3\x2d\xe7\xfa\x67\xf0\xb8\xae\x64\xa4\x96"
   size: 1987072
   install {
     target: "bin/TagPulse.exe"
@@ -13,9 +13,9 @@ components {
 }
 components {
   name: SERVICE
-  version: "0.6.153"
-  package_url: "packages/service-0.6.153.exe"
-  sha256: "\x51\x21\x81\x00\x45\x36\x43\xb2\xe2\x77\x9e\xef\xd3\xbe\x01\xa9\x1e\x65\xc9\x0e\x74\xe7\x16\x22\xbc\x62\x4f\xc7\x0d\xc5\xc9\x7d"
+  version: "0.6.154"
+  package_url: "packages/service-0.6.154.exe"
+  sha256: "\xc4\x86\xaa\xa7\x28\x8f\xf3\xb8\x84\xb2\xa6\x45\x07\xb4\xee\x30\x1a\x66\x1c\x6b\x9b\x89\x9f\xd8\x3e\xfe\xbc\x89\x16\x53\x79\x18"
   size: 15595520
   install {
     target: "bin/TagPulseService.exe"
@@ -26,8 +26,8 @@ components {
 }
 components {
   name: LHM
-  version: "0.6.153"
-  package_url: "packages/lhm-0.6.153.exe"
+  version: "0.6.154"
+  package_url: "packages/lhm-0.6.154.exe"
   sha256: "\x53\xb3\x79\x72\x7b\x7d\x9d\x19\xf1\xf9\xec\x21\xb0\x03\x22\x25\x80\x72\x6a\xd1\x7b\x1d\xc2\xd1\xe9\xc2\x31\x74\x34\x3a\xdf\x32"
   size: 73655168
   install {
@@ -39,8 +39,8 @@ components {
 }
 components {
   name: UPDATER
-  version: "0.6.153"
-  package_url: "packages/updater-0.6.153.exe"
+  version: "0.6.154"
+  package_url: "packages/updater-0.6.154.exe"
   sha256: "\xd2\xf2\x95\x0a\x2b\x06\xd3\x3e\xd8\x24\x1e\x17\x50\x81\x93\x83\x55\x46\x9f\xf5\xf4\x40\x01\x6c\x95\x87\x10\x00\xbf\x42\x60\x2c"
   size: 2177024
   install {
@@ -50,8 +50,8 @@ components {
 }
 components {
   name: UI
-  version: "0.6.153"
-  package_url: "packages/ui-0.6.153.zip"
+  version: "0.6.154"
+  package_url: "packages/ui-0.6.154.zip"
   sha256: "\x17\x0e\xd0\xc9\xc1\xed\x02\xc2\x07\x0f\x39\x17\xd3\x6b\xbf\xb0\x7c\x91\x4c\x76\x6b\xf9\x9b\x88\x7a\xd3\x6f\xf7\xa7\x48\x1b\xd5"
   size: 3472575
   install {
