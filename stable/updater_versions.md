@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Sat 23-05-2026 17:26 - v0.6.158 (stable) -- force added update notes and support tagio
+
+Fri 08-05-2026 14:09 - v0.6.157 (stable) Setup Build
+
 Sat 02-05-2026 09:49 - v0.6.156 (stable) fixing logs problem
 
 Sat 02-05-2026 09:19 - v0.6.155 (stable) fixing logs problem
@@ -1424,6 +1428,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
