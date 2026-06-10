@@ -1,5 +1,26 @@
 ﻿# TagPulse Versions
-Mon 13-04-2026 17:48 - v0.6.151b (stable) remove the updater_v1.exe
+Wed 10-06-2026 12:02 - v0.6.161b (stable) general fixes
+
+Sun 07-06-2026 09:10 - v0.6.161 (stable) Setup Build
+
+Wed 03-06-2026 21:40 - v0.6.160 (stable) fix wrong thermal alerts
+
+Sat 23-05-2026 17:26 - v0.6.158 (stable) -- force added update notes and support tagio
+
+Fri 08-05-2026 14:09 - v0.6.157 (stable) Setup Build
+
+Sat 02-05-2026 09:49 - v0.6.156 (stable) fixing logs problem
+
+Sat 02-05-2026 09:19 - v0.6.155 (stable) fixing logs problem
+
+Sat 02-05-2026 09:05 - v0.6.154 (stable) fixing logs problem
+
+Sat 02-05-2026 08:10 - v0.6.153 (stable) fixing logs problem
+
+Tue 21-04-2026 12:04 - v0.6.152 (stable) Setup Build
+
+
+Mon 13-04-2026 17:48 - v0.6.151b (stable) remove the updater\_v1.exe
 
 Mon 13-04-2026 17:05 - v0.6.151 (stable) Setup Build
 
@@ -241,13 +262,13 @@ Tue 30-12-2025 18:40 - v0.6.33 (stable) added country detection
 
 Tue 30-12-2025 14:37 - v0.6.31 (stable) updater improvemnt and sqlite insert-update fix
 
-Tue 30-12-2025 13:59 - v0.6.30 (stable) improvements to updater_v2 to support reinstall of service
+Tue 30-12-2025 13:59 - v0.6.30 (stable) improvements to updater\_v2 to support reinstall of service
 
 Tue 30-12-2025 13:20 - v0.6.29 (stable) Added suport for main app to install updates, and reinitialise the service and added common report system
 
-Tue 30-12-2025 11:19 - v0.6.28 (stable) fix updater_v2 issues and rename username and company
+Tue 30-12-2025 11:19 - v0.6.28 (stable) fix updater\_v2 issues and rename username and company
 
-Tue 30-12-2025 10:34 - v0.6.27b (stable) fix updater_v2 issues and rename username and company
+Tue 30-12-2025 10:34 - v0.6.27b (stable) fix updater\_v2 issues and rename username and company
 
 Sun 28-12-2025 17:27 - v0.6.26 (stable) Change machine to other admin command created
 
@@ -463,7 +484,7 @@ Mon 01-12-2025 15:09 - v0.5.158 (stable) fix upload software-windows updates
 
 Mon 01-12-2025 14:27 - v0.5.157 (stable) fix che errors and memory corruptions
 
-Mon 01-12-2025 14:13 - v0.5.156 (stable) Fixed_deque_crash_and_inventory_sync
+Mon 01-12-2025 14:13 - v0.5.156 (stable) Fixed\_deque\_crash\_and\_inventory\_sync
 
 Mon 01-12-2025 12:15 - v0.5.155 (stable) fix che error
 
@@ -641,7 +662,7 @@ Wed 19-11-2025 14:06 - v0.5.75 (stable) Emergency fix for 0.5.68 PCs - DLL lock 
 
 Wed 19-11-2025 14:05 - v0.5.75 (stable) Emergency fix for 0.5.70 PCs - DLL lock fix
 
-Wed 19-11-2025 13:40 - v0.5.75 (stable) CRITICAL FIX: Added stop_services for DLL updates to prevent file lock errors
+Wed 19-11-2025 13:40 - v0.5.75 (stable) CRITICAL FIX: Added stop\_services for DLL updates to prevent file lock errors
 
 Wed 19-11-2025 13:10 - v0.5.74 (stable) new channels beta and stable
 
@@ -728,6 +749,7 @@ Sat 08-11-2025 18:47 - v0.5.43 (stable) fix update company name and user full na
 Sat 08-11-2025 18:33 - v0.5.42 (stable) Faster CHE calculations fix performance issues ui fixes
 
 Sat 08-11-2025 18:31 - v0.5.41 (stable) -all Faster CHE calculations fix performance issues
+
 
 
 Fri 07-11-2025 06:28 - v0.5.36 (stable) Setup build with the same version as the last deploy
@@ -1412,371 +1434,6 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
