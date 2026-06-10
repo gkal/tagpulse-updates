@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 10-06-2026 13:06 - v0.6.162b (stable) general fixes
+
 Wed 10-06-2026 12:02 - v0.6.161b (stable) general fixes
 
 Sun 07-06-2026 09:10 - v0.6.161 (stable) Setup Build
@@ -1434,6 +1436,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
