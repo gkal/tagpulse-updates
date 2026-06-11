@@ -1,4 +1,20 @@
 ﻿# TagPulse Versions
+Thu 11-06-2026 16:38 - v0.6.167 (stable) new fixes
+
+Thu 11-06-2026 15:00 - v0.6.166b (stable) general fixes
+
+Thu 11-06-2026 13:37 - v0.6.165b (stable) general fixes
+
+Thu 11-06-2026 08:37 - v0.6.164b (stable) general fixes
+
+Thu 11-06-2026 05:47 - v0.6.163b (stable) general fixes
+
+Wed 10-06-2026 13:06 - v0.6.162b (stable) general fixes
+
+Wed 10-06-2026 12:02 - v0.6.161b (stable) general fixes
+
+Sun 07-06-2026 09:10 - v0.6.161 (stable) Setup Build
+
 Wed 03-06-2026 21:40 - v0.6.160 (stable) fix wrong thermal alerts
 
 Sat 23-05-2026 17:26 - v0.6.158 (stable) -- force added update notes and support tagio
@@ -1430,6 +1446,13 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
 
 
 
