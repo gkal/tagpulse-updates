@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 02-07-2026 18:22 - v0.6.182b (stable) che split complete
+
 Thu 02-07-2026 13:47 - v0.6.181b (stable) che fixes
 
 Mon 22-06-2026 15:28 - v0.6.180 (stable) fixes
@@ -1476,6 +1478,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
