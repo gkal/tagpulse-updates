@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 05-07-2026 10:14 - v0.6.184b (stable) new libre library and many fixes
+
 Sat 04-07-2026 13:28 - v0.6.183b (stable) che fixes continue
 
 Fri 03-07-2026 06:19 - v0.6.183 (stable) Setup Build
@@ -1482,6 +1484,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
