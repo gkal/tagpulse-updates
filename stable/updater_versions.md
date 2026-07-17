@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 17-07-2026 15:20 - v0.6.195 (stable) fixes on the fan sector
+
 Fri 17-07-2026 15:04 - v0.6.189b (stable) fixes on the fan sector
 
 Wed 15-07-2026 19:30 - v0.6.188b (stable) cohorting improvments
@@ -1498,6 +1500,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
