@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Wed 22-07-2026 18:11 - v0.6.197b (stable) fix with lic files
+
 Sat 18-07-2026 08:46 - v0.6.196b (stable) boot times implementation
 
 Fri 17-07-2026 15:20 - v0.6.195 (stable) fixes on the fan sector
@@ -1502,6 +1504,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
