@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 25-07-2026 14:22 - v0.6.198b (stable) fixes on low memory machine crashes
+
 Wed 22-07-2026 18:11 - v0.6.197b (stable) fix with lic files
 
 Sat 18-07-2026 08:46 - v0.6.196b (stable) boot times implementation
@@ -1504,6 +1506,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
