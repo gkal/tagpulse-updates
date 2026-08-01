@@ -1,4 +1,20 @@
 ﻿# TagPulse Versions
+Sat 01-08-2026 20:30 - v0.6.203 (stable) big update 1
+
+Mon 27-07-2026 15:02 - v0.6.202b (stable) DB better guarding
+
+Sun 26-07-2026 17:32 - v0.6.201b (stable) updater hack covered
+
+Sun 26-07-2026 07:55 - v0.6.200b (stable) welcome message added
+
+Sat 25-07-2026 20:47 - v0.6.199b (stable) updater fixes
+
+Sat 25-07-2026 14:22 - v0.6.198b (stable) fixes on low memory machine crashes
+
+Wed 22-07-2026 18:11 - v0.6.197b (stable) fix with lic files
+
+Sat 18-07-2026 08:46 - v0.6.196b (stable) boot times implementation
+
 Fri 17-07-2026 15:20 - v0.6.195 (stable) fixes on the fan sector
 
 Fri 17-07-2026 15:04 - v0.6.189b (stable) fixes on the fan sector
@@ -1500,6 +1516,14 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
 
 
 
