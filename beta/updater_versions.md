@@ -1,4 +1,10 @@
 ﻿# TagPulse Versions
+Fri 07-08-2026 16:05 - v0.6.206b (stable) fixes for the smart detection
+
+Sat 01-08-2026 20:36 - v0.6.204 (stable) big update 1
+
+Sat 01-08-2026 20:30 - v0.6.203 (stable) big update 1
+
 Mon 27-07-2026 15:02 - v0.6.202b (stable) DB better guarding
 
 Sun 26-07-2026 17:32 - v0.6.201b (stable) updater hack covered
@@ -1514,6 +1520,9 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
 
 
 
