@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "0.6.209b",
+    "version":  "0.6.210b",
     "channel":  "beta",
-    "url":  "packages-v2/tagpulse-0.6.209b.zip",
-    "sha256":  "3736515214227ee4a4358797ebe8003d2f648a979d9f6314cb10cf9f74602e72",
-    "size":  43633218,
+    "url":  "packages-v2/tagpulse-0.6.210b.zip",
+    "sha256":  "24cbbab0bca41284f41df5711ae5bad9c84ff3f655ca4448ce4c002e69c59e41",
+    "size":  43645093,
     "files":  {
-                  "TagPulseUpdater_v2.exe":  2283232,
-                  "TagPulse.exe":  2134240,
+                  "TagPulseUpdater_v2.exe":  2288864,
+                  "TagPulse.exe":  2142944,
                   "TagPulseLHMService.exe":  73680448,
-                  "TagPulseService.exe":  16126176
+                  "TagPulseService.exe":  16136928
               }
 }
