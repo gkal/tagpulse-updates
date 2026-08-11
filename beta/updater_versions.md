@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 11-08-2026 09:39 - v0.6.211b (stable) improvments for crypto and ransome protection
+
 Mon 10-08-2026 18:58 - v0.6.210b (stable) fixes and improvments on etw
 
 Mon 10-08-2026 10:16 - v0.6.209b (stable) fixes and improvments on etw
@@ -1528,6 +1530,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
