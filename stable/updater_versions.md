@@ -1,4 +1,28 @@
 ﻿# TagPulse Versions
+Wed 12-08-2026 11:15 - v0.6.217 (stable) p95 fixes
+
+Wed 12-08-2026 11:13 - v0.6.216 (stable) p95 fixes
+
+Wed 12-08-2026 10:46 - v0.6.215b (stable) p95
+
+Tue 11-08-2026 17:38 - v0.6.214b (stable) fix on p95 and general problems
+
+Tue 11-08-2026 16:24 - v0.6.213b (stable) fix on p95 and general problems
+
+Tue 11-08-2026 13:43 - v0.6.212b (stable) new fixes from etw and update
+
+Tue 11-08-2026 09:39 - v0.6.211b (stable) improvments for crypto and ransome protection
+
+Mon 10-08-2026 18:58 - v0.6.210b (stable) fixes and improvments on etw
+
+Mon 10-08-2026 10:16 - v0.6.209b (stable) fixes and improvments on etw
+
+Mon 10-08-2026 09:16 - v0.6.208b (stable) new fixes on updater and secority
+
+Sat 08-08-2026 10:47 - v0.6.207b (stable) latest changes before release
+
+Fri 07-08-2026 16:05 - v0.6.206b (stable) fixes for the smart detection
+
 Sat 01-08-2026 20:36 - v0.6.204 (stable) big update 1
 
 Sat 01-08-2026 20:30 - v0.6.203 (stable) big update 1
@@ -1518,6 +1542,18 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
