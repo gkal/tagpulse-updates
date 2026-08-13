@@ -1,13 +1,28 @@
 ﻿{
-    "version":  "0.6.215b",
+    "version":  "0.6.218b",
     "channel":  "beta",
-    "url":  "packages-v2/tagpulse-0.6.215b.zip",
-    "sha256":  "62d4c26cbf5025bcd7440794e62954c04a3fd68be61ad64ce8d0285d6f98787a",
-    "size":  43670730,
+    "url":  "packages-v2/tagpulse-0.6.218b.zip",
+    "sha256":  "04d8005b99c1c56ff72483d0b0eb1079e9443d93c3d74673e4be52fd2ce8a5a0",
+    "size":  50137694,
     "files":  {
-                  "TagPulseUpdater_v2.exe":  2288352,
-                  "TagPulse.exe":  2151648,
+                  "spdlog.dll":  291552,
+                  "jsoncpp.dll":  210656,
                   "TagPulseLHMService.exe":  73680448,
-                  "TagPulseService.exe":  16184032
+                  "PawnIO.sys":  85344,
+                  "libprotobuf-lite.dll":  1552096,
+                  "cares.dll":  206048,
+                  "libcrypto-3-x64.dll":  5251296,
+                  "libprotobuf.dll":  13012192,
+                  "libssl-3-x64.dll":  871648,
+                  "zlib1.dll":  96992,
+                  "abseil_dll.dll":  1918176,
+                  "PawnIOLib.dll":  23944,
+                  "TagPulseService.exe":  16197856,
+                  "libcdi64.dll":  527584,
+                  "TagPulse.exe":  2151648,
+                  "TagPulseUpdater_v2.exe":  2316000,
+                  "fmt.dll":  136416,
+                  "smartctl64.exe":  1145568,
+                  "re2.dll":  1236704
               }
 }
