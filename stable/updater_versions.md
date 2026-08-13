@@ -1,5 +1,22 @@
 ﻿# TagPulse Versions
-Wed 12-08-2026 11:15 - v0.6.217 (stable) p95 fixes
+Thu 13-08-2026 11:14 - v0.6.219 (stable) fixes on missign dlls
+
+Thu 13-08-2026 11:03 - v0.6.219 (stable) Setup Build
+
+Thu 13-08-2026 09:32 - v0.6.218b (stable) fix on missing dlls
+
+Thu 13-08-2026 07:50 - v0.6.217 (stable) Setup Build
+
+# --- TEMPORARY 2026-08-13: commented so build_setup.ps1 derives 0.6.217 ---
+# build_setup.ps1 (lines 36-59) takes the FIRST uncommented "(stable)" entry and bumps the
+# patch. Hiding 217/218/219 makes 0.6.216 the top, so the build comes out as 0.6.217 to match
+# the published changelog. 218/219 were superseded setup builds, never released.
+# RESTORE OR PRUNE once the 0.6.217 setup build is signed and uploaded.
+# Wed 12-08-2026 18:09 - v0.6.219 (stable) Setup Build
+#
+# Wed 12-08-2026 13:20 - v0.6.218 (stable) Setup Build
+#
+# Wed 12-08-2026 11:15 - v0.6.217 (stable) p95 fixes
 
 Wed 12-08-2026 11:13 - v0.6.216 (stable) p95 fixes
 
@@ -1542,6 +1559,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
