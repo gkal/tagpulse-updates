@@ -1,4 +1,10 @@
 ﻿# TagPulse Versions
+Wed 19-08-2026 21:08 - v0.6.220b (stable) new alerts system for local app
+
+Thu 13-08-2026 11:14 - v0.6.219 (stable) fixes on missign dlls
+
+Thu 13-08-2026 11:03 - v0.6.219 (stable) Setup Build
+
 Thu 13-08-2026 09:32 - v0.6.218b (stable) fix on missing dlls
 
 Thu 13-08-2026 07:50 - v0.6.217 (stable) Setup Build
@@ -1555,6 +1561,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
