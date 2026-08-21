@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Fri 21-08-2026 19:09 - v0.6.223b (stable) better crypto detection with propably full path of the real executable
+
 Fri 21-08-2026 14:41 - v0.6.222b (stable) -- fixes on alerts and work-idle problems
 
 Thu 20-08-2026 14:21 - v0.6.221b (stable) logs cleared
@@ -1565,6 +1567,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
