@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 23-08-2026 16:36 - v0.6.226b (stable) fix tier 4 rule or veam cases
+
 Sun 23-08-2026 13:12 - v0.6.225b (stable) gr-en and improved history display
 
 Fri 21-08-2026 21:31 - v0.6.224b (stable) orphan process protection improved
@@ -1571,6 +1573,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
