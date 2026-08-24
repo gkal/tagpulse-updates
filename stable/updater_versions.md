@@ -1,4 +1,22 @@
 ﻿# TagPulse Versions
+Mon 24-08-2026 07:29 - v0.6.228 (stable) many fixes and improvments
+
+Sun 23-08-2026 17:42 - v0.6.227b (stable) fix tier 4 rule or veam cases and improvments
+
+Sun 23-08-2026 16:36 - v0.6.226b (stable) fix tier 4 rule or veam cases
+
+Sun 23-08-2026 13:12 - v0.6.225b (stable) gr-en and improved history display
+
+Fri 21-08-2026 21:31 - v0.6.224b (stable) orphan process protection improved
+
+Fri 21-08-2026 19:09 - v0.6.223b (stable) better crypto detection with propably full path of the real executable
+
+Fri 21-08-2026 14:41 - v0.6.222b (stable) -- fixes on alerts and work-idle problems
+
+Thu 20-08-2026 14:21 - v0.6.221b (stable) logs cleared
+
+Wed 19-08-2026 21:08 - v0.6.220b (stable) new alerts system for local app
+
 Thu 13-08-2026 11:14 - v0.6.219 (stable) fixes on missign dlls
 
 Thu 13-08-2026 11:03 - v0.6.219 (stable) Setup Build
@@ -1559,6 +1577,15 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
 
 
 
