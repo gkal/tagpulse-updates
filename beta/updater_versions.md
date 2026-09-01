@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Tue 01-09-2026 17:10 - v0.6.229b (stable) various fixes
+
+Mon 24-08-2026 07:29 - v0.6.228 (stable) many fixes and improvments
+
 Sun 23-08-2026 17:42 - v0.6.227b (stable) fix tier 4 rule or veam cases and improvments
 
 Sun 23-08-2026 16:36 - v0.6.226b (stable) fix tier 4 rule or veam cases
@@ -1575,6 +1579,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
