@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sun 06-09-2026 18:27 - v0.6.238b (stable) fan protection from FP
+
 Sun 06-09-2026 17:16 - v0.6.237b (stable) updater fixes
 
 Sun 06-09-2026 17:07 - v0.6.236b (stable) updater fixes
@@ -1589,6 +1591,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
