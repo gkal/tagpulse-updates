@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 08-09-2026 11:28 - v0.6.243b (stable) catching power off machine correclty
+
 Tue 08-09-2026 06:13 - v0.6.242b (stable) updater path resolution + running-image probe
 
 Mon 07-09-2026 20:16 - v0.6.241b (stable) updater path resolution + running-image probe
@@ -1599,6 +1601,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
