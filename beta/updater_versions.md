@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Tue 08-09-2026 20:21 - v0.6.247b (stable) updater improvments
+
 Tue 08-09-2026 18:05 - v0.6.246b (stable) catching power off machine correclty
 
 Tue 08-09-2026 14:31 - v0.6.245b (stable) catching power off machine correclty
@@ -1607,6 +1609,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
