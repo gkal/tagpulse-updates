@@ -1,4 +1,46 @@
 ﻿# TagPulse Versions
+Sat 19-09-2026 05:47 - v0.7.0 (stable) fix and improvments to the history
+
+Fri 18-09-2026 12:50 - v0.6.255b (stable) fixes on silent crashes
+
+Fri 18-09-2026 05:37 - v0.6.254b (stable) memory leak fix
+
+Wed 16-09-2026 05:58 - v0.6.253b (stable) pre release with many changes
+
+Tue 15-09-2026 11:27 - v0.6.252b (stable) fail updater fix
+
+Mon 14-09-2026 20:49 - v0.6.251b (stable) many improvments
+
+Sat 12-09-2026 08:13 - v0.6.250b (stable) fixes on wrong crashes
+
+Fri 11-09-2026 10:11 - v0.6.249b (stable) fixes at possible crashes
+
+Thu 10-09-2026 05:56 - v0.6.248b (stable) disk date for seen or not
+
+Tue 08-09-2026 20:21 - v0.6.247b (stable) updater improvments
+
+Tue 08-09-2026 18:05 - v0.6.246b (stable) catching power off machine correclty
+
+Tue 08-09-2026 14:31 - v0.6.245b (stable) catching power off machine correclty
+
+Tue 08-09-2026 12:37 - v0.6.244b (stable) catching power off machine correclty
+
+Tue 08-09-2026 11:28 - v0.6.243b (stable) catching power off machine correclty
+
+Tue 08-09-2026 06:13 - v0.6.242b (stable) updater path resolution + running-image probe
+
+Mon 07-09-2026 20:16 - v0.6.241b (stable) updater path resolution + running-image probe
+
+Mon 07-09-2026 19:44 - v0.6.240b (stable) updater fix
+
+Mon 07-09-2026 18:46 - v0.6.239b (stable) updater fix
+
+Sun 06-09-2026 18:27 - v0.6.238b (stable) fan protection from FP
+
+Sun 06-09-2026 17:16 - v0.6.237b (stable) updater fixes
+
+Sun 06-09-2026 17:07 - v0.6.236b (stable) updater fixes
+
 Sun 06-09-2026 10:19 - v0.6.235 (stable) fix and improvments
 
 Sat 05-09-2026 18:28 - v0.6.231b (stable) propably lasr before release
@@ -1585,6 +1627,27 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
