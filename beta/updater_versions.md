@@ -1,4 +1,8 @@
 ﻿# TagPulse Versions
+Thu 24-09-2026 16:53 - v0.7.4b (stable) fixes on updater and on history problems
+
+Sat 19-09-2026 13:52 - v0.7.3 (stable) reinstall fix
+
 Sat 19-09-2026 13:31 - v0.7.2b (stable) reinstall fix
 
 Sat 19-09-2026 09:26 - v0.7.1 (stable) winget fix that stack machines
@@ -1631,6 +1635,8 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
 
 
 
