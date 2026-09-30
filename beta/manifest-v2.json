@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "0.7.5b",
+    "version":  "0.7.6b",
     "channel":  "beta",
-    "url":  "packages-v2/tagpulse-0.7.5b.zip",
-    "sha256":  "01cf75a3c3625f376e5b2e7cb74df63d74f2105f8abc3606c0399e5e412f0e30",
-    "size":  50127961,
+    "url":  "packages-v2/tagpulse-0.7.6b.zip",
+    "sha256":  "6f87589580c1309a8cafaea80123543da9c732ffcd070442b2836f53ca0f8c4c",
+    "size":  50217718,
     "files":  {
                   "spdlog.dll":  291552,
                   "jsoncpp.dll":  210656,
@@ -17,10 +17,10 @@
                   "zlib1.dll":  96992,
                   "abseil_dll.dll":  1918176,
                   "PawnIOLib.dll":  23944,
-                  "TagPulseService.exe":  17173216,
+                  "TagPulseService.exe":  17340128,
                   "libcdi64.dll":  527584,
-                  "TagPulse.exe":  2387680,
-                  "TagPulseUpdater_v2.exe":  2577632,
+                  "TagPulse.exe":  2394848,
+                  "TagPulseUpdater_v2.exe":  2582240,
                   "fmt.dll":  136416,
                   "smartctl64.exe":  1145568,
                   "re2.dll":  1236704
