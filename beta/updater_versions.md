@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Thu 01-10-2026 14:19 - v0.7.9b (stable) new type of updates for software and windows
+
 Thu 01-10-2026 07:53 - v0.7.8b (stable) memory test button
 
 Wed 30-09-2026 15:49 - v0.7.7b (stable) fixes and memory test
@@ -1643,6 +1645,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
