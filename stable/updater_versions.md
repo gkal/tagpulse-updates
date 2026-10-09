@@ -1,4 +1,36 @@
 ﻿# TagPulse Versions
+Fri 09-10-2026 08:16 - v0.7.25 (stable) propably better fixes
+
+Thu 08-10-2026 16:01 - v0.7.24b (stable) fix on alerts of disk
+
+Thu 08-10-2026 13:27 - v0.7.23b (stable) fix on alerts of disk
+
+Wed 07-10-2026 18:03 - v0.7.23 (stable) Setup Build
+
+Wed 07-10-2026 17:12 - v0.7.22b (stable) fix for the setup
+
+Wed 07-10-2026 07:36 - v0.7.21b (stable) updater improvments
+
+Tue 06-10-2026 14:52 - v0.7.22 (stable) Setup Build
+
+Mon 05-10-2026 12:50 - v0.7.21 (stable) Setup Build
+
+Sun 04-10-2026 20:40 - v0.7.20b (stable) updater fixes
+
+Sun 04-10-2026 19:31 - v0.7.19b (stable) updater fixes
+
+Sun 04-10-2026 18:32 - v0.7.18b (stable) updater fixes
+
+Sun 04-10-2026 17:39 - v0.7.17b (stable) new updater
+
+Sat 03-10-2026 21:04 - v0.7.16b (stable) updater fixes and improvments
+
+Sat 03-10-2026 09:38 - v0.7.15b (stable) fixes on FP
+
+Fri 02-10-2026 19:48 - v0.7.14b (stable) improvments on the updater_v2
+
+Fri 02-10-2026 19:14 - v0.7.13b (stable) improvments on the updater_v2
+
 Fri 02-10-2026 07:24 - v0.7.12 (stable) new improvments and memory test added
 
 Fri 02-10-2026 07:23 - v0.7.11b (stable) new improvments and memory test added
@@ -1651,6 +1683,19 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
