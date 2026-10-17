@@ -1,4 +1,6 @@
 ﻿# TagPulse Versions
+Sat 17-10-2026 12:14 - v0.7.27b (stable) fixes on the identity of the pcs
+
 Thu 15-10-2026 07:22 - v0.7.26b (stable) degradation improvments
 
 Fri 09-10-2026 08:16 - v0.7.25 (stable) propably better fixes
@@ -1685,6 +1687,7 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
 
 
 
