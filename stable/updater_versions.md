@@ -1,4 +1,14 @@
 ﻿# TagPulse Versions
+Thu 22-10-2026 07:34 - v0.7.29 (stable) new fixes and improvments
+
+Thu 22-10-2026 07:30 - v0.7.29 (stable) Setup Build
+
+Sun 18-10-2026 15:40 - v0.7.28 (stable) Setup Build
+
+Sat 17-10-2026 12:14 - v0.7.27b (stable) fixes on the identity of the pcs
+
+Thu 15-10-2026 07:22 - v0.7.26b (stable) degradation improvments
+
 Fri 09-10-2026 08:16 - v0.7.25 (stable) propably better fixes
 
 Thu 08-10-2026 16:01 - v0.7.24b (stable) fix on alerts of disk
@@ -1683,6 +1693,9 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
 
 
 
