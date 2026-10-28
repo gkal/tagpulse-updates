@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "0.7.32b",
+    "version":  "0.7.33b",
     "channel":  "beta",
-    "url":  "packages-v2/tagpulse-0.7.32b.zip",
-    "sha256":  "08a23931e3a04950e9084fc18290c9a114fe56b0acd90e3ffa314098a483be16",
-    "size":  52107622,
+    "url":  "packages-v2/tagpulse-0.7.33b.zip",
+    "sha256":  "1ba1552421bace25b12d22f8baf23ad0d7926ae254a15255fb529307834c1ff8",
+    "size":  52134420,
     "files":  {
                   "spdlog.dll":  291552,
                   "jsoncpp.dll":  210656,
@@ -25,7 +25,7 @@
                   "libcdi64.dll":  527584,
                   "msvcp140_atomic_wait.dll":  50304,
                   "TagPulse.exe":  2516192,
-                  "TagPulseUpdater_v2.exe":  3380448,
+                  "TagPulseUpdater_v2.exe":  3407584,
                   "fmt.dll":  136416,
                   "TagPulseLauncher.exe":  272096,
                   "re2.dll":  1236704
