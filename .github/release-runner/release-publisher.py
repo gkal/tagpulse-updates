@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""release-publisher - releasing from the dashboard (TagPulse migrations 187-190). ONE program, two homes.
+"""release-publisher - releasing from the dashboard (TagPulse migrations 187-191). ONE program, two homes.
 
 WHY (2026-10-28, case staged-release-1028; plan Docs/60-Updates/RELEASE_FROM_DASHBOARD_PLAN_2026-10-28.md): the owner
 wants to prepare and sign a release on the signing PC and do everything else from the dashboard - "we click to send it
@@ -26,11 +26,14 @@ starts the runner with a repository_dispatch and reads the runner's answers):
                               to_beta       - the ordinary publish into the BETA lists (189: a version ending in b)
                             ordered to the runner; then every place is read back FROM HERE by fingerprints only (file
                             lists of GitHub and Codeberg, the size-free HEAD of our download server) - no file.
+                              remove        - a release that was never sent (191): the runner deletes every file of
+                                              the version in the waiting area; then it is off the pop-up's list.
 In the runner (a GitHub Actions run; its own token pushes to GitHub, the Codeberg and R2 keys are the feed repository's
 secrets - all given as RP_KEY_* variables):
   runner                    one order (RP_ORDER ...): fetch the release from the waiting area, check it, and for a send
                             put it on GitHub, Codeberg and R2 and read each back; answers on RESULTS_BRANCH (Answers).
-                            A release that went out removes the waiting copies of the older ones of its channel.
+                            A release that went out removes the waiting copies of the older ones of its channel; a
+                            remove deletes every waiting file of its version and lists the folder again (empty).
   make-pinned-ca            write the CA file of the pinned roots (the 5 key pins of package_signature.cpp) from the
                             system bundle; the signature check accepts a chain only if it ends at one of them.
 
@@ -56,7 +59,7 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-JOB_VERSION = '4 (2026-10-28, existing keys)'
+JOB_VERSION = '5 (2026-10-29, remove a prepared release)'
 HOME = os.environ.get('RP_HOME', '/root/release-publisher')
 KEYS_FILE = os.environ.get('RP_KEYS', os.path.join(HOME, 'keys.env'))
 PINNED_CA = os.environ.get('RP_PINNED_CA', os.path.join(HOME, 'pinned-roots.pem'))
@@ -75,7 +78,7 @@ RESULT_FILE = os.environ.get('RP_RESULT', 'result.json')
 # GitHub ends a run 25 minutes after it began (release.yml), and a run begins no later than start_by: the host's wait
 # outlasts both, so when it gives up the run is over.
 RUNNER_WAIT_S = int(os.environ.get('RP_RUNNER_WAIT_S', '2400'))
-ORDERS = ('check', 'send_in_steps', 'to_everyone', 'to_beta')
+ORDERS = ('check', 'send_in_steps', 'to_everyone', 'to_beta', 'remove')
 # The runner's keys (RP_KEY_<name>: its own token as GITHUB_TOKEN, the rest the feed repository's secrets). Never
 # printed; the run's log is masked by GitHub as well.
 RUNNER_KEYS = ('GITHUB_TOKEN', 'CODEBERG_TOKEN', 'R2_ENDPOINT', 'R2_BUCKET', 'R2_FEED_PREFIX', 'R2_ACCESS_KEY_ID',
@@ -479,6 +482,22 @@ class WaitingArea:
             removed += 1
         return removed
 
+    def remove_version(self, version):
+        """A prepared release that was never sent (191): every file of `version` in the waiting area - each upload of it
+        (pre_release run again makes a new one) - and then the folder listed again, which must be empty. Returns how
+        many files went."""
+        prefix = f'{WAIT_PREFIX}/{version}/'        # the slash: removing 0.7.36 must leave 0.7.36b alone
+        removed = 0
+        for key in self._keys(prefix):
+            code, _h, _b = self.s3._request('DELETE', key)
+            if code not in (200, 204, 404):
+                raise Refused(f'{key} could not be removed: HTTP {code}')
+            removed += 1
+        left = self._keys(prefix)
+        if left:
+            raise Refused(f'{len(left)} file(s) of {version} are still in the waiting area after the removal')
+        return removed
+
     def _keys(self, prefix):
         keys, token = [], None
         while True:
@@ -520,8 +539,10 @@ def cmd_runner():
               'places': {}}
     keys, answers = {}, None
     try:
-        if (order not in ORDERS or not VERSION_RE.match(version) or not HEX[32].match(upload)
-                or not HEX[64].match(release_sha) or not HEX[32].match(nonce) or not re.match(r'^[0-9]{10}$', start_by)
+        # A remove names the version only (every upload of it goes); every other order names the copy it works on.
+        copy_named = (HEX[32].match(upload) and HEX[64].match(release_sha)) if order != 'remove' else upload == release_sha == ''
+        if (order not in ORDERS or not VERSION_RE.match(version) or not copy_named
+                or not HEX[32].match(nonce) or not re.match(r'^[0-9]{10}$', start_by)
                 or (open_rollout and not VERSION_RE.match(open_rollout))):
             raise Refused('the order is not one this runner carries out')
         keys = keys_from_env()
@@ -531,6 +552,11 @@ def cmd_runner():
         if time.time() > int(start_by):
             raise Refused('GitHub began this run after the Hetzner host had stopped waiting for it - nothing was done')
         answers.put(f'{nonce}.started', {'nonce': nonce, 'order': order, 'version': version})
+        if order == 'remove':
+            gone = WaitingArea(keys).remove_version(version)
+            result['ok'] = True
+            result['says'] = f'{gone} file(s) of {version} removed from the waiting area at Cloudflare - none is left'
+            return
         with tempfile.TemporaryDirectory(prefix='rp-release-') as d:
             WaitingArea(keys).fetch(version, upload, release_sha, d)
             got, _meta, _manifest = check_copy(d)
@@ -1162,44 +1188,57 @@ def cmd_run():
         return
     rid, version, action, who = req['id'], req['version'], req['action'], req['requested_by']
     what = {'send_in_steps': 'send in steps', 'to_everyone': 'give to everyone',
-            'to_beta': 'send to the beta PCs'}.get(action, action)
+            'to_beta': 'send to the beta PCs', 'remove': 'remove'}.get(action, action)
     log(f'request {rid}: {who} asked to {what} {version}')
     mail(f'TagPulse release {version}: {who} pressed "{what}"',
-         f'{who} pressed "{what}" for TagPulse {version} at {req["requested_at"]}.\n'
-         f'Our runner at GitHub is carrying it out now; the dashboard shows the result per place.')
+         f'{who} pressed "{what}" for TagPulse {version} at {req["requested_at"]}.\n' +
+         ('Our runner at GitHub is deleting its files in the waiting area now.' if action == 'remove' else
+          'Our runner at GitHub is carrying it out now; the dashboard shows the result per place.'))
     ok, results = True, []
     try:
         if not up:
             raise Refused('not ready: the runner at GitHub cannot be reached with the host\'s key, or its workflow or '
                           'program is not in the feed repository, or GitHub cannot read the workflow')
         cand = req['candidate']
-        if not cand['check_ok']:
-            raise Refused(f'{version} did not pass the signature check: {cand["check_says"]}')
-        upload, release_sha = parse_staged(cand)
-        # The request must fit the release's channel (189 refuses the others before they are queued; checked again
-        # here, as a request put straight into the table would not pass through it).
-        if (action == 'to_beta') != (channel_of(version) == 'beta'):
-            raise Refused(f'{version} is a {channel_of(version)} release - "{what}" is not for it')
-        open_rollout = db("SELECT coalesce((SELECT version FROM public.release_rollouts "
-                          "WHERE channel = 'stable' AND finished_at IS NULL LIMIT 1), '');")
-        result = runner.order(action, version, upload, release_sha, open_rollout)
-        places = result.get('places') if isinstance(result.get('places'), dict) else {}
-        if not places:
-            raise Refused(str(result.get('says') or 'the runner said nothing per place'))
-        for name in ('github', 'codeberg', 'r2'):
-            p = places.get(name) if isinstance(places.get(name), dict) else {}
-            state, said = str(p.get('state', 'not started')), str(p.get('says', 'the runner did not say'))[:1500]
-            if state == 'ok':
-                try:
-                    said = f'{said}; {read_back_here(keys, cand, version, action, name)}'
-                except Refused as e:
-                    state, said = 'failed', f'{said}; {e}'
-            elif state not in ('failed', 'not started'):
-                state = 'failed'        # 'uploaded' and not read back: not confirmed
-            ok = ok and state == 'ok'
-            db(f'SELECT private.release_job_place({rid}, {sql_text(name)}, {sql_text(state)}, {sql_text(said)});')
-            results.append(f'{name}: {"OK" if state == "ok" else state.upper()} - {said}')
-        says = ('all three places confirmed' if ok else 'not every place confirmed') + ' - ' + '; '.join(results)
+        if action == 'remove':
+            # Only a release that was never sent (191 queues nothing else; checked again here, as a request put straight
+            # into the table would not pass through it). The runner deletes every waiting file of the version and lists
+            # the folder again; a release prepared the old way has none there - its files on this host went with the
+            # old route (install.sh v4).
+            if cand['state'] != 'waiting':
+                raise Refused(f'{version} was sent ({cand["state"]}) - only a release that was never sent can be removed')
+            result = runner.order('remove', version, '', '', '')
+            if not result.get('ok'):
+                raise Refused(str(result.get('says') or 'the runner did not say what it removed'))
+            says = str(result.get('says', ''))[:1500]
+        else:
+            if not cand['check_ok']:
+                raise Refused(f'{version} did not pass the signature check: {cand["check_says"]}')
+            upload, release_sha = parse_staged(cand)
+            # The request must fit the release's channel (189 refuses the others before they are queued; checked again
+            # here, as a request put straight into the table would not pass through it).
+            if (action == 'to_beta') != (channel_of(version) == 'beta'):
+                raise Refused(f'{version} is a {channel_of(version)} release - "{what}" is not for it')
+            open_rollout = db("SELECT coalesce((SELECT version FROM public.release_rollouts "
+                              "WHERE channel = 'stable' AND finished_at IS NULL LIMIT 1), '');")
+            result = runner.order(action, version, upload, release_sha, open_rollout)
+            places = result.get('places') if isinstance(result.get('places'), dict) else {}
+            if not places:
+                raise Refused(str(result.get('says') or 'the runner said nothing per place'))
+            for name in ('github', 'codeberg', 'r2'):
+                p = places.get(name) if isinstance(places.get(name), dict) else {}
+                state, said = str(p.get('state', 'not started')), str(p.get('says', 'the runner did not say'))[:1500]
+                if state == 'ok':
+                    try:
+                        said = f'{said}; {read_back_here(keys, cand, version, action, name)}'
+                    except Refused as e:
+                        state, said = 'failed', f'{said}; {e}'
+                elif state not in ('failed', 'not started'):
+                    state = 'failed'        # 'uploaded' and not read back: not confirmed
+                ok = ok and state == 'ok'
+                db(f'SELECT private.release_job_place({rid}, {sql_text(name)}, {sql_text(state)}, {sql_text(said)});')
+                results.append(f'{name}: {"OK" if state == "ok" else state.upper()} - {said}')
+            says = ('all three places confirmed' if ok else 'not every place confirmed') + ' - ' + '; '.join(results)
     except Refused as e:
         ok, says = False, str(e)
     db(f'SELECT private.release_job_finish({rid}, {"true" if ok else "false"}, {sql_text(says)});')
