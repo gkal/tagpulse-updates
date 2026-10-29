@@ -28,10 +28,8 @@ jobs:
     runs-on: ubuntu-24.04
     # The Hetzner host waits 40 minutes for an answer; a run that began by start_by (10 minutes) is over by then.
     timeout-minutes: 25
-    env:
-      RP_HOME: ${{ runner.temp }}
-      RP_PINNED_CA: ${{ runner.temp }}/pinned-roots.pem
-      RP_RESULT: ${{ runner.temp }}/result.json
+    # RP_HOME, RP_PINNED_CA and RP_RESULT are set in each step: GitHub knows runner.temp only inside a step and refuses
+    # the whole file when the job's own env names it (2026-10-29: "No jobs were run").
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
         with:
@@ -43,10 +41,17 @@ jobs:
           sudo apt-get update -qq
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq osslsigncode
           python3 -I .github/release-runner/release-publisher.py make-pinned-ca
+        env:
+          RP_HOME: ${{ runner.temp }}
+          RP_PINNED_CA: ${{ runner.temp }}/pinned-roots.pem
+          RP_RESULT: ${{ runner.temp }}/result.json
 
       - name: Carry out the order
         run: python3 -I .github/release-runner/release-publisher.py runner
         env:
+          RP_HOME: ${{ runner.temp }}
+          RP_PINNED_CA: ${{ runner.temp }}/pinned-roots.pem
+          RP_RESULT: ${{ runner.temp }}/result.json
           RP_ORDER: ${{ github.event.client_payload.order }}
           RP_VERSION: ${{ github.event.client_payload.version }}
           RP_UPLOAD: ${{ github.event.client_payload.upload }}
