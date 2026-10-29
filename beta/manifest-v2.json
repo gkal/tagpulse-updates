@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "0.7.33b",
+    "version":  "0.7.36b",
     "channel":  "beta",
-    "url":  "packages-v2/tagpulse-0.7.33b.zip",
-    "sha256":  "1ba1552421bace25b12d22f8baf23ad0d7926ae254a15255fb529307834c1ff8",
-    "size":  52134420,
+    "url":  "packages-v2/tagpulse-0.7.36b.zip",
+    "sha256":  "4c82c13aed436cfabc1c6919a9115a9111a559f5cb9e0ce8dffb5306434d630a",
+    "size":  52134430,
     "files":  {
                   "spdlog.dll":  291552,
                   "jsoncpp.dll":  210656,
