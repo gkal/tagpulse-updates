@@ -66,6 +66,7 @@ WAIT_BUCKET = os.environ.get('RP_WAIT_BUCKET', 'tagpulse-feed')
 WAIT_PREFIX = 'waiting'                              # = $script:ReleaseWaitingPrefix in tools\release_waiting.ps1
 RUNNER_REPO = os.environ.get('RP_RUNNER_REPO', 'gkal/tagpulse-updates')   # the feed repository
 RUNNER_WORKFLOW = '.github/workflows/release.yml'     # = supa-ops/release-runner/.github/workflows/release.yml
+RUNNER_WORKFLOW_NAME = 'release'                      # its name: line - GitHub lists a file it cannot read by its path
 RUNNER_PROGRAM = '.github/release-runner/release-publisher.py'   # this file, put there by setup_runner.py
 RUNNER_EVENT = 'tagpulse-release'                    # the repository_dispatch type release.yml listens to
 RESULTS_BRANCH = 'release-results'                   # the runner's answers: a branch no PC reads
@@ -707,12 +708,19 @@ class Runner:
 
     def ready(self):
         """True when the workflow and the runner program are on the feed repository's main branch (the one a
-        repository_dispatch runs from), read with the host's own key - a key GitHub refuses is not ready either."""
+        repository_dispatch runs from), read with the host's own key - a key GitHub refuses is not ready either - and
+        GitHub could read the workflow: it lists it by its name: line, switched on. A file GitHub cannot read it lists
+        by its path, and an order then starts no run (2026-10-29: GitHub mailed "No jobs were run")."""
         try:
-            return all(self.answers.call('GET', f'/repos/{self.answers.repo}/contents/{path}')[0] == 200
-                       for path in (RUNNER_WORKFLOW, RUNNER_PROGRAM))
+            if not all(self.answers.call('GET', f'/repos/{self.answers.repo}/contents/{path}')[0] == 200
+                       for path in (RUNNER_WORKFLOW, RUNNER_PROGRAM)):
+                return False
+            code, data = self.answers.call('GET', f'/repos/{self.answers.repo}/actions/workflows?per_page=100')
         except Refused:
             return False
+        listed = [w for w in (data.get('workflows', []) if code == 200 and isinstance(data, dict) else [])
+                  if w.get('path') == RUNNER_WORKFLOW]
+        return bool(listed) and listed[0].get('name') == RUNNER_WORKFLOW_NAME and listed[0].get('state') == 'active'
 
     def order(self, order, version, upload, release_sha, open_rollout, progress=False):
         nonce = secrets.token_hex(16)
@@ -1163,7 +1171,7 @@ def cmd_run():
     try:
         if not up:
             raise Refused('not ready: the runner at GitHub cannot be reached with the host\'s key, or its workflow or '
-                          'program is not in the feed repository')
+                          'program is not in the feed repository, or GitHub cannot read the workflow')
         cand = req['candidate']
         if not cand['check_ok']:
             raise Refused(f'{version} did not pass the signature check: {cand["check_says"]}')
@@ -1209,10 +1217,12 @@ def main():
             return 0
         if sys.argv[1] == 'ready':
             if Runner(read_keys()).ready():
-                print(f'ready: {RUNNER_WORKFLOW} and {RUNNER_PROGRAM} are in {RUNNER_REPO} and the key reads them')
+                print(f'ready: {RUNNER_WORKFLOW} and {RUNNER_PROGRAM} are in {RUNNER_REPO}, the key reads them, and '
+                      f'GitHub reads the workflow and has it switched on')
                 return 0
             print(f'NOT ready: {RUNNER_REPO} cannot be read with this host\'s GITHUB_TOKEN, or {RUNNER_WORKFLOW} / '
-                  f'{RUNNER_PROGRAM} is not in it yet')
+                  f'{RUNNER_PROGRAM} is not in it yet, or GitHub cannot read the workflow or has it switched off '
+                  f'(its Actions page says why)')
             return 1
         if sys.argv[1] == 'runner':
             cmd_runner()            # always 0: the result file says how it went
