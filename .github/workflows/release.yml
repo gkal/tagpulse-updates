@@ -1,0 +1,65 @@
+# TagPulse release runner - case staged-release-1028. Lives in the feed repository gkal/tagpulse-updates.
+# Moves a release from the waiting area (waiting/ in the R2 bucket tagpulse-feed - our download server serves feed/
+# only) to GitHub, Codeberg and our download server, so that NO release file crosses the Hetzner host: its line
+# carries TagIO's remote-desktop relay (owner 2026-10-28). Started ONLY by a repository_dispatch "tagpulse-release",
+# which GitHub allows a key with Contents write here - the Hetzner host's existing key; no new key (owner 2026-10-28).
+# The answer goes to the branch release-results. The order's values never reach a shell: they are handed to the
+# program as variables, and it checks every one of them. A run that begins after the order's start_by does nothing.
+# The program is .github/release-runner/release-publisher.py (= supa-ops/release-publisher/release-publisher.py in the
+# TagPulse tree, put here by supa-ops/release-runner/setup_runner.py); the Codeberg and R2 keys are this repository's
+# secrets; GitHub itself is pushed with the run's own token.
+name: release
+run-name: ${{ github.event.client_payload.order }} ${{ github.event.client_payload.version }}
+
+on:
+  repository_dispatch:
+    types: [tagpulse-release]
+
+permissions:
+  contents: write
+
+# One release order at a time; a second waits for the first.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    # The Hetzner host waits 40 minutes for an answer; a run that began by start_by (10 minutes) is over by then.
+    timeout-minutes: 25
+    env:
+      RP_HOME: ${{ runner.temp }}
+      RP_PINNED_CA: ${{ runner.temp }}/pinned-roots.pem
+      RP_RESULT: ${{ runner.temp }}/result.json
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/release-runner
+
+      - name: Signature checker (osslsigncode + the pinned SSL.com roots)
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq osslsigncode
+          python3 -I .github/release-runner/release-publisher.py make-pinned-ca
+
+      - name: Carry out the order
+        run: python3 -I .github/release-runner/release-publisher.py runner
+        env:
+          RP_ORDER: ${{ github.event.client_payload.order }}
+          RP_VERSION: ${{ github.event.client_payload.version }}
+          RP_UPLOAD: ${{ github.event.client_payload.upload }}
+          RP_RELEASE_SHA: ${{ github.event.client_payload.release_sha }}
+          RP_OPEN_ROLLOUT: ${{ github.event.client_payload.open_rollout }}
+          RP_NONCE: ${{ github.event.client_payload.nonce }}
+          RP_START_BY: ${{ github.event.client_payload.start_by }}
+          RP_RUNNER_REPO: ${{ github.repository }}
+          RP_KEY_GITHUB_TOKEN: ${{ github.token }}
+          RP_KEY_CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+          RP_KEY_R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          RP_KEY_R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          RP_KEY_R2_FEED_PREFIX: ${{ secrets.R2_FEED_PREFIX }}
+          RP_KEY_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RP_KEY_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RP_KEY_R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
