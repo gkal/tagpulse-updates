@@ -1,0 +1,33 @@
+﻿{
+    "version":  "0.7.40",
+    "channel":  "stable",
+    "url":  "packages-v2/tagpulse-0.7.40.zip",
+    "sha256":  "8e841410d6d693ecc4cf7f505c11664d370ee9cd75a7f91c4d64101a998e1831",
+    "size":  52508254,
+    "files":  {
+                  "spdlog.dll":  291552,
+                  "jsoncpp.dll":  210656,
+                  "TagPulseLHMService.exe":  73726672,
+                  "PawnIO.sys":  85344,
+                  "libprotobuf-lite.dll":  1552096,
+                  "cares.dll":  206048,
+                  "vcruntime140_1.dll":  49792,
+                  "libcrypto-3-x64.dll":  5251296,
+                  "smartctl64.exe":  1173128,
+                  "libprotobuf.dll":  13012192,
+                  "msvcp140.dll":  557728,
+                  "libssl-3-x64.dll":  871648,
+                  "vcruntime140.dll":  124544,
+                  "zlib1.dll":  96992,
+                  "abseil_dll.dll":  1918176,
+                  "PawnIOLib.dll":  23944,
+                  "TagPulseService.exe":  19198600,
+                  "libcdi64.dll":  527584,
+                  "msvcp140_atomic_wait.dll":  50304,
+                  "TagPulse.exe":  2489480,
+                  "TagPulseUpdater_v2.exe":  3428488,
+                  "fmt.dll":  136416,
+                  "TagPulseLauncher.exe":  273544,
+                  "re2.dll":  1236704
+              }
+}
