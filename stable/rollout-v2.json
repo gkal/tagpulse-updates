@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "0.7.40",
+    "version":  "0.7.41",
     "channel":  "stable",
-    "url":  "packages-v2/tagpulse-0.7.40.zip",
-    "sha256":  "8e841410d6d693ecc4cf7f505c11664d370ee9cd75a7f91c4d64101a998e1831",
-    "size":  52508254,
+    "url":  "packages-v2/tagpulse-0.7.41.zip",
+    "sha256":  "53f30524383225bdf72e646298a59876e34f836d607a41d9d265400f92a40c08",
+    "size":  52541979,
     "files":  {
                   "spdlog.dll":  291552,
                   "jsoncpp.dll":  210656,
@@ -21,7 +21,7 @@
                   "zlib1.dll":  96992,
                   "abseil_dll.dll":  1918176,
                   "PawnIOLib.dll":  23944,
-                  "TagPulseService.exe":  19198600,
+                  "TagPulseService.exe":  19280008,
                   "libcdi64.dll":  527584,
                   "msvcp140_atomic_wait.dll":  50304,
                   "TagPulse.exe":  2489480,
