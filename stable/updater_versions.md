@@ -1,4 +1,12 @@
 ﻿# TagPulse Versions
+Tue 24-11-2026 14:01 - v0.7.41 (stable) new features
+
+Tue 24-11-2026 12:36 - v0.7.40 (stable) new features
+
+Mon 23-11-2026 12:08 - v0.7.39b (stable) new fixes
+
+Wed 11-11-2026 07:22 - v0.7.38b (stable) network mapping
+
 Fri 30-10-2026 08:09 - v0.7.37 (stable) new update step and new windows and software updates
 
 Fri 30-10-2026 08:06 - v0.7.37 (stable) Setup Build
@@ -1709,6 +1717,10 @@ Sat 27/09/2025 16:34 - v0.1.1 (stable) UI Improvements and bug fixes
 
 
 Sat 27/09/2025 16:31 - v0.1.1 (stable) UI Improvements and bug fixes
+
+
+
+
 
 
 
